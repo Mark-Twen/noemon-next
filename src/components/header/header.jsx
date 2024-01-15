@@ -7,16 +7,18 @@ import styles from "./header.module.scss";
 const Header = () => {
   return (
     <>
-      <section className="flex w-screen bg-logoBg layout">
+      <section className="flex w-screen bg-[#282828] layout">
         {/* LOGO */}
         <div className="py-8 ml-[3%] ">
-          <Image
-            src={logo}
-            alt="logo"
-            width={254}
-            height={81}
-            priority={true}
-          />
+          <Link href="/">
+            <Image
+              src={logo}
+              alt="logo"
+              width={254}
+              height={81}
+              priority={true}
+            />
+          </Link>
         </div>
 
         {/* Links */}
