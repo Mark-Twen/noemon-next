@@ -26,6 +26,7 @@ const productPage = async (title, script, description, _id, image) => {
 
   return (
     <>
+    <h1 className={`${fonts.productCardTitle} text-center pb-[60px]`}>Elevate your home entertainment experience to new heights with our range of smart speakers, soundbars, and audio solutions</h1>
       <div className="grid grid-cols-3 gap-4 grid-rows-4 mx-[80px]">
         {data?.map((item) => (
           <ul key={item?._id} className={styles.cardsContainer}>
