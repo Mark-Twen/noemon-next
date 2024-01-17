@@ -5,6 +5,7 @@ import Image from "next/image";
 import { urlFor } from "../../utils/configSanity";
 
 import fonts from "../../components/fonts/fonts.module.scss";
+import styles from "../../components/cards/blockCards.module.scss"
 import { url } from "inspector";
 
 async function getData() {
@@ -25,10 +26,10 @@ const productPage = async (title, script, description, _id, image) => {
 
   return (
     <>
-      <div className="">
+      <div className="grid grid-cols-3 gap-4 grid-rows-4 mx-[80px]">
         {data?.map((item) => (
-          <ul key={item?._id} className="flex flex-row relative ">
-           <li className="w-[550px] h-[227px] pt-4">           
+          <ul key={item?._id} className={styles.cardsContainer}>
+           <li className={styles.cardsList}>           
               <Image
                 src={urlFor(item.image).url()}
                 alt="product image card 1"
@@ -36,7 +37,7 @@ const productPage = async (title, script, description, _id, image) => {
                 height={186}
                 className="absolute top-[16px] left-[16px]"
               />            
-            <li className="flex flex-col pl-[230px] w-[486px]">
+            <li className="flex flex-col pl-[230px] pt-4 w-[486px]">
               <span className={fonts.portfolioCardsSign}>{item.title}</span>
               <span className={`${fonts.cardsScript} py-4`}>{item.script}</span> 
                           
