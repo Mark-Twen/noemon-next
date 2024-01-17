@@ -34,8 +34,7 @@
 }
 
 .howisWorkP {
-  text-align: center;
-  //   font-feature-settings: "clig" off, "liga" off;
+  text-align: center; 
   font-family: Be Vietnam;
   font-size: 16px;
   font-style: normal;
@@ -114,5 +113,21 @@
   font-size: 24px;
   font-style: normal;
   font-weight: 300;
-  line-height: 150%; /* 36px */
+  line-height: 23px; /* 36px */
+}
+.cardsScript {
+font-family: Be Vietnam Pro;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+color:#3C4043;
+}
+.cardDescroption {
+font-family: Be Vietnam Pro;
+font-size: 12px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+color:#3C4043;
 }

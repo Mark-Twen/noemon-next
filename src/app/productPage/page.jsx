@@ -20,30 +20,32 @@ async function getData() {
   return data;
 }
 
-const productPage = async () => {
+const productPage = async (title, script, description, _id, image) => {
   const data = await getData();
 
   return (
     <>
-      <div>
+      <div className="">
         {data?.map((item) => (
-          <div key={item?._id}>
-            <div>
+          <ul key={item?._id} className="flex flex-row relative ">
+           <li className="w-[550px] h-[227px] pt-4">           
               <Image
                 src={urlFor(item.image).url()}
                 alt="product image card 1"
-                width={196}
-                height={196}
-              />
-            </div>
-            <div>
-              <span className={fonts.callExpertBtm}>{item.title}</span>
-              <span className={fonts.callExpertBtm}>{item.script}</span>
-              <span>
-                <PortableText value={item?.description} />
+                width={186}
+                height={186}
+                className="absolute top-[16px] left-[16px]"
+              />            
+            <li className="flex flex-col pl-[230px] w-[486px]">
+              <span className={fonts.portfolioCardsSign}>{item.title}</span>
+              <span className={`${fonts.cardsScript} py-4`}>{item.script}</span> 
+                          
+              <span className={`${fonts.cardDescroption} `} style={{ textAlign: 'justify' }}>
+              <PortableText  value={item?.description} />
               </span>
-            </div>
-          </div>
+            </li>
+           </li>
+          </ul>  
         ))}
       </div>
     </>
