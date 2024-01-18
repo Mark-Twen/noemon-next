@@ -14,6 +14,10 @@ import { url } from "inspector";
 
 import Logon from "../../components/Logos/logon"
 import RightBtm from "../../components/button/btnLogonRight"
+import KitCardBlockOne from "../../components/cards/blockCardsOne"
+
+
+
 
 
 
@@ -44,6 +48,8 @@ async function getPerlisten() {
  
 
 const productPage = async () => {
+
+
   const data = await getData();
   const jbl = await getJbl();
   const perlisten = await getPerlisten()
@@ -82,40 +88,19 @@ const productPage = async () => {
     </div>
 
     {/* First card block with products */}
-    <h1 className={`${fonts.productCardTitle} text-center pb-[60px]`}>Elevate your home entertainment experience to new heights with our range of smart speakers, soundbars, and audio solutions</h1>
-      <div className="grid grid-cols-3 gap-4 grid-rows-4 mx-[80px]">
-        {data?.map((item) => (
-          <ul key={item?._id} className={styles.cardsContainer}>
-           <li className={styles.cardsList}>           
-              <Image
-                src={urlFor(item.image).url()}
-                alt="product image card 1"
-                width={186}
-                height={186}
-                className="absolute top-[16px] left-[16px]"
-              />            
-            <li className="flex flex-col pl-[230px] pt-4  w-[486px]">
-              <span className={fonts.portfolioCardsSign}>{item.title}</span>
-              <span className={`${fonts.cardsScript} py-4 `}>{item.script}</span> 
-                          
-              <span className={`${fonts.cardDescroption} `} style={{ textAlign: 'justify' }}>
-              <PortableText  value={item?.description} />
-              </span>
-            </li>
-           </li>
-          </ul>  
-        ))}
-      </div>
+    <KitCardBlockOne data={data} />
+      
       {/*  productCard Two Perlisten */}
 
       <div className={`w-[1770px] mt-[116px] bg-[#FFF] mx-auto ${styles.prodCard}`}>
         {perlisten.map((item) => (
-          <div key={item?._id} className={`flex flex-row ${styles.prodCard}`}>
+          <div key={item?._id} className={`flex flex-row `}>
             <Image 
              src={urlFor(item.image).url()}
              alt="product image card 2"
              width={1000}
              height={622}
+             className={`${styles.prodCardLeftImg}`}
             />
             <div className="flex flex-col w-[720px] pl-[48px] justify-start item-start">
             <span className={`${fonts.productCardTitle} pt-[81px] pb-[24px] `}>{item.title}</span>

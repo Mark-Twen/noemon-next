@@ -1,0 +1,71 @@
+"use client"
+
+import { PortableText } from "@portabletext/react";
+import Image from "next/image";
+
+import { urlFor } from "../../utils/configSanity";
+
+import fonts from "../fonts/fonts.module.scss";
+import styles from "../cards/blockCards.module.scss"
+// import { url } from "inspector";
+
+import React, { useState, useEffect } from "react";
+import CardModal from "../modalWindow/kitCardsModal"
+
+
+const KitCardOne = ({ data }) => {
+  const [isModalOpen, setIsModalOpen] = useState(false);
+  const [selectedItem, setSelectedItem] = useState([]);
+
+  const openModal = (item) => {
+    if (item) {
+      setSelectedItem(item);
+      setIsModalOpen(true);
+    } else {
+      console.error('Item is undefined or null');
+    }
+  };
+
+  const closeModal = () => {
+    setIsModalOpen(false);
+  };
+
+  return (
+    <>
+      <h1 className={`${fonts.productCardTitle} text-center pb-[60px]`}>Elevate your home entertainment experience to new heights with our range of smart speakers, soundbars, and audio solutions</h1>
+      <div className="grid grid-cols-3 gap-4 grid-rows-4 mx-[80px]">
+        {Array.isArray(data) && data.length > 0 ? (
+          data.map((item) => (
+            <ul key={item?._id} className={styles.cardsContainer} onClick={() => openModal(item)}>
+              <li className={styles.cardsList}>
+                <Image
+                  src={urlFor(item.image).url()}
+                  alt="product image card 1"
+                  width={186}
+                  height={186}
+                  className="absolute top-[16px] left-[16px]"
+                />
+                <li className="flex flex-col pl-[230px] pt-4  w-[486px]">
+                  <span className={fonts.portfolioCardsSign}>{item.title}</span>
+                  <span className={`${fonts.cardsScript} py-4 `}>{item.script}</span>
+                  <span className={`${fonts.cardDescroption} `} style={{ textAlign: 'justify' }}>
+                    <PortableText value={item?.description} />
+                  </span>
+                </li>
+              </li>
+            </ul>
+          ))
+        ) : (
+          <p>No data available</p>
+        )}
+        {isModalOpen && selectedItem && (
+          <CardModal onClose={closeModal} title={selectedItem.title} script={selectedItem.script} description={selectedItem.description}>
+            {/* Content for modal window */}
+          </CardModal>
+        )}
+      </div>
+    </>
+  );
+};
+
+export default KitCardOne;
