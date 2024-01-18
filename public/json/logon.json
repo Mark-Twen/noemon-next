@@ -1,0 +1,12 @@
+[
+    {
+        "name": "productLogo",
+        "text": "Step into a world where your home becomes an intelligent extension of your lifestyle. In this chapter dedicated to smart home products, we unveil a curated selection designed to elevate your living experience. From cutting-edge security systems that safeguard your haven to intuitive climate control solutions that adapt to your preferences, our lineup of smart home products is meticulously crafted to seamlessly integrate into your daily routine. Explore the convergence of technology and comfort as you discover a range of innovative devices that redefine modern living. Welcome to a chapter where your home transforms into a smart sanctuary, anticipating your needs and enhancing every moment.",
+        "type": "productPage"
+    },
+    {
+        "name": "services",
+        "text": "Discover a comprehensive suite of services that redefine your smart home experience with our team of expert electricians and designers at SmartLiving Solutions. Our skilled electricians bring precision and reliability to every aspect of your home's electrical systems, ensuring safety and efficiency. Complementing this, our cutting-edge design services seamlessly integrate smart technologies into your living spaces, creating a bespoke solution tailored to your lifestyle. From intuitive lighting to customized home automation systems, SmartLiving Solutions transforms your residence into an intelligent haven. Experience the synergy of skilled craftsmanship, innovative design, and personalized smart solutions with our holistic approach to electrical services and custom smart systems.",
+        "type": "services"
+    }
+]
