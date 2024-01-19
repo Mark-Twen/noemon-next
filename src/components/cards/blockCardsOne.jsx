@@ -59,7 +59,7 @@ const KitCardOne = ({ data }) => {
           <p>No data available</p>
         )}
         {isModalOpen && selectedItem && (
-          <CardModal onClose={closeModal} title={selectedItem.title} script={selectedItem.script} description={selectedItem.description}>
+          <CardModal onClose={closeModal} title={selectedItem.title} script={selectedItem.script} description={selectedItem.description} imageUrl={urlFor(selectedItem.image).url()} >
             {/* Content for modal window */}
           </CardModal>
         )}
