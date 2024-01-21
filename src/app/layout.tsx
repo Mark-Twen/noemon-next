@@ -1,6 +1,7 @@
 import "./globals.css";
 import { Inter } from "next/font/google";
 import Header from "../components/header/header";
+import Footer from "../components/footer/footer"
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -16,9 +17,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={`${inter.className} mx-auto justify-center items-center ml-[12%]`}>
         <Header />
         {children}
+    <Footer />
       </body>
     </html>
   );

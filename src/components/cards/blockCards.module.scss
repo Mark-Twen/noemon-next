@@ -6,30 +6,31 @@
     align-items: center;
     box-shadow: 2px 4px 25px 0px rgba(0, 0, 0, 0.25);
     width: 556px;
-    position: relative;  
+    position: relative;
     background-color: #FFFFFF;
-    transition: transform 0.4s, scale 0.4s;  
+    transition: transform 0.4s, scale 0.4s;
 }
 
 .cardsContainer:hover {
     transform: translate(50px, -30px) scale(1.2);
-   z-index: 5;   
+    z-index: 5;
 }
 
 
-.cardsList{
+.cardsList {
     display: flex;
     width: 556px;
     height: 227px;
 }
 
 .prodCardRight {
-background: #FFF;
-box-shadow: 4px 4px 15px 0px rgba(0, 0, 0, 0.10);
-border-radius: 0px 40px 40px 0px;
-margin-top: 120px;
-margin-bottom: 120px;
+    border-radius: 40px;
+    background: #FFF;
+    box-shadow: 4px 4px 15px 0px rgba(0, 0, 0, 0.10);
+    margin-top: 120px;
+    margin-bottom: 120px;
 }
+
 .prodCardRightImg {
     border-right: #FFFFFF;
     border-radius: 0px 40px 40px 0px;
@@ -40,10 +41,11 @@ margin-bottom: 120px;
 .prodCard {
     border: #FFF;
     border-radius: 40px;
-background: #FFF;
-box-shadow: 4px 4px 15px 0px rgba(0, 0, 0, 0.10);
-// border-radius: 40px 0px 0px 40px;
+    background: #FFF;
+    box-shadow: 4px 4px 15px 0px rgba(0, 0, 0, 0.10);
+    // border-radius: 40px 0px 0px 40px;
 }
+
 .prodCardLeftImg {
     border-radius: 40px 0px 0px 40px;
 }

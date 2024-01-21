@@ -17,12 +17,11 @@ import RightBtm from "../../components/button/btnLogonRight";
 import KitCardBlockOne from "../../components/cards/blockCardsOne";
 import BlockCardTwo from "../../components/cards/blockCardsTwo";
 import BlockCardThree from "../../components/cards/blockCardsThree";
-import BlockCardFour from "../../components/cards/blockCardsFour"
-import BlockCardFive from "../../components/cards/blockCardsFive"
-import BlockCardSix from "../../components/cards/blockCardsSix"
+import BlockCardFour from "../../components/cards/blockCardsFour";
+import BlockCardFive from "../../components/cards/blockCardsFive";
+import BlockCardSix from "../../components/cards/blockCardsSix";
 
-
-import RightCards from "../../components/bigGardsMaket/rightCardsMaket"
+import RightCards from "../../components/bigGardsMaket/rightCardsMaket";
 import LeftCard from "../../components/bigGardsMaket/leftCardMaket";
 
 async function getData() {
@@ -75,7 +74,7 @@ async function getDataFour() {
   _id,
   image
 }`;
-  const dataFour = await client.fetch(query);   
+  const dataFour = await client.fetch(query);
   return dataFour;
 }
 
@@ -88,7 +87,7 @@ async function getDataFive() {
   image
 }`;
   const dataFive = await client.fetch(query);
-  
+
   return dataFive;
 }
 
@@ -101,16 +100,16 @@ async function getDataSix() {
   image
 }`;
   const dataSix = await client.fetch(query);
-  
+
   return dataSix;
 }
 const productPage = async () => {
   const data = await getData();
   const dataTwo = await getDataTwo();
   const dataThree = await getDataThree();
-  const dataFour = await getDataFour()
-  const dataFive = await getDataFive()
-  const dataSix = await getDataSix()
+  const dataFour = await getDataFour();
+  const dataFive = await getDataFive();
+  const dataSix = await getDataSix();
   const jbl = await getJbl();
   const perlisten = await getPerlisten();
 
@@ -192,27 +191,25 @@ const productPage = async () => {
       <BlockCardTwo dataTwo={dataTwo} />
       {/* kitCardTwo END */}
 
+      <RightCards type="ledStrip_R" />
 
-          <RightCards type="ledStrip_R" />
-   
       {/* kitCardThree */}
       <BlockCardThree dataThree={dataThree} />
 
-        <LeftCard type="ledDrivers_L" />
+      <LeftCard type="ledDrivers_L" />
 
-       {/* kitCardFour  */}
-      <BlockCardFour dataFour={dataFour}/>
+      {/* kitCardFour  */}
+      <BlockCardFour dataFour={dataFour} />
 
       <RightCards type="ledChip_R" />
 
-       {/* kitCardFive  */}
-        
-        <BlockCardFive dataFive={dataFive} />
+      {/* kitCardFive  */}
 
-        <LeftCard type="ledChannels_L" />
+      <BlockCardFive dataFive={dataFive} />
 
-        <BlockCardSix dataSix={dataSix}/>
+      <LeftCard type="ledChannels_L" />
 
+      <BlockCardSix dataSix={dataSix} />
     </div>
   );
 };

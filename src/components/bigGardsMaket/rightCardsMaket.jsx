@@ -16,7 +16,7 @@ const RightCard = ({ type }) => {
   const filteredItem = filter[0];
 
   return (
-    <div className={`flex flex-row w-[1770px] mx-auto ${styles.prodCardRight}`}>        
+    <div className={`flex flex-row w-[1770px] justify-between mx-auto ${styles.prodCardRight}`}>        
      
       <div className="flex flex-col w-[670px] px-[24px] ">
         <span className={`${fonts.productCardTitle} pt-[81px] pb-[24px]`}>{filteredItem.title}</span>

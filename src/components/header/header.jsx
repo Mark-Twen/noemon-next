@@ -1,10 +1,18 @@
+"use client"
 import Image from "next/image";
 import Link from "next/link";
 import logo from "../../../public/img/logo/LOGO-4x.png";
 import fonts from "../fonts/fonts.module.scss";
 import styles from "./header.module.scss";
+import arrow from "../../../public/icon/arrowDawn.png"
+import { useState } from "react";
 
 const Header = () => {
+
+  const [isHover, setIsHover] = useState(false)
+
+
+
   return (
     <>
       <section className="flex w-screen bg-[#282828] layout">
@@ -23,7 +31,12 @@ const Header = () => {
 
         {/* Links */}
 
-        <div className={`flex py-[60px] ml-[40%]  ${fonts.linkcolor}`}>
+        <div className={`flex py-[60px] ml-[40%]  ${fonts.linkcolor}`}
+         onMouseEnter={() => setIsHover(true)}
+         onMouseLeave={() => setIsHover(false)}
+         onFocus={() => setIsHover(true)}
+         onBlur={() => setIsHover(false)}
+        >
           {/* <Link className={`pr-[12%] ${fonts.linkcolor}`} href="">
             Home
           </Link> */}
@@ -32,6 +45,32 @@ const Header = () => {
             href=""
           >
             Services
+            <Image 
+            src={arrow}
+            alt="arrow"
+            className={styles.arrow}
+            />
+            {isHover && (
+        <div className={styles.serviceList}>
+          <ul>
+            <li>
+              <Link href="#">Link 1</Link>
+            </li>
+            <li>
+              <Link href="#">Link 2</Link>
+            </li>
+            <li>
+              <Link href="#">Link 3</Link>
+            </li>
+            <li>
+              <Link href="#">Link 4</Link>
+            </li>
+            <li>
+              <Link href="#">Link 5</Link>
+            </li>
+          </ul>
+        </div>
+      )}
           </Link>
           <Link
             className={`pr-[12%] ${fonts.linkcolor} ${styles.link}`}

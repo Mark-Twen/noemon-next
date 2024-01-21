@@ -16,7 +16,7 @@ const LeftCard = ({ type }) => {
   const filteredItem = filter[0];
 
   return (
-    <div className={`flex flex-row w-[1770px] mx-auto ${styles.prodCardRight}`}>
+    <div className={`flex flex-row w-[1770px]  justify-between mt-[120px] mx-auto ${styles.prodCard}`}>
       <Image
         src={filteredItem.image}
         alt={filteredItem.name}
