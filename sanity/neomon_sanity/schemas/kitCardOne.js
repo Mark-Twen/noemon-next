@@ -1,7 +1,7 @@
 export default {
   name: 'prodKit',
   type: 'document',
-  title: 'ProductKitOne',
+  title: 'ProductKitOneJBL',
   fields: [
     {
       name: 'title',

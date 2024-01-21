@@ -13,7 +13,7 @@ import React, { useState,} from "react";
 import CardModal from "../modalWindow/kitCardsModal"
 
 
-const KitCardTwo = ({ dataTwo }) => {
+const KitCardTwo = ({ dataThree }) => {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [selectedItem, setSelectedItem] = useState([]);
 
@@ -32,10 +32,10 @@ const KitCardTwo = ({ dataTwo }) => {
 
   return (
     <>
-      <h1 className={`${fonts.productCardTitle} text-center pb-[60px] mt-[120px]  w-[1770px] mx-auto`}>Perlisten Audio introduces a collection of audio masterpieces that redefine the essence of premium sound within the smart home landscape.</h1>
+      <h1 className={`${fonts.productCardTitle} text-center pb-[60px] mt-[120px] w-[1770px] mx-auto`}>Experience the perfect blend of style and functionality as our LED Strip Lights not only enhance the aesthetics of your space but also provide energy-efficient and long-lasting illumination, adding a touch of brilliance to your smart home.</h1>
       <div className="grid grid-cols-3 gap-4 grid-rows-4 mx-[80px]">
-        {Array.isArray(dataTwo) && dataTwo.length > 0 ? (
-          dataTwo.map((item) => (
+        {Array.isArray(dataThree) && dataThree.length > 0 ? (
+          dataThree.map((item) => (
             <ul key={item?._id} className={styles.cardsContainer} onClick={() => openModal(item)}>
               <li className={styles.cardsList}>
                 <Image

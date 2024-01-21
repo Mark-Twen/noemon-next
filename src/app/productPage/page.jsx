@@ -5,7 +5,6 @@ import { PortableText } from "@portabletext/react";
 import Image from "next/image";
 
 import Hero from "../../components/productPage/prodPageHero";
-import stripLight from "../../../public/img/prodPageImg/stripLight.png";
 
 import { urlFor } from "../../utils/configSanity";
 
@@ -17,6 +16,14 @@ import Logon from "../../components/Logos/logon";
 import RightBtm from "../../components/button/btnLogonRight";
 import KitCardBlockOne from "../../components/cards/blockCardsOne";
 import BlockCardTwo from "../../components/cards/blockCardsTwo";
+import BlockCardThree from "../../components/cards/blockCardsThree";
+import BlockCardFour from "../../components/cards/blockCardsFour"
+import BlockCardFive from "../../components/cards/blockCardsFive"
+import BlockCardSix from "../../components/cards/blockCardsSix"
+
+
+import RightCards from "../../components/bigGardsMaket/rightCardsMaket"
+import LeftCard from "../../components/bigGardsMaket/leftCardMaket";
 
 async function getData() {
   const query = `*[_type == 'prodKit'] {
@@ -54,9 +61,56 @@ async function getDataTwo() {
   return data;
 }
 
+async function getDataThree() {
+  const query = `*[_type == 'prodcardthree'] `;
+  const dataThree = await client.fetch(query);
+
+  return dataThree;
+}
+async function getDataFour() {
+  const query = `*[_type == 'prodCardsFour'] {
+  title,
+  script,
+  description,
+  _id,
+  image
+}`;
+  const dataFour = await client.fetch(query);   
+  return dataFour;
+}
+
+async function getDataFive() {
+  const query = `*[_type == 'prodCardFive'] {
+  title,
+  script,
+  description,
+  _id,
+  image
+}`;
+  const dataFive = await client.fetch(query);
+  
+  return dataFive;
+}
+
+async function getDataSix() {
+  const query = `*[_type == 'prodCardFive'] {
+  title,
+  script,
+  description,
+  _id,
+  image
+}`;
+  const dataSix = await client.fetch(query);
+  
+  return dataSix;
+}
 const productPage = async () => {
   const data = await getData();
   const dataTwo = await getDataTwo();
+  const dataThree = await getDataThree();
+  const dataFour = await getDataFour()
+  const dataFive = await getDataFive()
+  const dataSix = await getDataSix()
   const jbl = await getJbl();
   const perlisten = await getPerlisten();
 
@@ -133,22 +187,32 @@ const productPage = async () => {
           </div>
         ))}
       </div>
+
       {/* kitCardTwo  */}
       <BlockCardTwo dataTwo={dataTwo} />
+      {/* kitCardTwo END */}
 
-      <div className={`flex flex-row w-[1770px] mx-auto ${styles.prodCardRight}`}>
-        <div className="flex flex-col pl-[27px] pt-[27px]">
-          <p className={`${fonts.productCardTitle} pb-[27px]`}>LED Strip Lights</p>
-          <span className={`${fonts.bigCardDescription}`} style={{ textAlign: 'justify' }}>Illuminate your living spaces with the magic of LED Strip Lights, the epitome of modern lighting innovation. Our LED Strip Lights redefine ambiance, offering a dynamic and customizable lighting experience for your smart home. Whether you're creating a vibrant party atmosphere, a cozy reading nook, or a soothing evening glow, our LED Strips effortlessly adapt to your mood and preferences. With smart controls allowing for color adjustments, brightness variations, and synchronized patterns, these versatile lights seamlessly integrate with your smart home ecosystem. Elevate your surroundings with the captivating hues and flexibility of LED Strip Lights, where every room becomes a canvas for personalized illumination.</span>
-        </div>
-        <Image 
-        src={stripLight}
-        alt="cards"
-        width={1000}
-        height={622}
-        className={`${styles.prodCardRightImg}`}
-        />
-      </div>
+
+          <RightCards type="ledStrip_R" />
+   
+      {/* kitCardThree */}
+      <BlockCardThree dataThree={dataThree} />
+
+        <LeftCard type="ledDrivers_L" />
+
+       {/* kitCardFour  */}
+      <BlockCardFour dataFour={dataFour}/>
+
+      <RightCards type="ledChip_R" />
+
+       {/* kitCardFive  */}
+        
+        <BlockCardFive dataFive={dataFive} />
+
+        <LeftCard type="ledChannels_L" />
+
+        <BlockCardSix dataSix={dataSix}/>
+
     </div>
   );
 };
