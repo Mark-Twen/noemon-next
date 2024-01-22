@@ -4,6 +4,7 @@ import Services from "../../components/services/services"
 import SmartProducts from "../../components/smartProducts/smartProducts"
 import Advantages from "../../components/advantages/advantages"
 import Portfolio from "../../components/portfolio/portfolio"
+import Partners from "../../components/swiper/swiperBrand"
 
 
 const MainPage = () => {
@@ -15,6 +16,7 @@ return (
     <SmartProducts />
     <Advantages />
     <Portfolio />
+    <Partners />
    </div>
 )
 }
