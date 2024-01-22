@@ -14,6 +14,7 @@ const SmartProducts = () => {
 
     return (
         <>
+        <h1 className={`${fonts.productCardTitle} mb-[70px] text-start`}>Discover Smart Home Products:</h1>
         <ul className={`${styles.container} mx-auto`}>
             {data.map((item) => (
                 <li key={item.name} className={`${styles.list} mx-[40px] my-[40px]`}>
