@@ -2,6 +2,7 @@
 import Image from "next/image";
 import React, { useState } from "react";
 import bigCard from "../../../public/json/bigCard.json";
+
 import fonts from "../fonts/fonts.module.scss";
 import styles from "../cards/blockCards.module.scss";
 
@@ -20,8 +21,8 @@ const LeftCard = ({ type }) => {
       <Image
         src={filteredItem.image}
         alt={filteredItem.name}
-        width={1000}
-        height={620}
+        width={filteredItem.width}
+        height={filteredItem.height}
         className={`${styles.prodCardLeftImg}`}
       />
       <div className="flex flex-col w-[670px] px-[24px] ">
