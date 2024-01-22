@@ -40,7 +40,7 @@ export default function App() {
             
             <SwiperSlide >
             
-              <div className="flex align-center justify-center pb-[60px] ">
+              <div className="flex align-center justify-center pb-[140px] ">
                 <div>
                   <Image
                     src={item.img}
