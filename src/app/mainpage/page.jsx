@@ -1,6 +1,7 @@
 import Hero from "../../components/hero/hero"
 import HowIsWork from "../../components/howIsWork/howIsWork"
 import Services from "../../components/services/services"
+import SmartProducts from "../../components/smartProducts/smartProducts"
 
 const MainPage = () => {
 return (
@@ -8,6 +9,7 @@ return (
     <Hero />
     <HowIsWork />
     <Services />
+    <SmartProducts />
    </div>
 )
 }

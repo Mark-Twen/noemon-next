@@ -1,0 +1,32 @@
+[
+    {
+        "name": "jbl",
+        "title": "JBL Systems",
+        "img": "/img/mainPage/smartProducts/jbl.jpg"
+    }, {
+        "name": "perlisten",
+        "title": "Perlisten",
+        "img": "/img/mainPage/smartProducts/perlisten.png"
+    },
+    {
+        "name": "ledStrip",
+        "title": "LED Strip Lights",
+        "img": "/img/mainPage/smartProducts/ledStrip.png"
+    },
+    {
+        "name": "ledDtivers",
+        "title": "LED Drivers",
+        "img": "/img/mainPage/smartProducts/ledDrivers.png"
+    },
+   
+    {
+        "name": "ledChip",
+        "title": "LED Chip",
+        "img": "/img/mainPage/smartProducts/ledChip.png"
+    },
+    {
+        "name": "ledLinear",
+        "title": "LED Linear Light Channels",
+        "img": "/img/mainPage/smartProducts/ledLinear.png"
+    }
+]
