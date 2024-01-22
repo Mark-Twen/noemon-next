@@ -1,12 +1,12 @@
 [
     {
-        "name": "LED Chip",
-        "title": "LED Chip",
+        "name": "ElService",
+        "title": "Electric Services, Maintenence, Upgrading ",
         "width": 1000,
         "height": 620,
-        "text": "Elevate your smart home lighting solutions with our advanced LED chips, the luminous heart of brilliance in every room. Crafted with cutting-edge technology, our LED chips provide superior brightness, color accuracy, and energy efficiency. Engineered for longevity and optimal performance, these chips ensure a consistently vibrant illumination that seamlessly integrates into your smart home ecosystem. Unleash the power of innovation with our LED chips, turning every lighting scenario into a captivating experience where ambiance meets intelligence, setting the perfect mood for any occasion.",
+        "text": "Experience the utmost reliability and efficiency in your smart home with Noemon's Electric Services, Maintenance, and Upgrading solutions. Our dedicated team ensures the seamless operation of your electrical systems, providing expert maintenance and timely upgrades to keep your home on the cutting edge. Whether it's routine checks, troubleshooting, or enhancing your home with the latest smart technologies, Noemon is your trusted partner for a secure and optimized electrical infrastructure. Elevate your living experience with the assurance that every switch, every connection, and every smart device is meticulously cared for by Noemon's expert electricians. Your smart home's reliability and performance are our top priorities.",
         "image": "/img/services/cards/elServices.png",
-        "type": "ledChip_R"
+        "type": "ElService"
     },
     {
         "name": "LED Chip",
@@ -88,5 +88,5 @@
         "text": "Elevate your smart home lighting solutions with our advanced LED chips, the luminous heart of brilliance in every room. Crafted with cutting-edge technology, our LED chips provide superior brightness, color accuracy, and energy efficiency. Engineered for longevity and optimal performance, these chips ensure a consistently vibrant illumination that seamlessly integrates into your smart home ecosystem. Unleash the power of innovation with our LED chips, turning every lighting scenario into a captivating experience where ambiance meets intelligence, setting the perfect mood for any occasion.",
         "image": "/img/services/cards/elServices.png",
         "type": "ledChip_R"
-    },
+    }
 ]
