@@ -12,7 +12,7 @@ import fonts from "../../components/fonts/fonts.module.scss";
 import styles from "../../components/cards/blockCards.module.scss";
 import { url } from "inspector";
 
-import Logon from "../../components/Logos/logon";
+import Logon from "../../components/Logon/logon";
 import RightBtm from "../../components/button/btnLogonRight";
 import KitCardBlockOne from "../../components/cards/blockCardsOne";
 import BlockCardTwo from "../../components/cards/blockCardsTwo";
@@ -116,9 +116,9 @@ const productPage = async () => {
   return (
     <div className="layout">
       <Hero />
-      <div className="pt-[120px] pb-[140px] bg-[#565A5C] px-[104px] mt-[120px] relative">
+      <div>
         <Logon type="productPage" />
-        <RightBtm />
+        {/* <RightBtm /> */}
       </div>
 
       {/* First big Card(JDL) {prodCardOne} */}
