@@ -1,0 +1,30 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 1720px;
+    
+}
+
+.list {
+    display: flex;
+    flex-direction: column;  
+    align-items: center;
+    width: 411px;
+    height: fit-content;
+    border-radius: 30px;
+    background: #F8F9FA;
+    box-shadow: 2px 4px 20px 0px rgba(0, 0, 0, 0.25);
+    // flex-basis: calc((100% - 20px) / 3);
+    transition: transform 0.4s linear;
+}
+.list:hover {
+ transform: scale(1.2);
+}
+
+.listImg {   
+    width: 370px;
+    height: 246px;
+    border-radius: 10px;
+    padding: 24px 0;
+}
