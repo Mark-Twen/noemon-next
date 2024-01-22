@@ -1,0 +1,17 @@
+[
+    {
+        "title": "Call an expert",
+        "script": "Our professional technicians will be sent to your area to scout and count all of the lights that need replacing in your area.",
+        "icon": "/icon/person.png"
+    },
+    {
+        "title": "Design a project",
+        "script": "Our architect and engering team will develop a project for your smart house according to government rebate and set a starting date",
+        "icon": "/icon/document.png"
+    },
+    {
+        "title": "Enjoy your Smart House",
+        "script": "After everything is completed you will receive the rebate from the government and you will enjoy at least 5 years of free maintenance and savings!",
+        "icon": "/icon/Home.png"
+    }
+]
