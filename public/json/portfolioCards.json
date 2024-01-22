@@ -1,0 +1,74 @@
+[
+    {
+      "id": "1",
+      "img": "/img/mainPage/portfolioCards/Croft.png",
+      "title": "The Croft",
+      "titleText": "Custom built house",
+      "location": "LOCATION",
+      "place": "TORONTO",
+      "sq": "SQ. FT.",
+      "sqSign": "4500",
+      "complete": "COMPLETED",
+      "year": "2014"
+    },
+    {
+      "id": "2",
+      "img": "/img/mainPage/portfolioCards/hollyWell.png",
+      "title": "Hollywell Cottage",
+      "titleText": "Custom built house",
+      "location": "LOCATION",
+      "place": "TORONTO",
+      "sq": "SQ. FT.",
+      "sqSign": "6500",
+      "complete": "COMPLETED",
+      "year": "2018"
+    },
+    {
+      "id": "3",
+      "img": "/img/mainPage/portfolioCards/driftwood.png",
+      "title": "Driftwood Villa",
+      "titleText": "Custom built house",
+      "location": "LOCATION",
+      "place": "TORONTO",
+      "sq": "SQ. FT.",
+      "sqSign": "5000",
+      "complete": "COMPLETED",
+      "year": "2020"
+    },
+    {
+      "id": "4",
+      "img": "/img/mainPage/portfolioCards/Siera.png",
+      "title": "Sierra Sky",
+      "titleText": "Custom built house",
+      "location": "LOCATION",
+      "place": "TORONTO",
+      "sq": "SQ. FT.",
+      "sqSign": "12000",
+      "complete": "COMPLETED",
+      "year": "2018"
+    },
+    {
+      "id": "5",
+      "img": "/img/mainPage/portfolioCards/Gate.png",
+      "title": "The Gate House",
+      "titleText": "Custom built house",
+      "location": "LOCATION",
+      "place": "TORONTO",
+      "sq": "SQ. FT.",
+      "sqSign": "6000",
+      "complete": "COMPLETED",
+      "year": "2021"
+    },
+    {
+      "id": "6",
+      "img": "/img/mainPage/portfolioCards/landom.png",
+      "title": "Landom Manor",
+      "titleText": "Custom built house",
+      "location": "LOCATION",
+      "place": "TORONTO",
+      "sq": "SQ. FT.",
+      "sqSign": "12000",
+      "complete": "COMPLETED",
+      "year": "2012"
+    }
+  ]
