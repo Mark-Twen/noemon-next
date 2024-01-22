@@ -2,7 +2,7 @@
 import { useState } from "react"
 import list from "../../../public/json/howIsWork.json"
 import fonts from "../fonts/fonts.module.scss"
-import styles from "./howIsWork.module.scss"
+
 
 import Image from "next/image"
 
