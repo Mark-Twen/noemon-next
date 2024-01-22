@@ -55,15 +55,14 @@
   color: #f7f7f7;
 }
 
-.portfolioCardsSign {
-  // font-feature-settings: 'clig' off, 'liga' off;
-  font-family: Poppins;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 20px;
-  letter-spacing: 0.75px;
-  color: #3c4043;
+.portfolioCardsSign {  
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0.75px;
+    color: #3c4043;
 }
 
 .portfolioCardsdetails {
@@ -214,4 +213,14 @@
   font-style: normal;
   font-weight: 500;
   line-height: normal;
+}
+
+.portfolioText {
+    font-family: Be Vietnam Pro;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    color: #3C4043;
+
 }
