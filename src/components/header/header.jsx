@@ -42,7 +42,7 @@ const Header = () => {
           </Link> */}
           <Link
             className={`pr-[12%]  ${fonts.linkcolor} ${styles.link}`}
-            href=""
+            href="services"
           >
             Services
             <Image 

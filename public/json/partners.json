@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "img": "/img/mainPage/partners/1.png",
+        "width": 312,
+        "height": 212
+    },
+    {
+        "id": 2,
+        "img": "/img/mainPage/partners/2.png",
+        "width": 312,
+        "height": 212
+    },
+    {
+        "id": 3,
+        "img": "/img/mainPage/partners/3.png",
+        "width": 312,
+        "height": 212
+    },
+    {
+        "id": 4,
+        "img": "/img/mainPage/partners/4.png",
+        "width": 312,
+        "height": 212
+    },
+    {
+        "id": 5,
+        "img": "/img/mainPage/partners/5.png",
+        "width": 312,
+        "height": 212
+    },
+    {
+        "id": 6,
+        "img": "/img/mainPage/partners/1.png",
+        "width": 312,
+        "height": 212
+    },
+    {
+        "id": 7,
+        "img": "/img/mainPage/partners/2.png",
+        "width": 312,
+        "height": 212
+    }
+]
