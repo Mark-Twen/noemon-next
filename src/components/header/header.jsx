@@ -81,7 +81,7 @@ const Header = () => {
           <Link
             className={`pr-[12%] ${fonts.linkcolor} ${styles.link}`}
             style={{ whiteSpace: "nowrap" }}
-            href=""
+            href="aboutUs"
           >
             About us
           </Link>

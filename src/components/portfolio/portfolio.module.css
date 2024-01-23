@@ -1,0 +1,18 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 1720px;
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  width: 410px;
+  border-radius: 20px;
+  box-shadow: 2px 4px 20px 0px rgba(0, 0, 0, 0.25);
+  padding-bottom: 72px;
+}/*# sourceMappingURL=portfolio.module.css.map */
