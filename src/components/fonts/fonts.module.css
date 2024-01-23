@@ -16,6 +16,15 @@
   color: #3c4043;
 }
 
+.portfolioText {
+  font-family: Be Vietnam Pro;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  color: #3C4043;
+}
+
 .cardsScript {
   font-family: Be Vietnam Pro;
   font-size: 16px;
@@ -55,6 +64,15 @@
   line-height: normal;
 }
 
+.footerSchedule {
+  color: #f8f9fa;
+  font-family: Be Vietnam Pro;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
 .bigCardDescription {
   font-family: Be Vietnam Pro;
   font-size: 24px;
@@ -83,12 +101,31 @@
 }
 
 .productCardText {
-  color: #3c4043;
   font-family: Be Vietnam Pro;
   font-size: 24px;
   font-style: normal;
   font-weight: 300;
   line-height: 23px;
+  color: #3c4043;
+}
+
+.logonTitleName {
+  font-family: Be Vietnam Pro;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 150%;
+  /* 36px */
+  color: #39B54A;
+}
+
+.aboutUsLogoText {
+  font-family: Be Vietnam Pro;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 150%;
+  color: #F7F7F7;
 }
 
 .callExpertText {
@@ -100,13 +137,32 @@
   line-height: 32px;
 }
 
-.callExpertBtm {
-  color: #39b54a;
+.smartProdBtm {
   font-family: Be Vietnam Pro;
   font-size: 24px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
+  color: #F7F7F7;
+  text-align: center;
+}
+
+.callExpertBtm {
+  font-family: Be Vietnam Pro;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  color: #39b54a;
+}
+
+.neomonInfo {
+  font-family: Be Vietnam Pro;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 150%;
+  color: #000;
 }
 
 .howIsWorkTitle {
@@ -127,6 +183,24 @@
   font-weight: 600;
   line-height: 150%;
   color: #000;
+}
+
+.advantagesTitle {
+  color: #000;
+  font-family: Be Vietnam Pro;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.logoTitle {
+  font-family: Be Vietnam Pro;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  color: #39B54A;
 }
 
 .partnersSlider {
@@ -194,57 +268,12 @@
   color: #282828;
 }
 
-.footerSchedule {
-  color: #f8f9fa;
-  font-family: Be Vietnam Pro;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 300;
-  line-height: normal;
-}
-
-.smartProdBtm {
-  font-family: Be Vietnam Pro;
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
-  color: #F7F7F7;
-  text-align: center;
-}
-
-.advantagesTitle {
-  color: #000;
-  font-family: Be Vietnam Pro;
-  font-size: 32px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
-}
-
-.portfolioText {
-  font-family: Be Vietnam Pro;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
-  color: #3C4043;
-}
-
-.logoTitle {
-  font-family: Be Vietnam Pro;
-  font-size: 32px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
-  color: #39B54A;
-}
-
 .rewiesTitle {
   font-family: Be Vietnam Pro;
   font-size: 60px;
   font-style: normal;
   font-weight: 600;
-  line-height: 100%; /* 60px */
+  line-height: 100%;
+  /* 60px */
   color: #000;
 }/*# sourceMappingURL=fonts.module.css.map */
