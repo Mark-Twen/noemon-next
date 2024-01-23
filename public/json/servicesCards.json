@@ -9,84 +9,76 @@
         "type": "ElService"
     },
     {
-        "name": "LED Chip",
+        "name": "elDesign",
         "title": "LED Chip",
         "width": 1000,
         "height": 620,
-        "text": "Elevate your smart home lighting solutions with our advanced LED chips, the luminous heart of brilliance in every room. Crafted with cutting-edge technology, our LED chips provide superior brightness, color accuracy, and energy efficiency. Engineered for longevity and optimal performance, these chips ensure a consistently vibrant illumination that seamlessly integrates into your smart home ecosystem. Unleash the power of innovation with our LED chips, turning every lighting scenario into a captivating experience where ambiance meets intelligence, setting the perfect mood for any occasion.",
-        "image": "/img/services/cards/elServices.png",
-        "type": "ledChip_R"
+        "text": "Experience the utmost reliability and efficiency in your smart home with Noemon's Electric Services, Maintenance, and Upgrading solutions. Our dedicated team ensures the seamless operation of your electrical systems, providing expert maintenance and timely upgrades to keep your home on the cutting edge. Whether it's routine checks, troubleshooting, or enhancing your home with the latest smart technologies, Noemon is your trusted partner for a secure and optimized electrical infrastructure. Elevate your living experience with the assurance that every switch, every connection, and every smart device is meticulously cared for by Noemon's expert electricians. Your smart home's reliability and performance are our top priorities.",
+        "image": "/img/services/cards/elDesign.png",
+        "type": "elDesign"
     },
     {
-        "name": "LED Chip",
-        "title": "LED Chip",
+        "name": "intagratStructure",
+        "title": "Integrated Structured Wiring ",
         "width": 1000,
         "height": 620,
-        "text": "Elevate your smart home lighting solutions with our advanced LED chips, the luminous heart of brilliance in every room. Crafted with cutting-edge technology, our LED chips provide superior brightness, color accuracy, and energy efficiency. Engineered for longevity and optimal performance, these chips ensure a consistently vibrant illumination that seamlessly integrates into your smart home ecosystem. Unleash the power of innovation with our LED chips, turning every lighting scenario into a captivating experience where ambiance meets intelligence, setting the perfect mood for any occasion.",
-        "image": "/img/services/cards/elServices.png",
-        "type": "ledChip_R"
+        "text": "Unlock the full potential of your smart home with Noemon's Integrated Structured Wiring solutions—an architectural masterpiece that seamlessly weaves the threads of connectivity throughout your living spaces. Our cutting-edge structured wiring lays the foundation for a harmonious integration of all smart devices and systems, ensuring a robust and efficient network. From lighting and security to entertainment and automation, every component is interconnected with precision and purpose. Noemon's Integrated Structured Wiring transforms your home into a symphony of seamless communication, where each wire contributes to the orchestration of a truly intelligent living experience. Elevate your smart home to new heights with Noemon, where connectivity meets sophistication in every corner of your modern living space.",
+        "image": "/img/services/cards/intagrateStructure.png",
+        "type": "intagratStructure"
     },
     {
-        "name": "LED Chip",
-        "title": "LED Chip",
+        "name": "automations",
+        "title": "Automation",
         "width": 1000,
         "height": 620,
-        "text": "Elevate your smart home lighting solutions with our advanced LED chips, the luminous heart of brilliance in every room. Crafted with cutting-edge technology, our LED chips provide superior brightness, color accuracy, and energy efficiency. Engineered for longevity and optimal performance, these chips ensure a consistently vibrant illumination that seamlessly integrates into your smart home ecosystem. Unleash the power of innovation with our LED chips, turning every lighting scenario into a captivating experience where ambiance meets intelligence, setting the perfect mood for any occasion.",
-        "image": "/img/services/cards/elServices.png",
-        "type": "ledChip_R"
+        "text": "Step into the realm of effortless living with Noemon's Automation solutions designed to transform your smart home into an intelligent sanctuary. Our cutting-edge automation technology seamlessly orchestrates every aspect of your living spaces, from lighting and climate control to security and entertainment. Imagine a home that anticipates your needs, adapts to your routines, and responds to your preferences—all with the touch of a button or a simple voice command. Noemon's Automation solutions offer a new level of convenience, efficiency, and innovation, allowing you to personalize and streamline your home's functionalities. Embrace the future of intelligent living with Noemon, where automation is not just a feature but the heartbeat of a smarter, more connected home experience.",
+        "image": "/img/services/cards/automation.png",
+        "type": "automations"
     },
     {
-        "name": "LED Chip",
-        "title": "LED Chip",
+        "name": "conferenceRoom",
+        "title": "Conference Room",
         "width": 1000,
         "height": 620,
-        "text": "Elevate your smart home lighting solutions with our advanced LED chips, the luminous heart of brilliance in every room. Crafted with cutting-edge technology, our LED chips provide superior brightness, color accuracy, and energy efficiency. Engineered for longevity and optimal performance, these chips ensure a consistently vibrant illumination that seamlessly integrates into your smart home ecosystem. Unleash the power of innovation with our LED chips, turning every lighting scenario into a captivating experience where ambiance meets intelligence, setting the perfect mood for any occasion.",
-        "image": "/img/services/cards/elServices.png",
-        "type": "ledChip_R"
+        "text": "Transform your home office or professional workspace with Noemon's innovative Conference Room solutions for smart homes. Our cutting-edge technology seamlessly integrates with your smart home ecosystem, creating a sophisticated and efficient environment for virtual meetings, presentations, and collaborative sessions. From state-of-the-art audiovisual systems to intuitive controls for lighting and temperature, Noemon's Conference Room solutions cater to the modern demands of remote work and virtual collaboration. Experience the future of business interactions with seamless connectivity, crystal-clear audio, and dynamic presentations—all within the comfort of your smart home. Elevate your professional spaces with Noemon, where intelligence meets functionality to redefine the way you work and collaborate.",
+        "image": "/img/services/cards/conferenceRoom.png",
+        "type": "conferenceRoom"
+    },
+    
+    {
+        "name": "accessControl",
+        "title": "Access Control",
+        "width": 1000,
+        "height": 620,
+        "text": "Experience the epitome of climate control with Noemon's state-of-the-art Temperature Control solutions designed exclusively for smart homes. We redefine comfort by seamlessly integrating cutting-edge technology into your living spaces, allowing you to personalize and optimize the temperature with precision. Our smart systems adapt to your preferences, creating the perfect ambiance in every room while maximizing energy efficiency. From intuitive controls to seamless integration with your smart home ecosystem, Noemon's Temperature Control ensures that your home is always at the ideal temperature, providing an unparalleled level of comfort and control. Step into a world where your living spaces respond to your desires, enhancing your overall smart home experience with the innovative touch of Noemon",
+        "image": "/img/services/cards/accessControl.png",
+        "type": "accessControl"
     },
     {
-        "name": "LED Chip",
-        "title": "LED Chip",
+        "name": "homeAutomation",
+        "title": "Custom Home Automation or Smart Home",
         "width": 1000,
         "height": 620,
-        "text": "Elevate your smart home lighting solutions with our advanced LED chips, the luminous heart of brilliance in every room. Crafted with cutting-edge technology, our LED chips provide superior brightness, color accuracy, and energy efficiency. Engineered for longevity and optimal performance, these chips ensure a consistently vibrant illumination that seamlessly integrates into your smart home ecosystem. Unleash the power of innovation with our LED chips, turning every lighting scenario into a captivating experience where ambiance meets intelligence, setting the perfect mood for any occasion.",
-        "image": "/img/services/cards/elServices.png",
-        "type": "ledChip_R"
+        "text": "Welcome to the future of bespoke living with our Custom Home Automation solutions. At Neomon, we understand that your home is as unique as you are. That's why we offer tailor-made smart home systems designed to seamlessly integrate with your lifestyle. From personalized lighting scenarios and climate control to security and entertainment, our bespoke solutions cater to your individual needs and preferences. With cutting-edge technology and intuitive interfaces, we transform your home into an intelligent sanctuary where every element adapts to your desires. Elevate your living experience with  Neomon, where innovation meets personalization for the ultimate smart home masterpiece.",
+        "image": "/img/services/cards/smartHome.png",
+        "type": "homeAutomation"
     },
     {
-        "name": "LED Chip",
-        "title": "LED Chip",
+        "name": "homeCinema",
+        "title": "Home Cinema, Home Theater",
         "width": 1000,
         "height": 620,
-        "text": "Elevate your smart home lighting solutions with our advanced LED chips, the luminous heart of brilliance in every room. Crafted with cutting-edge technology, our LED chips provide superior brightness, color accuracy, and energy efficiency. Engineered for longevity and optimal performance, these chips ensure a consistently vibrant illumination that seamlessly integrates into your smart home ecosystem. Unleash the power of innovation with our LED chips, turning every lighting scenario into a captivating experience where ambiance meets intelligence, setting the perfect mood for any occasion.",
-        "image": "/img/services/cards/elServices.png",
-        "type": "ledChip_R"
+        "text": "Indulge in a cinematic experience within the comfort of your own home with our Home Cinema and Theater solutions. At Neomon Living, we bring the magic of the big screen to your living spaces, creating an immersive and unparalleled entertainment experience. Our state-of-the-art home theater systems combine superior audiovisual technology with elegant design, delivering breathtaking visuals and crystal-clear sound. Whether you're enjoying a blockbuster movie or gaming with friends, Neomon Living transforms your home into a private cinematic haven. Explore the epitome of audiovisual excellence with our Home Cinema solutions, where every movie night becomes an extraordinary event in the heart of your smart home",
+        "image": "/img/services/cards/homeCinema.png",
+        "type": "homeCinema"
     },
     {
-        "name": "LED Chip",
-        "title": "LED Chip",
+        "name": "shadow",
+        "title": "Shading Control",
         "width": 1000,
         "height": 620,
-        "text": "Elevate your smart home lighting solutions with our advanced LED chips, the luminous heart of brilliance in every room. Crafted with cutting-edge technology, our LED chips provide superior brightness, color accuracy, and energy efficiency. Engineered for longevity and optimal performance, these chips ensure a consistently vibrant illumination that seamlessly integrates into your smart home ecosystem. Unleash the power of innovation with our LED chips, turning every lighting scenario into a captivating experience where ambiance meets intelligence, setting the perfect mood for any occasion.",
-        "image": "/img/services/cards/elServices.png",
-        "type": "ledChip_R"
-    },
-    {
-        "name": "LED Chip",
-        "title": "LED Chip",
-        "width": 1000,
-        "height": 620,
-        "text": "Elevate your smart home lighting solutions with our advanced LED chips, the luminous heart of brilliance in every room. Crafted with cutting-edge technology, our LED chips provide superior brightness, color accuracy, and energy efficiency. Engineered for longevity and optimal performance, these chips ensure a consistently vibrant illumination that seamlessly integrates into your smart home ecosystem. Unleash the power of innovation with our LED chips, turning every lighting scenario into a captivating experience where ambiance meets intelligence, setting the perfect mood for any occasion.",
-        "image": "/img/services/cards/elServices.png",
-        "type": "ledChip_R"
-    },
-    {
-        "name": "LED Chip",
-        "title": "LED Chip",
-        "width": 1000,
-        "height": 620,
-        "text": "Elevate your smart home lighting solutions with our advanced LED chips, the luminous heart of brilliance in every room. Crafted with cutting-edge technology, our LED chips provide superior brightness, color accuracy, and energy efficiency. Engineered for longevity and optimal performance, these chips ensure a consistently vibrant illumination that seamlessly integrates into your smart home ecosystem. Unleash the power of innovation with our LED chips, turning every lighting scenario into a captivating experience where ambiance meets intelligence, setting the perfect mood for any occasion.",
-        "image": "/img/services/cards/elServices.png",
-        "type": "ledChip_R"
+        "text": "Welcome to the future of bespoke living with our Custom Home Automation solutions. At Neomon, we understand that your home is as unique as you are. That's why we offer tailor-made smart home systems designed to seamlessly integrate with your lifestyle. From personalized lighting scenarios and climate control to security and entertainment, our bespoke solutions cater to your individual needs and preferences. With cutting-edge technology and intuitive interfaces, we transform your home into an intelligent sanctuary where every element adapts to your desires. Elevate your living experience with Neomon Creations, where innovation meets personalization for the ultimate smart home masterpiece.",
+        "image": "/img/services/cards/shadingControl.png",
+        "type": "shadow"
     }
 ]

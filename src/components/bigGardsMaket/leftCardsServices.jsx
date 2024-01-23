@@ -2,10 +2,11 @@
 import Image from "next/image";
 import React, { useState } from "react";
 import bigCard from "../../../public/json/servicesCards.json";
+
 import fonts from "../fonts/fonts.module.scss";
 import styles from "../cards/blockCards.module.scss";
 
-const RightCard = ({ type }) => {
+const LeftCard = ({ type }) => {
   const [data, setData] = useState(bigCard);
 
   const filter = data.filter((item) => item.type === type);
@@ -16,8 +17,14 @@ const RightCard = ({ type }) => {
   const filteredItem = filter[0];
 
   return (
-    <div className={`flex flex-row w-[1680px] justify-around mx-auto ${styles.prodCardRight}`}>        
-     
+    <div className={`flex flex-row w-[1770px]  justify-around mt-[120px] mx-auto pb-[89px] ${styles.prodCard}`}>
+      <Image
+        src={filteredItem.image}
+        alt={filteredItem.name}
+        width={filteredItem.width}
+        height={filteredItem.height}
+        className={`${styles.prodCardLeftImg} pt-[80px]`}
+      />
       <div className="flex flex-col w-[670px] pl-[24px] ">
         <span className={`${fonts.productCardTitle} pt-[81px] pb-[24px]`}>{filteredItem.title}</span>
         <span
@@ -27,15 +34,8 @@ const RightCard = ({ type }) => {
           {filteredItem.text}
         </span>
       </div>
-      <Image
-        src={filteredItem.image}
-        alt={filteredItem.name}
-        width={1000}
-        height={620}
-        className={`${styles.prodCardRightImg}`}
-      />
     </div>
   );
 };
 
-export default RightCard;
+export default LeftCard;
