@@ -91,6 +91,27 @@
   color: #f7f7f7;
 }
 
+.reviewsText {
+  color: #000;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+}
+
+.reviewsName {
+  color: #14142B;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  /* 133.333% */
+  letter-spacing: 1px;
+  text-transform: capitalize;
+}
+
 .heroBtn {
   font-family: Be Vietnam Pro;
   font-size: 24px;

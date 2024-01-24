@@ -5,6 +5,7 @@ import Card from "../../components/aboutUsPageComponents/card"
 import Logon from "../../components/aboutUsPageComponents/aboutUsLogon"
 import Information from "../../components/aboutUsPageComponents/neomonInformation"
 import CardsTwo from "../../components/aboutUsPageComponents/cardsTwo"
+import ReviewsComponent from "../../components/aboutUsPageComponents/clientReviews"
 
 const AboutUs = () => {
     return (
@@ -17,6 +18,7 @@ const AboutUs = () => {
         <Logon />
         <Information /> 
         <CardsTwo />
+        <ReviewsComponent />
     </div>
 
 )
