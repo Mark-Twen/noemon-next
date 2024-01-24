@@ -3,7 +3,7 @@ import Image from "next/image"
 import hero from "../../../public/img/about us/hero.png"
 
 import fonts from "../fonts/fonts.module.scss"
-import { FromTo } from "sanity"
+
 
 const Hero = () => {
 

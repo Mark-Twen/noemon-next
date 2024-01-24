@@ -1,0 +1,51 @@
+[
+    {
+        "name": "linearLight",
+        "title": "Linear Lights ",
+        "text": "Step into the future of home lighting with our innovative linear lights, where form and function converge seamlessly. These sophisticated fixtures redefine the aesthetics of your living spaces, offering clean lines and contemporary design that effortlessly integrate into any smart home environment. Illuminate hallways, kitchens, or workspaces with precision and style, as our linear lights deliver a perfect blend of ambient and task lighting. With advanced technology allowing for customizable color temperatures and brightness levels, these fixtures not only elevate your home's visual appeal but also provide a versatile and energy-efficient lighting solution. Explore the art of modern illumination and transform your living spaces with our cutting-edge linear lights.",
+        "image":"/img/lightening/cards/linearLights.png",
+        "type": "linearLight_R"
+    },
+    {
+        "name": "LighteningControl",
+        "title": "Lightening Control",
+        "text": "Take command of your home's ambiance with our intuitive lighting control solutions. Our smart home lighting control systems put the power of personalization at your fingertips. Effortlessly adjust brightness levels, set dynamic lighting scenes, and even synchronize with your daily routines. Whether it's creating a cozy atmosphere for relaxation or energizing your space for productivity, our lighting control technology provides the flexibility to tailor your home's lighting to suit any occasion. Embrace the future of intelligent living with smart, responsive lighting that not only illuminates your home but transforms it into a dynamic and harmonious environment, effortlessly adapting to your preferences and enhancing your overall living experience.",
+        "image":"/img/lightening/cards/lightControl.png",
+        "type": "LighteningControl_L"
+    },
+    {
+        "name": "LEDChip",
+        "title": "LED Chip",
+        "text": "Elevate your smart home lighting solutions with our advanced LED chips, the luminous heart of brilliance in every room. Crafted with cutting-edge technology, our LED chips provide superior brightness, color accuracy, and energy efficiency. Engineered for longevity and optimal performance, these chips ensure a consistently vibrant illumination that seamlessly integrates into your smart home ecosystem. Unleash the power of innovation with our LED chips, turning every lighting scenario into a captivating experience where ambiance meets intelligence, setting the perfect mood for any occasion.",
+        "image":"/img/lightening/cards/ledChip.png",
+        "type": "LEDChip"
+    },
+    {
+        "name": "LEDDrivers",
+        "title": "LED Drivers",
+        "text": "Empower your smart lighting system with our cutting-edge LED drivers, the silent heroes behind the brilliance of your illuminated spaces. Specially designed to provide optimal power and efficiency, our LED drivers ensure a seamless and flicker-free performance for your LED lights. Compatible with a variety of smart home platforms, these drivers offer precise control over brightness, color temperature, and dimming settings, allowing you to tailor the lighting atmosphere to your desired ambiance. Discover the reliability and innovation that our LED drivers bring to your smart home, delivering not just light, but an elevated and intelligent lighting experience.",
+        "image":"/img/lightening/cards/ledDrivers.png",
+        "type": "LEDDrivers"
+    },
+    {
+        "name": "lightChannel",
+        "title": "LED Linear Light Channels",
+        "text": "Illuminate your living spaces with the magic of LED Strip Lights, the epitome of modern lighting innovation. Our LED Strip Lights redefine ambiance, offering a dynamic and customizable lighting experience for your smart home. Whether you're creating a vibrant party atmosphere, a cozy reading nook, or a soothing evening glow, our LED Strips effortlessly adapt to your mood and preferences. With smart controls allowing for color adjustments, brightness variations, and synchronized patterns, these versatile lights seamlessly integrate with your smart home ecosystem. Elevate your surroundings with the captivating hues and flexibility of LED Strip Lights, where every room becomes a canvas for personalized illumination",
+        "image":"/img/lightening/cards/lightChannel.png",
+        "type": "lightChannel"
+    },
+    {
+        "name": "gasLamps",
+        "title": "LED Linear Light Channels",
+        "text": "Transform your living spaces with the sleek sophistication of our LED Linear Light Channels, the epitome of contemporary lighting design. These elegantly crafted channels seamlessly integrate into your smart home, providing a stylish platform for our high-performance LED strips. Illuminate hallways, kitchens, or accent architectural features with precision and grace, as our linear light channels offer a seamless and customizable solution for ambient or task lighting. Elevate your interior aesthetics with this marriage of form and function, where modern design meets the intelligent illumination of smart home living. ",
+        "image":"/img/lightening/cards/gasLamps.png",
+        "type": "gasLamps"
+    },
+    {
+        "name": "electroBuilder",
+        "title": "LED Chip",
+        "text": "Elevate your smart home lighting solutions with our advanced LED chips, the luminous heart of brilliance in every room. Crafted with cutting-edge technology, our LED chips provide superior brightness, color accuracy, and energy efficiency. Engineered for longevity and optimal performance, these chips ensure a consistently vibrant illumination that seamlessly integrates into your smart home ecosystem. Unleash the power of innovation with our LED chips, turning every lighting scenario into a captivating experience where ambiance meets intelligence, setting the perfect mood for any occasion.",
+        "image":"/img/lightening/cards/electroBuilder.png",
+        "type": "electroBuilder"
+    }
+]

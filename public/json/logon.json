@@ -10,4 +10,11 @@
         "text": "Discover a comprehensive suite of services that redefine your smart home experience with our team of expert electricians and designers at SmartLiving Solutions. Our skilled electricians bring precision and reliability to every aspect of your home's electrical systems, ensuring safety and efficiency. Complementing this, our cutting-edge design services seamlessly integrate smart technologies into your living spaces, creating a bespoke solution tailored to your lifestyle. From intuitive lighting to customized home automation systems, SmartLiving Solutions transforms your residence into an intelligent haven. Experience the synergy of skilled craftsmanship, innovative design, and personalized smart solutions with our holistic approach to electrical services and custom smart systems.",
         "type": "services"
     }
+    ,
+    {
+        "name": "lightening",
+        "title": "Elevate Your Space with Intelligent Illumination for Modern Living",
+        "text": "Immerse your home in the magic of intelligent illumination with our exceptional smart lighting solutions. From smart bulbs that effortlessly adjust to your mood, to dynamic LED strips that transform any space into a customizable canvas, our lighting products redefine ambiance and elevate your smart home experience. With intuitive controls and compatibility with popular home automation platforms, our lighting solutions bring a new dimension of convenience and creativity to your fingertips. Discover the perfect synergy of technology and design as we light the way to a smarter, more vibrant living environment.",
+        "type": "lightening"
+    }
 ]

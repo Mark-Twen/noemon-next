@@ -19,7 +19,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${inter.className} mx-auto justify-center items-center ml-[12%]`}>
         <Header />
-        {children}
+        {children}        
     <Footer />
       </body>
     </html>

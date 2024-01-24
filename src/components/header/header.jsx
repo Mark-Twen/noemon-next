@@ -1,17 +1,18 @@
-"use client"
+"use client";
 import Image from "next/image";
 import Link from "next/link";
 import logo from "../../../public/img/logo/LOGO-4x.png";
+
 import fonts from "../fonts/fonts.module.scss";
 import styles from "./header.module.scss";
-import arrow from "../../../public/icon/arrowDawn.png"
+
+import arrow from "../../../public/icon/arrowDawn.png";
 import { useState } from "react";
 
+// import ServiceList from "./serviceList";
+
 const Header = () => {
-
-  const [isHover, setIsHover] = useState(false)
-
-
+  const [isHover, setIsHover] = useState(false);
 
   return (
     <>
@@ -29,64 +30,108 @@ const Header = () => {
           </Link>
         </div>
 
-        {/* Links */}
-
-        <div className={`flex py-[60px] ml-[40%]  ${fonts.linkcolor}`}
-         onMouseEnter={() => setIsHover(true)}
-         onMouseLeave={() => setIsHover(false)}
-         onFocus={() => setIsHover(true)}
-         onBlur={() => setIsHover(false)}
+        <div
+          className={`flex py-[60px] justify-between   ${fonts.linkcolor}`}
+      
+          // onFocus={() => setIsHover(true)}
+          // onBlur={() => setIsHover(false)}
         >
-          {/* <Link className={`pr-[12%] ${fonts.linkcolor}`} href="">
-            Home
-          </Link> */}
           <Link
-            className={`pr-[12%]  ${fonts.linkcolor} ${styles.link}`}
+            className={`flex flex-row pl-[60%] pr-[50%]  ${fonts.linkcolor} ${styles.link}`}
             href="services"
+            onMouseEnter={() => setIsHover(true)}
+            onMouseLeave={() => setIsHover(false)}
           >
             Services
-            <Image 
-            src={arrow}
-            alt="arrow"
-            className={styles.arrow}
-            />
+            <Image src={arrow} alt="arrow" className={styles.arrow} />
             {isHover && (
-        <div className={styles.serviceList}>
-          <ul>
-            <li>
-              <Link href="#">Link 1</Link>
-            </li>
-            <li>
-              <Link href="#">Link 2</Link>
-            </li>
-            <li>
-              <Link href="#">Link 3</Link>
-            </li>
-            <li>
-              <Link href="#">Link 4</Link>
-            </li>
-            <li>
-              <Link href="#">Link 5</Link>
-            </li>
-          </ul>
-        </div>
-      )}
+              <div
+                className={`${styles.serviceList} `}
+                style={{ zIndex: 20, backgroundColor: "#282828", width: 207 }}
+              >
+                <ul className={` bg-[#282828]`}>
+                  <li className={`py-[12px]`}>
+                    <Link
+                      href="/services/lightening"
+                      className={`${styles.servicesLink}`}
+                      style={{ whiteSpace: "nowrap" }}
+                    >
+                      Lightening
+                    </Link>
+                  </li>
+                  <li className={`py-[12px]`}>
+                    <Link
+                      href="#"
+                      className={`${styles.servicesLink}`}
+                      style={{ whiteSpace: "nowrap" }}
+                    >
+                      EV Chargers
+                    </Link>
+                  </li>
+                  <li className={`py-[12px]`}>
+                    <Link
+                      href="#"
+                      className={`${styles.servicesLink}`}
+                      style={{ whiteSpace: "nowrap" }}
+                    >
+                      Security
+                    </Link>
+                  </li>
+                  <li className={`py-[12px]`}>
+                    <Link
+                      href="#"
+                      className={`${styles.servicesLink}`}
+                      style={{ whiteSpace: "nowrap" }}
+                    >
+                      Audio Visual
+                    </Link>
+                  </li>
+                  <li className={`py-[12px]`}>
+                    <Link
+                      href="#"
+                      className={`${styles.servicesLink}`}
+                      style={{ whiteSpace: "nowrap" }}
+                    >
+                      IT Solution
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      href="#"
+                      className={`${styles.servicesLink}`}
+                      style={{ whiteSpace: "nowrap" }}
+                    >
+                      Other Services
+                    </Link>
+                  </li>
+                </ul>
+              </div>
+            )}
+            {/* <ServiceList isVisible={isHover} /> */}
           </Link>
+
+
+
+
+
+
+          
+
           <Link
-            className={`pr-[12%] ${fonts.linkcolor} ${styles.link}`}
+            className={`pr-[50%] ${fonts.linkcolor} ${styles.link}`}
             href="/productPage"
           >
             Products
           </Link>
           <Link
-            className={`pr-[12%] ${fonts.linkcolor} ${styles.link}`}
+            className={`pr-[50%] ${fonts.linkcolor} ${styles.link}`}
             style={{ whiteSpace: "nowrap" }}
-            href="aboutUs"
+            href="/aboutUs"
           >
             About us
           </Link>
           <Link
-            className={`pr-[12%] ${fonts.linkcolor} ${styles.link}`}
+            className={`pr-[50%] ${fonts.linkcolor} ${styles.link}`}
             href=""
           >
             Contact
@@ -94,7 +139,7 @@ const Header = () => {
         </div>
 
         {/* Contacts */}
-        <div className="flex flex-col pl-[15%] py-[36px] ">
+        <div className="flex flex-col pl-[55%] py-[36px] ">
           <Link
             className={`pb-3 ${fonts.linkcolor} ${styles.link}`}
             href="tel:18005339263"
@@ -114,3 +159,4 @@ const Header = () => {
 };
 
 export default Header;
+
