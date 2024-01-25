@@ -12,36 +12,42 @@ import styles from "./services.module.scss";
 import fonts from "../fonts/fonts.module.scss";
 
 const Services = () => {
-  const [isSubMenuVisible, setIsSubMenuVisible] = useState(false);
+  const [isSubMenuServices, setIsSubMenuServices] = useState(false);
+  const [isSubMenuResidencial, setIsSubMenuResidencial] = useState(false);
+  const [isHovered, setIsHovered] = useState(false);
 
   const handleOnClick = () => {
-    setIsSubMenuVisible(!isSubMenuVisible);
+    setIsSubMenuServices(!isSubMenuServices);
+    setIsSubMenuResidencial(!isSubMenuResidencial)
   };
 
-  const handleOnMouseEnter = () => {
-    setIsSubMenuVisible(true);
+  const handleOnMouseEnterServices = () => {
+    setIsSubMenuServices(true);
+    
+  };
+  const handleOnMouseEnterResidancial = () => {   
+    setIsSubMenuResidencial(true);
   };
 
-  const handleOnMouseLeave = () => {
-    setIsSubMenuVisible(false);
+  const handleOnMouseLeaveServises = () => {   
+    setIsSubMenuServices(false);
+  }
+  const handleOnMouseLeaveResidancial = () => {
+    setIsSubMenuResidencial(false);
+    
   }
 
   return (
     <>
       <ul className="my-[120px] layout">
         <li className={`${styles.list} ${styles.navLink}`}
-         onMouseEnter={handleOnMouseEnter}
-         onMouseLeave={handleOnMouseLeave}
-        >
-          <Image
-            src={commercials}
-            alt="commercials"
-            className={styles.listImg}
-          />
+         onMouseEnter={handleOnMouseEnterServices}
+         onMouseLeave={handleOnMouseLeaveServises}
+        >        
           <Link
             onClick={handleOnClick}
             href="services"
-            className={`${fonts.prodPageHeroTitle} ${styles.listTitle} `}
+            className={`${fonts.prodPageHeroTitle} ${styles.listTitleServices} `}
           >
             Services
             <Image
@@ -49,14 +55,14 @@ const Services = () => {
               alt="arrow"
               width={46}
               height={46}
-              className={`mt-[4px] ${styles.arrow}`}
+              className={` mt-[4px] ${styles.arrow}`}
             />
           </Link>
 
-          {isSubMenuVisible && (
-            <ul className={`${styles.subNavLink}`}>
+          {isSubMenuServices && (
+            <ul className={`${styles.subNavLink} ${isHovered ? styles.hovered : ''}`}>
               <li className={styles.subNavLinkItems}>
-                <Link href="#">Menu-1</Link>
+                <Link href="/services/lightening">Lighting</Link>
               </li>
               <li className={styles.subNavLinkItems}>
                 <Link href="#">Menu-2</Link>
@@ -72,13 +78,11 @@ const Services = () => {
         </li>
 
 
-        <li className={`${styles.list} my-[40px]`}>
-          <Image
-            src={residencial}
-            alt="residencial"
-            className={styles.listImg}
-          />
-          <p className={`${fonts.prodPageHeroTitle} ${styles.listTitle} `}>
+        <li className={`${styles.list} ${styles.navLink} my-[40px]`}
+         onMouseEnter={handleOnMouseEnterResidancial}
+         onMouseLeave={handleOnMouseLeaveResidancial}>
+       
+          <Link href="#" className={`${fonts.prodPageHeroTitle} ${styles.listTitleResidencial} `}>
             Residencial
             <Image
               src={arrow}
@@ -87,15 +91,29 @@ const Services = () => {
               height={46}
               className={`mt-[4px] ${styles.arrow}`}
             />
-          </p>
+          </Link>
+          {isSubMenuResidencial && (
+            <ul className={`${styles.subNavLink} ${isHovered ? styles.hovered : ''}`}>
+              <li className={styles.subNavLinkItems}>
+                <Link href="/services/lightening">Lighting</Link>
+              </li>
+              <li className={styles.subNavLinkItems}>
+                <Link href="#">Menu-2</Link>
+              </li>
+              <li className={styles.subNavLinkItems}>
+                <Link href="#">Menu-3</Link>
+              </li>
+              <li className={styles.subNavLinkItems}>
+                <Link href="#">Menu-4</Link>
+              </li>
+            </ul>
+          )}
         </li>
+
+
         <li className={`${styles.list}`}>
-          <Image
-            src={automations}
-            alt="coautomationsmrcials"
-            className={styles.listImg}
-          />
-          <p className={`${fonts.prodPageHeroTitle} ${styles.listTitle} `}>
+         
+          <Link href="" className={`${fonts.prodPageHeroTitle} ${styles.listTitleSmart} `}>
             Smart Automations
             <Image
               src={arrow}
@@ -104,7 +122,7 @@ const Services = () => {
               height={46}
               className={`mt-[4px] ${styles.arrow}`}
             />
-          </p>
+          </Link>
         </li>
       </ul>
     </>

@@ -30,35 +30,36 @@
 }
 
 .navLink:hover .subNavLink {
-  max-height: -moz-fit-content;
-  max-height: fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
   overflow: visible;
   transition: 400ms;
 }
 
 .subNavLink {
-  max-height: 0;
+  height: 0;
   position: absolute;
   width: -moz-fit-content;
   width: fit-content;
   z-index: 1;
   padding: 10px;
+  top: 100%;
+  background-color: #fff;
 }
 
-.subNavLink a {
+.subNavLink {
   display: block;
   color: #45372e;
   text-decoration: none;
   padding: 8px 0;
 }
 
-.subNavLink a:hover {
+.subNavLink:hover {
   color: #39b54a;
 }
 
-.subNavLink:hover,
-.subNavLink:focus {
-  max-height: -moz-fit-content;
-  max-height: fit-content;
+.subNavLink:hover {
+  height: -moz-fit-content;
+  height: fit-content;
   overflow: visible;
 }/*# sourceMappingURL=services.module.css.map */
