@@ -3,30 +3,59 @@
     width: 100%;
     height: 163px;
     position: relative;
-}
-
-.listImg { 
+  }
+  
+  .listImg {
     display: flex;
     width: 100vw;
     height: 163px;
     position: relative;
-}
-
-.listTitle {
+  }
+  
+  .listTitle {
     display: flex;
-    flex-direction: row;    
+    flex-direction: row;
     position: absolute;
     top: 30%;
     left: 4%;
-}
-
-.listTitle:hover .arrow {
+  }
+  
+  .listTitle:hover {
+    color: #39b54a;
+  }
+  
+  .listTitle:hover .arrow {
     transform: rotate(180deg);
     transition: transform 0.2s ease;
-}
-
-// .arrow:hover {
-//     transform: rotate(180deg);
-//     transition: transform 0.2s ease;
-// }
-
+  }
+  
+  .navLink:hover .subNavLink {
+    max-height: fit-content;
+    overflow: visible;
+    transition: 400ms;
+  }
+  
+  .subNavLink {
+    max-height: 0;
+    position: absolute;
+    width: fit-content;
+    z-index: 1;
+    padding: 10px;
+  }
+  
+  .subNavLink a {
+    display: block;
+    color: #45372e;
+    text-decoration: none;
+    padding: 8px 0;
+  }
+  
+  .subNavLink a:hover {
+    color: #39b54a;
+  }
+  
+  .subNavLink:hover,
+  .subNavLink:focus {
+    max-height: fit-content;
+    overflow: visible;
+  }
