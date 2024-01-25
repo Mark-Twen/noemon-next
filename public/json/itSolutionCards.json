@@ -1,0 +1,30 @@
+[
+    {
+        "name": "itDesign",
+        "title": "IT Design",
+        "text": "Step into a world where technology seamlessly blends with elegance through our IT design solutions. At Neomon we specialize in crafting intelligent and aesthetically pleasing IT designs for your smart home. Our designs go beyond functionality, creating a visual synergy between technology and interior aesthetics. From discreetly integrated smart devices to thoughtfully organized network setups, our IT designs ensure a harmonious balance between cutting-edge innovation and stylish living.",
+        "image":"/img/itSolution/cards/itDesign.png",
+        "type": "itDesign"
+    },
+    {
+        "name": "integrareStructure",
+        "title": "Integrated Structured Wiring",
+        "text": "Experience the pinnacle of connectivity with Noemon's Integrated Structured Wiring solutions. Our expertise lies in seamlessly weaving the digital fabric of your smart home, ensuring every device, system, and room is intelligently interconnected. With precision and foresight, our structured wiring services provide the backbone for a seamlessly integrated living experience. From lighting and security to entertainment and climate control, Noemon transforms your home into a harmonious ecosystem where every component is connected with purpose. Elevate your living spaces with the power of structured wiring, where technology becomes a silent and efficient enabler of your smart home lifestyle.",
+        "image":"/img/itSolution/cards/integrareStructure.png",
+        "type": "integrareStructure"
+    },
+    {
+        "name": "netWorking",
+        "title": "Networking",
+        "text": "Immerse your home in the rich tapestry of sound with our Audio Distribution and Multiroom Audio Systems. At Neomon, we redefine the auditory experience, seamlessly integrating cutting-edge technology into the fabric of your living spaces. Our audio distribution solutions allow you to tailor your home's soundtrack, room by room, creating an immersive audio landscape that adapts to your lifestyle. Whether entertaining guests or seeking a moment of relaxation, our Multiroom Audio Systems provide intuitive control, ensuring your favorite music follows you seamlessly from one room to another. Elevate your home's atmosphere with Neomon, where each note is a harmonious reflection of the intelligent living experience we create.",
+        "image":"/img/itSolution/cards/netWorking.png",
+        "type": "netWorking"
+    },
+    {
+        "name": "wiFi",
+        "title": "Wi-Fi",
+        "text": "Experience the epitome of connectivity with Noemon's Wi-Fi solutions, where fast, reliable, and secure wireless networks become the heartbeat of your smart home. Our Wi-Fi expertise ensures that every corner of your living space is seamlessly covered, allowing you to enjoy uninterrupted connectivity for streaming, gaming, and smart device interactions. With cutting-edge technology and meticulous planning, Noemon crafts Wi-Fi solutions that adapt to your home's unique layout and requirements. Say goodbye to dead zones and connectivity issues as we transform your home into a space where strong and dependable Wi-Fi is not just a feature but an integral part of your modern, connected lifestyle.",
+        "image":"/img/itSolution/cards/wiFi.png",
+        "type": "wiFi"
+    }
+]

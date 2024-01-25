@@ -27,4 +27,26 @@
         "text": "are the silent champions of a greener tomorrow. These sleek, high-tech marvels fuel electric vehicles, blending seamlessly into our lives while revolutionizing how we power our journeys. Noemon Canada provides large-scale planning, development, management and maintenance of charging infrastructure to support electric vehicle fleets.",
         "type": "evCharges"
     }
+    ,
+    {
+        "name": "Security",
+        "title": "",
+        "greenText": "Security systems",
+        "text": " for homes and businesses are the modern guardians of peace and protection. They encompass a sophisticated network of cameras, sensors, and alarms, tirelessly watching over premises day and night. From deterring intruders to providing real-time alerts, these systems offer a sense of safety, empowering residents and business owners with proactive defense against potential threats.",
+        "type": "Security"
+    },
+    {
+        "name": "av",
+        "title": "Harmony Unleashed: Elevate Your Space with AV Brilliance.",
+        "greenText": "",
+        "text": "Step into a realm of unparalleled audiovisual sophistication with our Smart Systems designed for both home and office at Neomon. Our audiovisual solutions seamlessly integrate cutting-edge technology into your spaces, transforming them into immersive environments that cater to both work and leisure. Whether it's a dynamic home theater experience or a state-of-the-art conference room setup, our Smart Systems provide intuitive control and unparalleled performance. With a commitment to seamless integration and tailored design, we redefine the way you experience entertainment and collaboration. Elevate your surroundings with Neomon Solutions, where every visual and auditory detail is a testament to our dedication to intelligent and inspiring living and working spaces.",
+        "type": "av"
+    },
+    {
+        "name": "it",
+        "title": "Empower Your Home: Seamless IT Solutions, Smarter Living",
+        "greenText": "",
+        "text": "Welcome to a realm of seamless connectivity and intelligent design with our comprehensive IT solutions tailored for both home and office environments. At Neomon Innovations, we specialize in crafting bespoke IT designs that seamlessly integrate cutting-edge technology into the fabric of your living and working spaces. From smart home networks and security systems to optimized office IT infrastructure, our solutions are meticulously designed to enhance efficiency, security, and connectivity. Experience the synergy of innovation and practicality as we transform your home and office into technologically advanced and intuitively connected environments. Elevate your digital experience with Neomon Innovations, where every solution is crafted to empower and simplify your tech-driven lifestyle.",
+        "type": "it"
+    }
 ]
