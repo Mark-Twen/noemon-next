@@ -1,0 +1,23 @@
+[
+    {
+        "name": "videoTablet",
+        "title": "Wiring Installation",
+        "text": "An alarm system is the heartbeat of security, a technological fortress ensuring peace of mind. With sensors tuned to detect the slightest disturbance, it stands as a vigilant shield, ready to sound the alarm and deter potential threats. Seamlessly integrated into homes and businesses, it's the unwavering protector, offering a sense of safety in an ever-evolving world. An alarm system stands as a vigilant guardian, tirelessly protecting homes and businesses",
+        "image":"/img/security/cards/videoTablet.png",
+        "type": "videoTablet"
+    },
+    {
+        "name": "accessTablet",
+        "title": "Home Access Products",
+        "text": "Home access products redefine convenience and security, offering seamless entry solutions for modern living. From smart locks that grant keyless access to video doorbells providing remote monitoring, these products bridge the gap between safety and convenience. They transform houses into connected havens, where control and peace of mind are just a tap away.",
+        "image":"/img/security/cards/accessTablet.png",
+        "type": "accessTablet"
+    },
+    {
+        "name": "cctv",
+        "title": "CCTV / Cameras",
+        "text": "Enhancing security and vigilance, CCTV cameras stand as silent sentinels, monitoring and safeguarding spaces around the clock. From deterring potential threats to providing invaluable evidence, these unblinking eyes offer peace of mind and an extra layer of protection in our increasingly connected world. Today, property owners everywhere utilize CCTV technology for their safety and peace of mind.",
+        "image":"/img/security/cards/cctv.png",
+        "type": "cctv"
+    }
+]

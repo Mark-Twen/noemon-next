@@ -1,0 +1,23 @@
+[
+    {
+        "name": "meetingRoom",
+        "title": "Meeting Rooms",
+        "text": "Transform your business interactions with our cutting-edge Meeting Room solutions, where innovation meets functionality seamlessly. At Neomon, we specialize in crafting intelligent meeting spaces that elevate collaboration and productivity. Our state-of-the-art technology seamlessly integrates with your smart office ecosystem, offering intuitive controls for lighting, audiovisual systems, and conferencing solutions. Whether it's an important client presentation or a virtual team meeting, our Meeting Room setups provide an immersive environment where every detail is optimized for seamless communication. Step into the future of corporate collaboration with Neomon , where intelligent meeting spaces redefine the way business gets done.",
+        "image":"/img/av/cards/meetingRoom.png",
+        "type": "meetingRoom"
+    },
+    {
+        "name": "soundSystem",
+        "title": "Multi Room Sound System",
+        "text": "Elevate your home's ambiance with our Multi-Room Sound System. We specialize in creating a harmonious living experience by seamlessly integrating advanced sound technology into every corner of your home. Our Multi-Room Sound System offers a symphony of possibilities, allowing you to curate the perfect soundtrack for each room or synchronize melodies throughout your entire living space. With intuitive controls at your fingertips, you can effortlessly manage volume levels and music selection, creating a seamless and personalized audio journey. Experience the fusion of cutting-edge sound technology and smart home convenience with Neomon, where each room becomes a stage for your life's soundtrack.",
+        "image":"/img/av/cards/soundSystem.png",
+        "type": "soundSystem"
+    },
+    {
+        "name": "audioSystem",
+        "title": "Audio Distribuson, Multiroom Audio Systems",
+        "text": "Immerse your home in the rich tapestry of sound with our Audio Distribution and Multiroom Audio Systems. At Neomon, we redefine the auditory experience, seamlessly integrating cutting-edge technology into the fabric of your living spaces. Our audio distribution solutions allow you to tailor your home's soundtrack, room by room, creating an immersive audio landscape that adapts to your lifestyle. Whether entertaining guests or seeking a moment of relaxation, our Multiroom Audio Systems provide intuitive control, ensuring your favorite music follows you seamlessly from one room to another. Elevate your home's atmosphere with Neomon, where each note is a harmonious reflection of the intelligent living experience we create.",
+        "image":"/img/av/cards/audioSystem.png",
+        "type": "audioSystem"
+    }
+]

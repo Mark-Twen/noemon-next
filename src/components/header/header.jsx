@@ -70,7 +70,7 @@ const Header = () => {
                   </li>
                   <li className={`py-[12px]`}>
                     <Link
-                      href="#"
+                      href="/services/security"
                       className={`${styles.servicesLink}`}
                       style={{ whiteSpace: "nowrap" }}
                     >
@@ -79,7 +79,7 @@ const Header = () => {
                   </li>
                   <li className={`py-[12px]`}>
                     <Link
-                      href="#"
+                      href="/services/av"
                       className={`${styles.servicesLink}`}
                       style={{ whiteSpace: "nowrap" }}
                     >
