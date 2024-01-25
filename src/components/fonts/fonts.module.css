@@ -177,6 +177,15 @@
   color: #39b54a;
 }
 
+.logonGreenText {
+  color: #39B54A;
+  font-family: Be Vietnam Pro;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+
 .neomonInfo {
   font-family: Be Vietnam Pro;
   font-size: 24px;

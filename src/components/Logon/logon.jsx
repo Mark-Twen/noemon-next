@@ -15,7 +15,7 @@ const Logon = ({type}) => {
         {filterData.map((item) => (          
             <div key={item.name}>
               <h1 className={`${fonts.logoTitle} pt-[120px] pb-[24px] pl-[80px]`}>{item.title}</h1>
-              <p className={`${fonts.callExpertText} w-[1700px] pl-[80px]`}>{item.text}</p>     
+              <p className={`${fonts.callExpertText} w-[1700px] pl-[80px]`}><span className={`${fonts.logonGreenText}`}>{item.greenText}</span> {item.text}</p>     
               <Btn />        
             </div>
           ))

@@ -1,0 +1,30 @@
+[
+    {
+        "name": "chargerInstallation",
+        "title": "Charger Installation",
+        "text": "EV Charging Installers of Noemon Canada provides top-of-the-line electric vehicle charging stations along with high quality installations to home and business owners. Our professionals can provide you with high quality EV charging station installations and excellent products whether you're interested in installing an electric car charger at your home or at a commercial property.",
+        "image": "/img/evChargers/cards/chargerInstallation.png",
+        "type": "chargerInstallation"
+    },
+    {
+        "name": "wirlingInstallationCar",
+        "title": "Wiring Installation",
+        "text": "Wiring is an important task in any building. Precision meets power in wiring installation, where every connection sparks a network's vitality. From meticulously threading cables to orchestrating complex systems, skilled hands sculpt the nervous system of modern technology. Each wire is a lifeline, seamlessly weaving homes and businesses into a symphony of seamless connectivity and functionality.",
+        "image": "/img/evChargers/cards/wirlingInstallationCar.png",
+        "type": "wirlingInstallationCar"
+    },
+    {
+        "name": "evStation",
+        "title": "Commercial EV Charging Stations",
+        "text": "Commercial EV charging stations epitomize progress in mobility and sustainability for businesses. These hubs are more than power sources; they're catalysts for change, enticing eco-conscious consumers and supporting a greener future. Noemon Canada provides large-scale planning, development, management and maintenance of charging infrastructure to support electric vehicle fleets.",
+        "image": "/img/evChargers/cards/evStation.png",
+        "type": "evStation"
+    },
+    {
+        "name": "wiringInstallation",
+        "title": "Wiring Installation",
+        "text": "Designing EV charger infrastructure encapsulates a visionary blend of innovation and practicality. It's about architecting solutions that harmonize with urban landscapes, seamlessly integrating charging stations into the fabric of our cities. Every blueprint and layout aims to create accessible, efficient networks, fostering a future where electric vehicles reign and sustainability becomes second nature",
+        "image": "/img/evChargers/cards/wiringInstallation.png",
+        "type": "wiringInstallation"
+    }
+]

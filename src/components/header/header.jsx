@@ -61,7 +61,7 @@ const Header = () => {
                   </li>
                   <li className={`py-[12px]`}>
                     <Link
-                      href="#"
+                      href="/services/evCharges"
                       className={`${styles.servicesLink}`}
                       style={{ whiteSpace: "nowrap" }}
                     >
@@ -139,7 +139,7 @@ const Header = () => {
         </div>
 
         {/* Contacts */}
-        <div className="flex flex-col pl-[55%] py-[36px] ">
+        <div className="flex flex-col pl-[45%] py-[36px] ">
           <Link
             className={`pb-3 ${fonts.linkcolor} ${styles.link}`}
             href="tel:18005339263"
