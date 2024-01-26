@@ -3,10 +3,9 @@ import Image from "next/image";
 import { useState } from "react";
 import Link from "next/link";
 
-import commercials from "../../../public/img/services/commercial.png";
-import residencial from "../../../public/img/services/residencial.png";
-import automations from "../../../public/img/services/automations.png";
+
 import arrow from "../../../public/icon/arrowDawn.png";
+import ArrowPoint from "./arrow"
 
 import styles from "./services.module.scss";
 import fonts from "../fonts/fonts.module.scss";
@@ -44,18 +43,22 @@ const Services = () => {
   };
 
   const handleOnMouseLeaveServices = () => {
-    setLeaveTimeout(setTimeout(() => setIsSubMenuServices(false), 2000));
+    setLeaveTimeout(setTimeout(() => setIsSubMenuServices(false), 5000));
   };;
   const handleOnMouseLeaveResidancial = () => {
-    setLeaveTimeout(setTimeout(() => setIsSubMenuResidencial(false), 2000));
+    setLeaveTimeout(setTimeout(() => setIsSubMenuResidencial(false), 5000));
   };
 
   const handleOnMouseLeaveAutomation = () => {
-    setLeaveTimeout(setTimeout(() => setIsSubMenuAuto(false), 2000));
+    setLeaveTimeout(setTimeout(() => setIsSubMenuAuto(false), 5000));
   };
 
   return (
     <>
+<div>
+  <h1 className={`${fonts.advantagesTitle} mt-[120px]`}>Our Services</h1>
+</div>
+
       <ul className="my-[120px] layout">
         <li
           className={`${styles.list} ${styles.navLink}`}
@@ -79,42 +82,42 @@ const Services = () => {
         </li>
         {isSubMenuServices && (
           <ul
-            className={`${styles.subNavLink}`}
+            className={`flex flex-col  w-[screen]}`}
             onMouseEnter={handleOnMouseEnterServices}
             onMouseLeave={handleOnMouseLeaveServices}
           >
-            <li className={styles.subNavLinkItems}>
-              <Link href="/services/lightening">Lighting</Link>
+            <li className={`w-[100%] py-[12px] text-start border-b-[1px] border-[#39b54a]`}>
+              <Link className={`${fonts.servicesText} ml-[45%] flex`} href="/services/lightening">Lighting<ArrowPoint/></Link>
             </li>
-            <li className={styles.subNavLinkItems}>
-              <Link href="">EV Chargers</Link>
+            <li className={` py-[12px] text-start border-b-[1px] border-[#39b54a]`}>
+              <Link className={`${fonts.servicesText} ml-[45%] flex `} href="">EV Chargers<ArrowPoint/></Link>
             </li>
-            <li className={styles.subNavLinkItems}>
-              <Link href="#">Electric Services / Maintenance / Upgrading</Link>
+            <li className={` py-[12px] text-start border-b-[1px] border-[#39b54a]`}>
+              <Link className={`${fonts.servicesText} ml-[45%] flex `} href="#">Electric Services / Maintenance / Upgrading<ArrowPoint /></Link>
             </li>
-            <li className={styles.subNavLinkItems}>
-              <Link href="#">Automation</Link>
+            <li className={` py-[12px] text-start border-b-[1px] border-[#39b54a]`}>
+              <Link className={`${fonts.servicesText} ml-[45%] flex `} href="#">Automation<ArrowPoint /></Link>
             </li>
-            <li className={styles.subNavLinkItems}>
-              <Link href="#">IT Solutions / Networking / Wi-Fi</Link>
+            <li className={` py-[12px] text-start border-b-[1px] border-[#39b54a]`}>
+              <Link className={`${fonts.servicesText} ml-[45%] flex`} href="#">IT Solutions / Networking / Wi-Fi<ArrowPoint /></Link>
             </li>
-            <li className={styles.subNavLinkItems}>
-              <Link href="#"> Conference Room</Link>
+            <li className={` py-[12px] text-start border-b-[1px] border-[#39b54a]`}>
+              <Link className={`${fonts.servicesText} ml-[45%] flex `} href="#"> Conference Room<ArrowPoint /></Link>
             </li>
-            <li className={styles.subNavLinkItems}>
-              <Link href="#">LED Lights Maintenance</Link>
+            <li className={` py-[12px] text-start border-b-[1px] border-[#39b54a]`}>
+              <Link className={`${fonts.servicesText} ml-[45%] flex `} href="#">LED Lights Maintenance<ArrowPoint /></Link>
             </li>
-            <li className={styles.subNavLinkItems}>
-              <Link href="#">Access Control</Link>
+            <li className={` py-[12px] text-start border-b-[1px] border-[#39b54a]`}>
+              <Link className={`${fonts.servicesText} ml-[45%]  flex`} href="#">Access Control<ArrowPoint /></Link>
             </li>
-            <li className={styles.subNavLinkItems}>
-              <Link href="#">Audio Visual</Link>
+            <li className={` py-[12px] text-start border-b-[1px] border-[#39b54a]`}>
+              <Link className={`${fonts.servicesText} ml-[45%] flex `} href="#">Audio Visual<ArrowPoint /></Link>
             </li>
-            <li className={styles.subNavLinkItems}>
-              <Link href="#">Security</Link>
+            <li className={` py-[12px] text-start border-b-[1px] border-[#39b54a]`}>
+              <Link className={`${fonts.servicesText} ml-[45%] flex `} href="#">Security<ArrowPoint /></Link>
             </li>
-            <li className={styles.subNavLinkItems}>
-              <Link href="#"> Temperature Control</Link>
+            <li className={` py-[12px] text-start border-b-[1px] border-[#39b54a]`}>
+              <Link className={`${fonts.servicesText} ml-[45%] flex `} href="#"> Temperature Control<ArrowPoint /></Link>
             </li>
           </ul>
         )}
@@ -140,36 +143,36 @@ const Services = () => {
         </li>
         {isSubMenuResidencial && (
           <ul
-            className={`${styles.subNavLink}`}
+          className={`flex flex-col  w-[screen]}`}
             onMouseEnter={handleOnMouseEnterResidancial}
             //  onMouseLeave={handleOnMouseLeaveResidancial}
           >
-            <li className={styles.subNavLinkItems}>
-              <Link href="/services/lightening">Custom Home Automation</Link>
+            <li className={` w-[100%] py-[12px] text-start border-b-[1px] border-[#39b54a]`}>
+              <Link className={`${fonts.servicesText} ml-[45%] flex `} href="/services/lightening">Custom Home Automation<ArrowPoint/></Link>
             </li>
-            <li className={styles.subNavLinkItems}>
-              <Link href="">EV Security</Link>
+            <li className={` py-[12px] text-start border-b-[1px] border-[#39b54a]`}>
+              <Link className={`${fonts.servicesText} ml-[45%] flex `} href="">EV Security<ArrowPoint/></Link>
             </li>
-            <li className={styles.subNavLinkItems}>
-              <Link href="#">IT Solutions / EV Chargers</Link>
+            <li className={` py-[12px] text-start border-b-[1px] border-[#39b54a]`}>
+              <Link className={`${fonts.servicesText} ml-[45%] flex `} href="#">IT Solutions / EV Chargers<ArrowPoint/></Link>
             </li>
-            <li className={styles.subNavLinkItems}>
-              <Link href="#">Home Cinema or Home Theater</Link>
+            <li className={` py-[12px] text-start border-b-[1px] border-[#39b54a]`}>
+              <Link className={`${fonts.servicesText} ml-[45%] flex `} href="#">Home Cinema or Home Theater<ArrowPoint/></Link>
             </li>
-            <li className={styles.subNavLinkItems}>
-              <Link href="#">Electrical Design / Study</Link>
+            <li className={` py-[12px] text-start border-b-[1px] border-[#39b54a]`}>
+              <Link className={`${fonts.servicesText} ml-[45%] flex `} href="#">Electrical Design / Study<ArrowPoint/></Link>
             </li>
-            <li className={styles.subNavLinkItems}>
-              <Link href="#">Integrated Structured Wiring</Link>
+            <li className={` py-[12px] text-start border-b-[1px] border-[#39b54a]`}>
+              <Link className={`${fonts.servicesText} ml-[45%] flex `} href="#">Integrated Structured Wiring<ArrowPoint/></Link>
             </li>
-            <li className={styles.subNavLinkItems}>
-              <Link href="#">Multi room Sound System</Link>
+            <li className={` py-[12px] text-start border-b-[1px] border-[#39b54a]`}>
+              <Link className={`${fonts.servicesText}  ml-[45%] flex `} href="#">Multi room Sound System<ArrowPoint/></Link>
             </li>
-            <li className={styles.subNavLinkItems}>
-              <Link href="#">Temperature Control</Link>
+            <li className={` py-[12px] text-start border-b-[1px] border-[#39b54a]`}>
+              <Link className={`${fonts.servicesText} ml-[45%] flex `} href="#">Temperature Control<ArrowPoint/></Link>
             </li>
-            <li className={styles.subNavLinkItems}>
-              <Link href="#">Audio Visual</Link>
+            <li className={` py-[12px] text-start border-b-[1px] border-[#39b54a]`}>
+              <Link className={`${fonts.servicesText} ml-[45%] flex `} href="#">Audio Visual<ArrowPoint/></Link>
             </li>
           </ul>
         )}
@@ -195,36 +198,36 @@ const Services = () => {
         </li>
         {isSubMenuAuto && (
           <ul
-            className={`${styles.subNavLink}`}
+          className={`flex flex-col w-[screen]}`}
             onMouseEnter={handleOnMouseEnterAutomation}
              onMouseLeave={handleOnMouseLeaveAutomation}
           >
-            <li className={styles.subNavLinkItems}>
-              <Link href="/services/lightening">Custom Home Automation</Link>
+            <li className={` py-[12px] text-start border-b-[1px] border-[#39b54a]`}>
+              <Link className={`${fonts.servicesText} ml-[45%] flex`} href="/services/lightening">Custom Home Automation<ArrowPoint/></Link>
             </li>
-            <li className={styles.subNavLinkItems}>
-              <Link href="">EV Security</Link>
+            <li className={` py-[12px] text-start border-b-[1px] border-[#39b54a]`}>
+              <Link className={`${fonts.servicesText} ml-[45%] flex `} href="">EV Security<ArrowPoint/></Link>
             </li>
-            <li className={styles.subNavLinkItems}>
-              <Link href="#">IT Solutions / EV Chargers</Link>
+            <li className={` py-[12px] text-start border-b-[1px] border-[#39b54a]`}>
+              <Link className={`${fonts.servicesText} ml-[45%] flex `} href="#">IT Solutions / EV Chargers<ArrowPoint/></Link>
             </li>
-            <li className={styles.subNavLinkItems}>
-              <Link href="#">Home Cinema or Home Theater</Link>
+            <li className={` py-[12px] text-start border-b-[1px] border-[#39b54a]`}>
+              <Link className={`${fonts.servicesText} ml-[45%] flex `} href="#">Home Cinema or Home Theater<ArrowPoint/></Link>
             </li>
-            <li className={styles.subNavLinkItems}>
-              <Link href="#">Electrical Design / Study</Link>
+            <li className={` py-[12px] text-start border-b-[1px] border-[#39b54a]`}>
+              <Link className={`${fonts.servicesText} ml-[45%] flex `} href="#">Electrical Design / Study<ArrowPoint/></Link>
             </li>
-            <li className={styles.subNavLinkItems}>
-              <Link href="#">Integrated Structured Wiring</Link>
+            <li className={` py-[12px] text-start border-b-[1px] border-[#39b54a]`}>
+              <Link className={`${fonts.servicesText} ml-[45%] flex `} href="#">Integrated Structured Wiring<ArrowPoint/></Link>
             </li>
-            <li className={styles.subNavLinkItems}>
-              <Link href="#">Multi room Sound System</Link>
+            <li className={` py-[12px] text-start border-b-[1px] border-[#39b54a]`}>
+              <Link className={`${fonts.servicesText} ml-[45%] flex `} href="#">Multi room Sound System<ArrowPoint/></Link>
             </li>
-            <li className={styles.subNavLinkItems}>
-              <Link href="#">Temperature Control</Link>
+            <li className={` py-[12px] text-start border-b-[1px] border-[#39b54a]`}>
+              <Link className={`${fonts.servicesText} ml-[45%] flex `} href="#">Temperature Control<ArrowPoint/></Link>
             </li>
-            <li className={styles.subNavLinkItems}>
-              <Link href="#">Audio Visual</Link>
+            <li className={` py-[12px] text-start border-b-[1px] border-[#39b54a]`}>
+              <Link className={`${fonts.servicesText} ml-[45%]  flex`} href="#">Audio Visual<ArrowPoint/></Link>
             </li>
           </ul>
         )}
