@@ -20,7 +20,8 @@
 .link:hover .arrow {
   transform: rotate(180deg);
 }
-/* .link:hover .serviceList {
+
+.serviceList {
   display: flex;
   flex-direction: column;
   position: absolute;
@@ -30,21 +31,4 @@
   width: -moz-fit-content;
   width: fit-content;
   padding: 20px;
-  z-index: 100;
-  background-color: #282828;
-} */
-
-/* .serviceList:active {
-  display: flex;
-  flex-direction: column;
-  position: absolute;
-  top: 25px;
-  left: 50px;
-  background-color: #fff;
-  width: -moz-fit-content;
-  width: fit-content;
-  padding: 20px;
-  z-index: 100;
-  background-color: #282828;
-} */
-
+}/*# sourceMappingURL=header.module.css.map */

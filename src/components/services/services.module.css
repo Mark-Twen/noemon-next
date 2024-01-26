@@ -1,65 +1,63 @@
-.list {
-  display: flex;
-  width: 100%;
-  height: 163px;
-  position: relative;
-}
-
-.listImg {
-  display: flex;
-  width: 100vw;
-  height: 163px;
-  position: relative;
-}
-
-.listTitle {
+.listTitleServices, .listTitleResidencial, .listTitleSmart {
   display: flex;
   flex-direction: row;
-  position: absolute;
-  top: 30%;
-  left: 4%;
+  width: 100%;
+  padding: 50px 60px 60px 60px;
+  text-align: start;
+  height: -moz-fit-content;
+  height: fit-content;
 }
 
-.listTitle:hover {
+.listTitleServices {
+  background-image: url(../../../public//img/services/commercial.png);
+}
+
+.listTitleResidencial {
+  background-image: url(../../../public//img/services/residencial.png);
+}
+
+.listTitleSmart {
+  background-image: url(../../../public//img/services/automations.png);
+}
+
+.listTitleServices:hover, .listTitleResidencial:hover, .listTitleSmart:hover {
   color: #39b54a;
 }
 
-.listTitle:hover .arrow {
+.listTitleServices:hover .arrow, .listTitleResidencial:hover .arrow, .listTitleSmart:hover .arrow {
   transform: rotate(180deg);
-  transition: transform 0.2s ease;
+  transition: transform 0.4s ease;
 }
 
 .navLink:hover .subNavLink {
   height: -moz-fit-content;
   height: fit-content;
   overflow: visible;
-  transition: 400ms;
+  transition: 600ms;
 }
 
 .subNavLink {
-  height: 0;
-  position: absolute;
+  display: flex;
+  height: 100%;
   width: -moz-fit-content;
   width: fit-content;
   z-index: 1;
-  padding: 10px;
-  top: 100%;
   background-color: #fff;
-}
-
-.subNavLink {
+  justify-content: start;
   display: block;
   color: #45372e;
   text-decoration: none;
-  padding: 8px 0;
 }
 
 .subNavLink:hover {
-  color: #39b54a;
-}
-
-.subNavLink:hover {
-  height: -moz-fit-content;
-  height: fit-content;
+  height: 100%;
   overflow: visible;
+}
+
+.subNavLinkItems {
+  color: black;
+}
+
+.subNavLinkItems:hover {
+  color: #39b54a;
 }/*# sourceMappingURL=services.module.css.map */

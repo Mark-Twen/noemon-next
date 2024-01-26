@@ -140,6 +140,19 @@
   color: #3c4043;
 }
 
+.servicesText {
+  font-family: Be Vietnam Pro;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 23px;
+  color: #3c4043;
+}
+
+.servicesText:hover {
+  color: #39B54A;
+}
+
 .logonTitleName {
   font-family: Be Vietnam Pro;
   font-size: 24px;
