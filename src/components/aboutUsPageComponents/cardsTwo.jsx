@@ -38,7 +38,7 @@ const card = () => {
           className={`${fonts.bigCardDescription}`}
           style={{ textAlign: "justify" }}
         >
-          Ultimately, our team is more than the sum of its parts. We're a
+          Ultimately, our team is more than the sum of its parts. We&apos;re a
           cohesive force, dedicated to delivering exceptional service,
           innovative solutions, and a shared vision of success for our company
           and the clients we serve.
