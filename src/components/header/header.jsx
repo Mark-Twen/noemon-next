@@ -21,7 +21,7 @@ const Header = () => {
       <section className="flex w-screen bg-[#282828] layout">
         {/* LOGO */}
         <div className="py-8 ml-[3%] ">
-          <Link href="/">
+          <Link href="mainPage">
             <Image
               src={logo}
               alt="logo"
