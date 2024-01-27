@@ -1,0 +1,3 @@
+[submodule "./neomon-ii"] 
+  path = ./neomon-ii 
+  url = git://url-of-source/
