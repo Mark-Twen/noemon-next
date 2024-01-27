@@ -4,13 +4,15 @@ import { client } from "../../utils/configSanity";
 import { PortableText } from "@portabletext/react";
 import Image from "next/image";
 
+
+
 import Hero from "../../components/productPage/prodPageHero";
 
 import { urlFor } from "../../utils/configSanity";
 
 import fonts from "../../components/fonts/fonts.module.scss";
 import styles from "../../components/cards/blockCards.module.scss";
-import { url } from "inspector";
+// import { url } from "inspector";
 
 import Logon from "../../components/Logon/logon";
 import RightBtm from "../../components/button/btnLogonRight";
@@ -103,7 +105,7 @@ async function getDataSix() {
 
   return dataSix;
 }
-const productPage = async () => {
+const ProductPage = async () => {
   const data = await getData();
   const dataTwo = await getDataTwo();
   const dataThree = await getDataThree();
@@ -112,6 +114,10 @@ const productPage = async () => {
   const dataSix = await getDataSix();
   const jbl = await getJbl();
   const perlisten = await getPerlisten();
+
+
+  
+
 
   return (
     <div className="layout">
@@ -122,7 +128,7 @@ const productPage = async () => {
       </div>
 
       {/* First big Card(JDL) {prodCardOne} */}
-      <div
+      <div id="jbl"
         className={`flex item-center justify-center w-[1710px]  mx-auto ${styles.prodCardRight}`}
       >
         {jbl?.map((item) => (
@@ -154,11 +160,14 @@ const productPage = async () => {
       </div>
 
       {/* First card block with products */}
-      <KitCardBlockOne data={data} />
+      <div id="perlisten">
+         <KitCardBlockOne data={data} />
+      </div>
+     
 
       {/*  productCard Two Perlisten */}
 
-      <div
+      <div 
         className={`w-[1770px] mt-[116px] bg-[#FFF] mx-auto ${styles.prodCard}`}
       >
         {perlisten.map((item) => (
@@ -188,30 +197,53 @@ const productPage = async () => {
       </div>
 
       {/* kitCardTwo  */}
-      <BlockCardTwo dataTwo={dataTwo} />
+      <div>
+        <BlockCardTwo dataTwo={dataTwo} />
+      </div>
+      
       {/* kitCardTwo END */}
 
-      <RightCards type="ledStrip_R" />
+          <div id="ledStrip">
+            <RightCards type="ledStrip_R" />
+          </div>
+      
 
       {/* kitCardThree */}
-      <BlockCardThree dataThree={dataThree} />
+      <div id="ledDrivers_L">
+        <BlockCardThree dataThree={dataThree} />
+      </div>
+      
 
-      <LeftCard type="ledDrivers_L" />
+          <div >
+            <LeftCard type="ledDrivers_L" />
+          </div>
+      
 
       {/* kitCardFour  */}
-      <BlockCardFour dataFour={dataFour} />
+      <div  id="ledChip_R">
+         <BlockCardFour dataFour={dataFour} />
+      </div>
+     
 
-      <RightCards type="ledChip_R" />
+      <div id="ledChip_R">
+        <RightCards type="ledChip_R" />
+      </div>
+
+      
 
       {/* kitCardFive  */}
 
       <BlockCardFive dataFive={dataFive} />
 
-      <LeftCard type="ledChannels_L" />
+      <div id="ledChannels_L">
+        <LeftCard type="ledChannels_L" />
+      </div>
+
+      
 
       <BlockCardSix dataSix={dataSix} />
     </div>
   );
 };
 
-export default productPage;
+export default ProductPage;

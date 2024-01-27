@@ -21,7 +21,7 @@ const [data, setData] = useState(list)
                     alt="icon"
                     width={160}
                     height={160}
-                    className="pt-[20px] mx-auto"
+                    className="pt-[20px] mx-auto hover:scale-110"
                     />
                     <p className={`${fonts.howIsWorkTitle} mx-auto py-[24px]`}>{item.title}</p>
                     <p className={`${fonts.howIsWorkScript} mx-auto w-[300px] h-[130px]`}>{item.script}</p>

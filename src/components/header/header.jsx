@@ -2,6 +2,8 @@
 import Image from "next/image";
 import Link from "next/link";
 import logo from "../../../public/img/logo/LOGO-4x.png";
+import phoneIcon from "../../../public/icon/Icons SM.png"
+import mailIcom from "../../../public/icon/Mail.png"
 
 import fonts from "../fonts/fonts.module.scss";
 import styles from "./header.module.scss";
@@ -38,7 +40,7 @@ const Header = () => {
         >
           <Link
             className={`flex flex-row pl-[60%] pr-[50%]  ${fonts.linkcolor} ${styles.link}`}
-            href="services"
+            href="#"
             onMouseEnter={() => setIsHover(true)}
             onMouseLeave={() => setIsHover(false)}
           >
@@ -53,7 +55,7 @@ const Header = () => {
                   <li className={`py-[12px]`}>
                     <Link
                       href="/services/lightening"
-                      className={`${styles.servicesLink}`}
+                      className={`${styles.servicesLink} ${fonts.linkcolor}`}
                       style={{ whiteSpace: "nowrap" }}
                     >
                       Lightening
@@ -62,7 +64,7 @@ const Header = () => {
                   <li className={`py-[12px]`}>
                     <Link
                       href="/services/evCharges"
-                      className={`${styles.servicesLink}`}
+                      className={`${styles.servicesLink} ${fonts.linkcolor}`}
                       style={{ whiteSpace: "nowrap" }}
                     >
                       EV Chargers
@@ -71,7 +73,7 @@ const Header = () => {
                   <li className={`py-[12px]`}>
                     <Link
                       href="/services/security"
-                      className={`${styles.servicesLink}`}
+                      className={`${styles.servicesLink} ${fonts.linkcolor}`}
                       style={{ whiteSpace: "nowrap" }}
                     >
                       Security
@@ -80,7 +82,7 @@ const Header = () => {
                   <li className={`py-[12px]`}>
                     <Link
                       href="/services/av"
-                      className={`${styles.servicesLink}`}
+                      className={`${styles.servicesLink} ${fonts.linkcolor}`}
                       style={{ whiteSpace: "nowrap" }}
                     >
                       Audio Visual
@@ -89,7 +91,7 @@ const Header = () => {
                   <li className={`py-[12px]`}>
                     <Link
                       href="/services/itSolution"
-                      className={`${styles.servicesLink}`}
+                      className={`${styles.servicesLink} ${fonts.linkcolor}`}
                       style={{ whiteSpace: "nowrap" }}
                     >
                       IT Solution
@@ -97,8 +99,8 @@ const Header = () => {
                   </li>
                   <li>
                     <Link
-                      href="#"
-                      className={`${styles.servicesLink}`}
+                      href="/services"
+                      className={`${styles.servicesLink} ${fonts.linkcolor}`}
                       style={{ whiteSpace: "nowrap" }}
                     >
                       Other Services
@@ -141,16 +143,28 @@ const Header = () => {
         {/* Contacts */}
         <div className="flex flex-col pl-[45%] py-[36px] ">
           <Link
-            className={`pb-3 ${fonts.linkcolor} ${styles.link}`}
+            className={`pb-3 ${fonts.linkcolor} ${styles.link} flex flex-row`}
             href="tel:18005339263"
           >
-            1-800-533-9263
+           <Image 
+           src={phoneIcon}
+           alt="phoneIcon"
+           width={36}
+           height={36}
+           className="pr-[5px]"
+           /> 1-800-533-9263
           </Link>
           <Link
-            className={`${fonts.linkcolor} ${styles.link}`}
+            className={`${fonts.linkcolor} ${styles.link} flex flex-row`}
             href="mailto:info@noemon.ca"
           >
-            info@noemon.ca
+            <Image 
+            src={mailIcom}
+            alt="mailIcon"
+            width={36}
+            height={36}
+            className="pr-[3px]"
+            />info@noemon.ca
           </Link>
         </div>
       </section>

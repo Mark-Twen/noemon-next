@@ -6,6 +6,7 @@ import {schemaTypes} from './schemas'
 export default defineConfig({
   name: 'default',
   title: 'neomon-ii',
+  basePath: '/constructor',
 
   projectId: 'e1sfd0ie',
   dataset: 'production',

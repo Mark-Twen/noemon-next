@@ -20,6 +20,7 @@ const SmartProducts = () => {
       <ul className={`${styles.container} mx-auto`}>
         {data.map((item) => (
           <li key={item.name} className={`${styles.list} mx-[40px] my-[40px]`}>
+            <a href={item.link}>
             <Image
               src={item.img}
               alt="image"
@@ -31,6 +32,7 @@ const SmartProducts = () => {
             <p className={`${fonts.productCardTitle} pb-[24px]`}>
               {item.title}
             </p>
+            </a>
           </li>
         ))}
 

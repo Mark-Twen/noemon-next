@@ -87,13 +87,13 @@ const Services = () => {
             onMouseLeave={handleOnMouseLeaveServices}
           >
             <li className={`w-[100%] py-[12px] text-start border-b-[1px] border-[#39b54a]`}>
-              <Link className={`${fonts.servicesText} ml-[45%] flex`} href="/services/lightening">Lighting<ArrowPoint/></Link>
+              <Link className={`${fonts.servicesText} ml-[45%] flex`} href="services/lightening">Lighting<ArrowPoint/></Link>
             </li>
             <li className={` py-[12px] text-start border-b-[1px] border-[#39b54a]`}>
-              <Link className={`${fonts.servicesText} ml-[45%] flex `} href="">EV Chargers<ArrowPoint/></Link>
+              <Link className={`${fonts.servicesText} ml-[45%] flex `} href="services/evCharges">EV Chargers<ArrowPoint/></Link>
             </li>
             <li className={` py-[12px] text-start border-b-[1px] border-[#39b54a]`}>
-              <Link className={`${fonts.servicesText} ml-[45%] flex `} href="#">Electric Services / Maintenance / Upgrading<ArrowPoint /></Link>
+              <Link className={`${fonts.servicesText} ml-[45%] flex `} href="services">Electric Services / Maintenance / Upgrading<ArrowPoint /></Link>
             </li>
             <li className={` py-[12px] text-start border-b-[1px] border-[#39b54a]`}>
               <Link className={`${fonts.servicesText} ml-[45%] flex `} href="#">Automation<ArrowPoint /></Link>

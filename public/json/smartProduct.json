@@ -2,31 +2,37 @@
     {
         "name": "jbl",
         "title": "JBL Systems",
-        "img": "/img/mainPage/smartProducts/jbl.jpg"
+        "img": "/img/mainPage/smartProducts/jbl.jpg",
+        "link": "productPage/#jbl"
     }, {
         "name": "perlisten",
         "title": "Perlisten",
-        "img": "/img/mainPage/smartProducts/perlisten.png"
+        "img": "/img/mainPage/smartProducts/perlisten.png",
+        "link": "productPage/#perlisten"
     },
     {
         "name": "ledStrip",
         "title": "LED Strip Lights",
-        "img": "/img/mainPage/smartProducts/ledStrip.png"
+        "img": "/img/mainPage/smartProducts/ledStrip.png",
+        "link": "productPage/#ledStrip"
     },
     {
         "name": "ledDtivers",
         "title": "LED Drivers",
-        "img": "/img/mainPage/smartProducts/ledDrivers.png"
+        "img": "/img/mainPage/smartProducts/ledDrivers.png",
+        "link": "productPage/#ledDrivers_L"
     },
    
     {
         "name": "ledChip",
         "title": "LED Chip",
-        "img": "/img/mainPage/smartProducts/ledChip.png"
+        "img": "/img/mainPage/smartProducts/ledChip.png",
+        "link": "productPage/#ledChip_R"
     },
     {
         "name": "ledLinear",
         "title": "LED Linear Light Channels",
-        "img": "/img/mainPage/smartProducts/ledLinear.png"
+        "img": "/img/mainPage/smartProducts/ledLinear.png",
+        "link": "productPage/#ledChannels_L"
     }
 ]
