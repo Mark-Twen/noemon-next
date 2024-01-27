@@ -9,7 +9,7 @@ import Partners from "../../components/swiper/swiperBrand"
 
 const MainPage = () => {
 return (
-   <div>
+   <div className="layout">
     <Hero />
     <HowIsWork />
     <Services />
