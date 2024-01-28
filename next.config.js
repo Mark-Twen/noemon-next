@@ -1,12 +1,13 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  images: { domains: ["cdn.sanity.io"] },
+  images: { domains: ["cdn.sanity.io"],  target: 'serverless', },
 
   webpack(config) {
     // Grab the existing rule that handles SVG imports
     const fileLoaderRule = config.module.rules.find(
       (rule) => rule.test && rule.test.test && rule.test.test('.svg')
     );
+     
 
     config.module.rules.push(
       // Reapply the existing rule, but only for svg imports ending in ?url
