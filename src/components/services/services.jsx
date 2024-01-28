@@ -93,31 +93,31 @@ const Services = () => {
               <Link className={`${fonts.servicesText} ml-[45%] flex `} href="services/evCharges">EV Chargers<ArrowPoint/></Link>
             </li>
             <li className={` py-[12px] text-start border-b-[1px] border-[#39b54a]`}>
-              <Link className={`${fonts.servicesText} ml-[45%] flex `} href="services">Electric Services / Maintenance / Upgrading<ArrowPoint /></Link>
+              <Link className={`${fonts.servicesText} ml-[45%] flex `} href="/services">Electric Services / Maintenance / Upgrading<ArrowPoint /></Link>
             </li>
             <li className={` py-[12px] text-start border-b-[1px] border-[#39b54a]`}>
-              <Link className={`${fonts.servicesText} ml-[45%] flex `} href="#">Automation<ArrowPoint /></Link>
+              <Link className={`${fonts.servicesText} ml-[45%] flex `} href="/services">Automation<ArrowPoint /></Link>
             </li>
             <li className={` py-[12px] text-start border-b-[1px] border-[#39b54a]`}>
-              <Link className={`${fonts.servicesText} ml-[45%] flex`} href="#">IT Solutions / Networking / Wi-Fi<ArrowPoint /></Link>
+              <Link className={`${fonts.servicesText} ml-[45%] flex`} href="/services/itSolution">IT Solutions / Networking / Wi-Fi<ArrowPoint /></Link>
             </li>
             <li className={` py-[12px] text-start border-b-[1px] border-[#39b54a]`}>
-              <Link className={`${fonts.servicesText} ml-[45%] flex `} href="#"> Conference Room<ArrowPoint /></Link>
+              <Link className={`${fonts.servicesText} ml-[45%] flex `} href="/services"> Conference Room<ArrowPoint /></Link>
             </li>
             <li className={` py-[12px] text-start border-b-[1px] border-[#39b54a]`}>
-              <Link className={`${fonts.servicesText} ml-[45%] flex `} href="#">LED Lights Maintenance<ArrowPoint /></Link>
+              <Link className={`${fonts.servicesText} ml-[45%] flex `} href="services/lightening">LED Lights Maintenance<ArrowPoint /></Link>
             </li>
             <li className={` py-[12px] text-start border-b-[1px] border-[#39b54a]`}>
-              <Link className={`${fonts.servicesText} ml-[45%]  flex`} href="#">Access Control<ArrowPoint /></Link>
+              <Link className={`${fonts.servicesText} ml-[45%]  flex`} href="/services">Access Control<ArrowPoint /></Link>
             </li>
             <li className={` py-[12px] text-start border-b-[1px] border-[#39b54a]`}>
-              <Link className={`${fonts.servicesText} ml-[45%] flex `} href="#">Audio Visual<ArrowPoint /></Link>
+              <Link className={`${fonts.servicesText} ml-[45%] flex `} href="/services/av">Audio Visual<ArrowPoint /></Link>
             </li>
             <li className={` py-[12px] text-start border-b-[1px] border-[#39b54a]`}>
-              <Link className={`${fonts.servicesText} ml-[45%] flex `} href="#">Security<ArrowPoint /></Link>
+              <Link className={`${fonts.servicesText} ml-[45%] flex `} href="/services/security">Security<ArrowPoint /></Link>
             </li>
             <li className={` py-[12px] text-start border-b-[1px] border-[#39b54a]`}>
-              <Link className={`${fonts.servicesText} ml-[45%] flex `} href="#"> Temperature Control<ArrowPoint /></Link>
+              <Link className={`${fonts.servicesText} ml-[45%] flex `} href="/services"> Temperature Control<ArrowPoint /></Link>
             </li>
           </ul>
         )}

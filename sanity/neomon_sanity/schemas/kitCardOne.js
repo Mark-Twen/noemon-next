@@ -19,6 +19,11 @@ export default {
       title: 'Image',
     },
     {
+      name: "slug",
+      title: "Slug",
+      type: "slug"
+    },
+    {
       name: 'description',
       type: 'array',
       title: 'Description',

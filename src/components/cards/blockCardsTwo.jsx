@@ -45,13 +45,13 @@ const KitCardTwo = ({ dataTwo }) => {
                   height={186}
                   className="absolute top-[16px] left-[16px]"
                 />
-                <li className="flex flex-col pl-[230px] pt-4  w-[486px]">
+                <div className="flex flex-col pl-[230px] pt-4  w-[486px]">
                   <span className={fonts.portfolioCardsSign}>{item.title}</span>
                   <span className={`${fonts.cardsScript} py-4 `}>{item.script}</span>
                   <span className={`${fonts.cardDescroption} `} style={{ textAlign: 'justify' }}>
                     <PortableText value={item?.description} />
                   </span>
-                </li>
+                </div>
               </li>
             </ul>
           ))

@@ -32,10 +32,10 @@ async function getData() {
   script,
   description,
   _id,
-  image
+  image,
+  slug
 }`;
-  const data = await client.fetch(query);
-  console.log(data);
+  const data = await client.fetch(query); 
   return data;
 }
 
@@ -65,9 +65,9 @@ async function getDataTwo() {
 async function getDataThree() {
   const query = `*[_type == 'prodcardthree'] `;
   const dataThree = await client.fetch(query);
-
   return dataThree;
 }
+
 async function getDataFour() {
   const query = `*[_type == 'prodCardsFour'] {
   title,
@@ -89,7 +89,6 @@ async function getDataFive() {
   image
 }`;
   const dataFive = await client.fetch(query);
-
   return dataFive;
 }
 
@@ -102,7 +101,6 @@ async function getDataSix() {
   image
 }`;
   const dataSix = await client.fetch(query);
-
   return dataSix;
 }
 const ProductPage = async () => {
