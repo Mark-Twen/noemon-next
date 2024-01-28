@@ -148,31 +148,31 @@ const Services = () => {
             //  onMouseLeave={handleOnMouseLeaveResidancial}
           >
             <li className={` w-[100%] py-[12px] text-start border-b-[1px] border-[#39b54a]`}>
-              <Link className={`${fonts.servicesText} ml-[45%] flex `} href="/services/lightening">Custom Home Automation<ArrowPoint/></Link>
+              <Link className={`${fonts.servicesText} ml-[45%] flex `} href="/services">Custom Home Automation<ArrowPoint/></Link>
             </li>
             <li className={` py-[12px] text-start border-b-[1px] border-[#39b54a]`}>
-              <Link className={`${fonts.servicesText} ml-[45%] flex `} href="">EV Security<ArrowPoint/></Link>
+              <Link className={`${fonts.servicesText} ml-[45%] flex `} href="/services/security">EV Security<ArrowPoint/></Link>
             </li>
             <li className={` py-[12px] text-start border-b-[1px] border-[#39b54a]`}>
-              <Link className={`${fonts.servicesText} ml-[45%] flex `} href="#">IT Solutions / EV Chargers<ArrowPoint/></Link>
+              <Link className={`${fonts.servicesText} ml-[45%] flex `} href="/services/itSolution">IT Solutions / EV Chargers<ArrowPoint/></Link>
             </li>
             <li className={` py-[12px] text-start border-b-[1px] border-[#39b54a]`}>
-              <Link className={`${fonts.servicesText} ml-[45%] flex `} href="#">Home Cinema or Home Theater<ArrowPoint/></Link>
+              <Link className={`${fonts.servicesText} ml-[45%] flex `} href="/services">Home Cinema or Home Theater<ArrowPoint/></Link>
             </li>
             <li className={` py-[12px] text-start border-b-[1px] border-[#39b54a]`}>
-              <Link className={`${fonts.servicesText} ml-[45%] flex `} href="#">Electrical Design / Study<ArrowPoint/></Link>
+              <Link className={`${fonts.servicesText} ml-[45%] flex `} href="/services/evCharges">Electrical Design / Study<ArrowPoint/></Link>
             </li>
             <li className={` py-[12px] text-start border-b-[1px] border-[#39b54a]`}>
-              <Link className={`${fonts.servicesText} ml-[45%] flex `} href="#">Integrated Structured Wiring<ArrowPoint/></Link>
+              <Link className={`${fonts.servicesText} ml-[45%] flex `} href="/services">Integrated Structured Wiring<ArrowPoint/></Link>
             </li>
             <li className={` py-[12px] text-start border-b-[1px] border-[#39b54a]`}>
-              <Link className={`${fonts.servicesText}  ml-[45%] flex `} href="#">Multi room Sound System<ArrowPoint/></Link>
+              <Link className={`${fonts.servicesText}  ml-[45%] flex `} href="/services/av">Multi room Sound System<ArrowPoint/></Link>
             </li>
             <li className={` py-[12px] text-start border-b-[1px] border-[#39b54a]`}>
-              <Link className={`${fonts.servicesText} ml-[45%] flex `} href="#">Temperature Control<ArrowPoint/></Link>
+              <Link className={`${fonts.servicesText} ml-[45%] flex `} href="/services">Temperature Control<ArrowPoint/></Link>
             </li>
             <li className={` py-[12px] text-start border-b-[1px] border-[#39b54a]`}>
-              <Link className={`${fonts.servicesText} ml-[45%] flex `} href="#">Audio Visual<ArrowPoint/></Link>
+              <Link className={`${fonts.servicesText} ml-[45%] flex `} href="/services/av">Audio Visual<ArrowPoint/></Link>
             </li>
           </ul>
         )}
@@ -203,31 +203,31 @@ const Services = () => {
              onMouseLeave={handleOnMouseLeaveAutomation}
           >
             <li className={` py-[12px] text-start border-b-[1px] border-[#39b54a]`}>
-              <Link className={`${fonts.servicesText} ml-[45%] flex`} href="/services/lightening">Custom Home Automation<ArrowPoint/></Link>
+              <Link className={`${fonts.servicesText} ml-[45%] flex`} href="/services">Temperature Control<ArrowPoint/></Link>
             </li>
             <li className={` py-[12px] text-start border-b-[1px] border-[#39b54a]`}>
-              <Link className={`${fonts.servicesText} ml-[45%] flex `} href="">EV Security<ArrowPoint/></Link>
+              <Link className={`${fonts.servicesText} ml-[45%] flex `} href="/services/av">Audio Distribution / Multiroom Audio Systems<ArrowPoint/></Link>
             </li>
             <li className={` py-[12px] text-start border-b-[1px] border-[#39b54a]`}>
-              <Link className={`${fonts.servicesText} ml-[45%] flex `} href="#">IT Solutions / EV Chargers<ArrowPoint/></Link>
+              <Link className={`${fonts.servicesText} ml-[45%] flex `} href="/services">Shading control<ArrowPoint/></Link>
             </li>
             <li className={` py-[12px] text-start border-b-[1px] border-[#39b54a]`}>
-              <Link className={`${fonts.servicesText} ml-[45%] flex `} href="#">Home Cinema or Home Theater<ArrowPoint/></Link>
+              <Link className={`${fonts.servicesText} ml-[45%] flex `} href="/services/security">Security<ArrowPoint/></Link>
             </li>
             <li className={` py-[12px] text-start border-b-[1px] border-[#39b54a]`}>
-              <Link className={`${fonts.servicesText} ml-[45%] flex `} href="#">Electrical Design / Study<ArrowPoint/></Link>
+              <Link className={`${fonts.servicesText} ml-[45%] flex `} href="/services/itSolution">IT Solutions / Networking / Wi-Fi<ArrowPoint/></Link>
             </li>
             <li className={` py-[12px] text-start border-b-[1px] border-[#39b54a]`}>
-              <Link className={`${fonts.servicesText} ml-[45%] flex `} href="#">Integrated Structured Wiring<ArrowPoint/></Link>
+              <Link className={`${fonts.servicesText} ml-[45%] flex `} href="/services">Home Cinema<ArrowPoint/></Link>
             </li>
             <li className={` py-[12px] text-start border-b-[1px] border-[#39b54a]`}>
-              <Link className={`${fonts.servicesText} ml-[45%] flex `} href="#">Multi room Sound System<ArrowPoint/></Link>
+              <Link className={`${fonts.servicesText} ml-[45%] flex `} href="/services">Electrical Design / Study<ArrowPoint/></Link>
             </li>
             <li className={` py-[12px] text-start border-b-[1px] border-[#39b54a]`}>
-              <Link className={`${fonts.servicesText} ml-[45%] flex `} href="#">Temperature Control<ArrowPoint/></Link>
+              <Link className={`${fonts.servicesText} ml-[45%] flex `} href="/services">Integrated Structured Wiring<ArrowPoint/></Link>
             </li>
             <li className={` py-[12px] text-start border-b-[1px] border-[#39b54a]`}>
-              <Link className={`${fonts.servicesText} ml-[45%]  flex`} href="#">Audio Visual<ArrowPoint/></Link>
+              <Link className={`${fonts.servicesText} ml-[45%]  flex`} href="/services/security">Access Control<ArrowPoint/></Link>
             </li>
           </ul>
         )}
