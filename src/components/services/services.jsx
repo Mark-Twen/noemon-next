@@ -15,12 +15,14 @@ const Services = () => {
   const [isSubMenuResidencial, setIsSubMenuResidencial] = useState(false);
   const [isSubMenuAuto, setIsSubMenuAuto] = useState(false);
   const [iconRotation, setIconRotation] = useState(0);
+  const [iconRotationR, setIconRotationR] = useState(0);
+  const [iconRotationA, setIconRotationA] = useState(0);
 
   // const [leaveTimeout, setLeaveTimeout] = useState(null);
 
   const handleOnClickServises = () => {
     setIsSubMenuServices(!isSubMenuServices);
-    setIconRotation(iconRotation + 180);   
+    setIconRotation(iconRotationA + 180);   
   };
 
   // const arrowStyle = {
@@ -29,10 +31,12 @@ const Services = () => {
 
   const handleOnClickResidencial = () => {    
     setIsSubMenuResidencial(!isSubMenuResidencial);
+    setIconRotationR(iconRotationR + 180); 
    
   };
   const handleOnClickAuto = () => {
     setIsSubMenuAuto(!isSubMenuAuto);
+    setIconRotationA(iconRotationA + 180);  
   };
 
   // const handleOnMouseEnterServices = () => {
@@ -150,7 +154,7 @@ const Services = () => {
               alt="arrow"
               width={46}
               height={46}
-              style={{ transform: `rotate(${iconRotation}deg)` }}
+              style={{ transform: `rotate(${iconRotationR}deg)` }}
               className={`mt-[4px] ${styles.arrow}`}
             />
           </div>
@@ -206,6 +210,7 @@ const Services = () => {
               alt="arrow"
               width={46}
               height={46}
+              style={{ transform: `rotate(${iconRotationA}deg)` }}
               className={`mt-[4px] ${styles.arrow}`}
             />
           </div>
