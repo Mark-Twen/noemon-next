@@ -13,7 +13,7 @@ const information = () => {
             <p className={`${fonts.bigCardDescription} mb-[28px]`}>Unlike a one-size-fits-all approach, Noemon prioritizes understanding each client&apos;s lifestyle and preferences.</p>
 
             <p className={`${fonts.neomonInfo}`}>Comprehensive Offerings:</p>
-            <p className={`${fonts.bigCardDescription} mb-[28px]`}>oemon doesn’t just install smart home devices; we offer comprehensive solutions covering security, lighting, climate control, entertainment, and more.</p>
+            <p className={`${fonts.bigCardDescription} mb-[28px]`}>Noemon doesn’t just install smart home devices; we offer comprehensive solutions covering security, lighting, climate control, entertainment, and more.</p>
 
             <p className={`${fonts.neomonInfo}`}>Reliability and Support:</p>
             <p className={`${fonts.bigCardDescription} mb-[28px]`}>We prioritize clear communication, reliable service, and ongoing support, ensuring that clients feel confident and supported throughout the installation process and beyond.</p>
