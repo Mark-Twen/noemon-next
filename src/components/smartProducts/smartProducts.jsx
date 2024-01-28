@@ -19,7 +19,7 @@ const SmartProducts = () => {
       </h1>
       <ul className={`${styles.container} mx-auto`}>
         {data.map((item) => (
-          <li key={item.name} className={`${styles.list} mx-[40px] my-[40px]`}>
+          <li key={item.name} className={`${styles.list}  my-[40px]`}>
             <a href={item.link}>
             <Image
               src={item.img}

@@ -1,8 +1,9 @@
 .container {
     display: flex;
-    flex-direction: row;
+    flex-direction: row;   
+    justify-content: center;
     flex-wrap: wrap;
-    width: 1720px;
+    width: 1620px;
     
 }
 
@@ -14,10 +15,13 @@
     height: fit-content;
     border-radius: 30px;
     background: #F8F9FA;
-    box-shadow: 2px 4px 20px 0px rgba(0, 0, 0, 0.25);
-    // flex-basis: calc((100% - 20px) / 3);
+    box-shadow: 2px 4px 20px 0px rgba(0, 0, 0, 0.25);   
     transition: transform 0.4s linear;
 }
+.list:not(:nth-child(3n)) {
+    margin-right: 40px;
+}
+
 .list:hover {
  transform: scale(1.2);
 }
