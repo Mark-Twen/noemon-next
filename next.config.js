@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  images: { domains: ["cdn.sanity.io"],  target: 'serverless', },
+  images: { domains: ["cdn.sanity.io"] },
 
   webpack(config) {
     // Grab the existing rule that handles SVG imports
