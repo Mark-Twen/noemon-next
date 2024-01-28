@@ -1,5 +1,5 @@
 
-import MainPage from "../../../neomon-ii/src/app/mainPage/page";
+import MainPage from "./mainpage/page";
 
 
 export default function Home() {
