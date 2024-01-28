@@ -28,7 +28,7 @@ return (
 
 </div>
         
-    <Link className={`flex flex-row absolute  bottom-[10%] left-[44%] w-[237px] ${fonts.heroBtn} bg-[]`} href="#">Read More
+    <Link className={`flex flex-row absolute  bottom-[10%] left-[44%] w-[237px] ${fonts.heroBtn} bg-[]`} href="aboutUs">Read More
     <Image 
     src={arrowRight}
     alt="arrow"
