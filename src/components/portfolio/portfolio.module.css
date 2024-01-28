@@ -2,10 +2,9 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  width: 1720px;
+  width: 1620px;
   gap: 40px;
   justify-content: center;
-  align-items: center;
 }
 
 .list {

@@ -16,7 +16,7 @@ import "swiper/css/pagination";
 // import "./styles.css";
 
 // import required modules
-import { Pagination, Scrollbar } from "swiper/modules";
+import { Pagination, Scrollbar, Autoplay } from "swiper/modules";
 
 export default function App() {
   const [data, setData] = useState(slideImg);
@@ -27,12 +27,15 @@ export default function App() {
      <Swiper
         slidesPerView={4}
         spaceBetween={30}
-        pagination={{
-          clickable: true,
+        autoplay={{
+          delay: 1000,          
         }}
+        // pagination={{
+        //   clickable: true,
+        // }}
         loop={true}
         scrollbar={true}
-        modules={[Scrollbar, Pagination]}
+        modules={[Scrollbar, Pagination, Autoplay]}
         className="mySwiper"
       >
         {data.map((item) => (

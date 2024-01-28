@@ -15,8 +15,8 @@ const Portfolio = () => {
 
     return (
         <div>
-            <h1 className={`${fonts.productCardTitle} mt-[120px] mb-[50px]`}>Portfolio</h1>
-                <div className={styles.container}>
+            <h1 className={`${fonts.productCardTitle} mt-[120px] mb-[50px] ml-[80px]`}>Portfolio</h1>
+                <div className={`${styles.container} mx-auto`}>
                     {data.map((item) => (
                         <div key={item.id} className={styles.list} >
                              <Image 
