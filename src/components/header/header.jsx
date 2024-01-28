@@ -2,7 +2,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import logo from "../../../public/img/logo/LOGO-4x.png";
-import phoneIcon from "../../../public/icon/Icons SM.png"
+import phoneIcon from "../../../public/icon/phone.png"
 import mailIcom from "../../../public/icon/Mail.png"
 
 import fonts from "../fonts/fonts.module.scss";
@@ -18,7 +18,7 @@ const Header = () => {
 
   return (
     <>
-      <section className="flex w-screen bg-[#282828] layout">
+      <section className="flex w-screen bg-[#282828] fixed top-[1px] z-[1000] layout" >
         {/* LOGO */}
         <div className="py-8 ml-[3%] ">
           <Link href="/mainpage">
@@ -111,12 +111,6 @@ const Header = () => {
             )}
            
           </Link>
-
-
-
-
-
-
           
 
           <Link

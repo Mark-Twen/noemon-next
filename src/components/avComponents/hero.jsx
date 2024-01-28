@@ -7,7 +7,7 @@ import fonts from "../fonts/fonts.module.scss"
 import Link from "next/link"
 
 const Hero = () => (
-    <div className={styles.heroContainer}>
+    <div className={`${styles.heroContainer} mt-[140px]`}>
         <Image src={hero} alt="hero" className={styles.heroImg} />
         <h1 className={`${fonts.prodPageHeroTitle} ${styles.heroTitleOne}`}>SECURITY</h1>
         <p className={`${fonts.prodPageHeroList} ${styles.heroTitleTwo}`}>Guardians of Smart Living: Secure, Smart, Yours.</p>

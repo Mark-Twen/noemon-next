@@ -158,7 +158,7 @@ const ProductPage = async () => {
       </div>
 
       {/* First card block with products */}
-      <div id="perlisten">
+      <div id="perlisten" className="index-[1]">
          <KitCardBlockOne data={data} />
       </div>
      

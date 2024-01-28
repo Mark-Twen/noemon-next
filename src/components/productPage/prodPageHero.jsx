@@ -6,7 +6,7 @@ import BtmExpert from "../button/callExpertBtm";
 
 const heroBlock = () => {
   return (
-    <div className="relative bg-[#FFF];">
+    <div className="relative bg-[#FFF] mt-[140px]">
       <Image src={heroImg} alt="hero" width={1920} height={1030} />
 
       <p

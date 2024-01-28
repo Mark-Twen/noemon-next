@@ -9,7 +9,7 @@ import fonts from "../fonts/fonts.module.scss";
 
 const LocationMap = () => {
   return (
-    <div className="flex flex-row bg-[#F7F7F7] ">
+    <div className="flex flex-row bg-[#F7F7F7]  ">
       <div className="relative">
       <Image
         src={mapImg}
