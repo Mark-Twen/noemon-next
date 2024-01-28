@@ -29,36 +29,34 @@
 
 
 
-.listTitleServices:hover .arrow ,.listTitleResidencial:hover .arrow ,.listTitleSmart:hover .arrow {
-  transform: rotate(180deg);
-  transition: transform 0.4s ease;
-}
+// .listTitleServices:hover .arrow ,.listTitleResidencial:hover .arrow ,.listTitleSmart:hover .arrow {
+//   transform: rotate(180deg);
+//   transition: transform 0.6s ease;
+// }
 
 
 .navLink:hover .subNavLink {
   height: fit-content;
-  overflow: visible;
-  transition: 600ms;
+  overflow: visible;  
 }
 
 .subNavLink {
   display: flex;
   height: 100%;  
   width: fit-content;
-  z-index: 1;
-  // padding: 10px;  
+  z-index: 1;  
   background-color: #fff;
-  justify-content: flex-start;
-  display: block;
+  justify-content: flex-start;  
   color: #45372e;
   text-decoration: none;
-  // padding: 8px 0;
+  transition: transform 600ms ease, height 600ms ease 0.6s;
 }
 
 
 .subNavLink:hover {
   height: 100%;
   overflow: visible;
+  transition: transform 600ms ease, height 600ms ease 0.6s;
 }   
 .subNavLinkItems {
   color: black;

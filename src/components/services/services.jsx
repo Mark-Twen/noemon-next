@@ -14,44 +14,57 @@ const Services = () => {
   const [isSubMenuServices, setIsSubMenuServices] = useState(false);
   const [isSubMenuResidencial, setIsSubMenuResidencial] = useState(false);
   const [isSubMenuAuto, setIsSubMenuAuto] = useState(false);
-  const [leaveTimeout, setLeaveTimeout] = useState(null);
+  const [iconRotation, setIconRotation] = useState(0);
 
-  const handleOnClick = () => {
+  // const [leaveTimeout, setLeaveTimeout] = useState(null);
+
+  const handleOnClickServises = () => {
     setIsSubMenuServices(!isSubMenuServices);
+    setIconRotation(iconRotation + 180);   
+  };
+
+  // const arrowStyle = {
+  //   transform: `rotate(${iconRotation}deg)`,
+  // };
+
+  const handleOnClickResidencial = () => {    
     setIsSubMenuResidencial(!isSubMenuResidencial);
+   
+  };
+  const handleOnClickAuto = () => {
     setIsSubMenuAuto(!isSubMenuAuto);
   };
 
-  const handleOnMouseEnterServices = () => {
-    setIsSubMenuServices(true);
-    setIsSubMenuResidencial(false);
-    setIsSubMenuAuto(false);
-    clearTimeout(leaveTimeout);
-  };
+  // const handleOnMouseEnterServices = () => {
+  //   setIsSubMenuServices(true);
+  //   setIsSubMenuResidencial(false);
+  //   setIsSubMenuAuto(false);
+  //   clearTimeout(leaveTimeout);
+  // };
 
-  const handleOnMouseEnterResidancial = () => {
-    setIsSubMenuResidencial(true);
-    setIsSubMenuServices(false);
-    setIsSubMenuAuto(false);
-    clearTimeout(leaveTimeout);
-  };
-  const handleOnMouseEnterAutomation = () => {
-    setIsSubMenuServices(false);
-    setIsSubMenuResidencial(false);
-    setIsSubMenuAuto(true);
-    clearTimeout(leaveTimeout);
-  };
+  // const handleOnMouseEnterResidancial = () => {
+  //   setIsSubMenuResidencial(true);
+  //   setIsSubMenuServices(false);
+  //   setIsSubMenuAuto(false);
+  //   clearTimeout(leaveTimeout);
+  // };
+  // const handleOnMouseEnterAutomation = () => {
+  //   setIsSubMenuServices(false);
+  //   setIsSubMenuResidencial(false);
+  //   setIsSubMenuAuto(true);
+  //   clearTimeout(leaveTimeout);
+  // };
 
-  const handleOnMouseLeaveServices = () => {
-    setLeaveTimeout(setTimeout(() => setIsSubMenuServices(false), 5000));
-  };;
-  const handleOnMouseLeaveResidancial = () => {
-    setLeaveTimeout(setTimeout(() => setIsSubMenuResidencial(false), 5000));
-  };
+  // const handleOnMouseLeaveServices = () => {
+  //   setLeaveTimeout(setTimeout(() => setIsSubMenuServices(false), 5000));
+  // };;
+  // const handleOnMouseLeaveResidancial = () => {
+  //   setLeaveTimeout(setTimeout(() => setIsSubMenuResidencial(false), 5000));
+  // };
 
-  const handleOnMouseLeaveAutomation = () => {
-    setLeaveTimeout(setTimeout(() => setIsSubMenuAuto(false), 5000));
-  };
+  // const handleOnMouseLeaveAutomation = () => {
+  //   setLeaveTimeout(setTimeout(() => setIsSubMenuAuto(false), 5000));
+  // };
 
   return (
     <>
@@ -62,12 +75,11 @@ const Services = () => {
       <ul className="my-[120px] layout">
         <li
           className={`${styles.list} ${styles.navLink}`}
-          onMouseEnter={handleOnMouseEnterServices}
-          onMouseLeave={handleOnMouseLeaveServices}
+          // onMouseEnter={handleOnMouseEnterServices}
+          // onMouseLeave={handleOnMouseLeaveServices}
         >
-          <Link
-            onClick={handleOnClick}
-            href="services"
+          <div
+            onClick={handleOnClickServises}            
             className={`${fonts.prodPageHeroTitle} ${styles.listTitleServices} `}
           >
             Services
@@ -76,18 +88,19 @@ const Services = () => {
               alt="arrow"
               width={46}
               height={46}
+              style={{ transform: `rotate(${iconRotation}deg)` }}
               className={` mt-[4px] ${styles.arrow}`}
             />
-          </Link>
+          </div>
         </li>
         {isSubMenuServices && (
           <ul
-            className={`flex flex-col  w-[screen]}`}
-            onMouseEnter={handleOnMouseEnterServices}
-            onMouseLeave={handleOnMouseLeaveServices}
+            className={`flex flex-col  w-[screen] `}
+            // onMouseEnter={handleOnMouseEnterServices}
+            // onMouseLeave={handleOnMouseLeaveServices}
           >
             <li className={`w-[100%] py-[12px] text-start border-b-[1px] border-[#39b54a]`}>
-              <Link className={`${fonts.servicesText} ml-[45%] flex`} href="services/lightening">Lighting<ArrowPoint/></Link>
+              <Link className={`${fonts.servicesText}  ml-[45%] flex`} href="services/lightening">Lighting<ArrowPoint/></Link>
             </li>
             <li className={` py-[12px] text-start border-b-[1px] border-[#39b54a]`}>
               <Link className={`${fonts.servicesText} ml-[45%] flex `} href="services/evCharges">EV Chargers<ArrowPoint/></Link>
@@ -124,12 +137,12 @@ const Services = () => {
 
         <li
           className={`${styles.list} ${styles.navLink} mt-10`}
-          onMouseEnter={handleOnMouseEnterResidancial}
-          onMouseLeave={handleOnMouseLeaveResidancial}
+          // onMouseEnter={handleOnMouseEnterResidancial}
+          // onMouseLeave={handleOnMouseLeaveResidancial}
         >
-          <Link
-            href="#"
+          <div            
             className={`${fonts.prodPageHeroTitle} ${styles.listTitleResidencial} `}
+            onClick={handleOnClickResidencial}
           >
             Residencial
             <Image
@@ -137,14 +150,15 @@ const Services = () => {
               alt="arrow"
               width={46}
               height={46}
+              style={{ transform: `rotate(${iconRotation}deg)` }}
               className={`mt-[4px] ${styles.arrow}`}
             />
-          </Link>
+          </div>
         </li>
         {isSubMenuResidencial && (
           <ul
           className={`flex flex-col  w-[screen]}`}
-            onMouseEnter={handleOnMouseEnterResidancial}
+            // onMouseEnter={handleOnMouseEnterResidancial}
             //  onMouseLeave={handleOnMouseLeaveResidancial}
           >
             <li className={` w-[100%] py-[12px] text-start border-b-[1px] border-[#39b54a]`}>
@@ -179,11 +193,11 @@ const Services = () => {
 
         <li
           className={`${styles.list} mt-10`}
-          onMouseEnter={handleOnMouseEnterAutomation}
-          onMouseLeave={handleOnMouseLeaveAutomation}
+          // onMouseEnter={handleOnMouseEnterAutomation}
+          // onMouseLeave={handleOnMouseLeaveAutomation}
         >
-          <Link
-            href=""
+          <div
+            onClick={handleOnClickAuto}
             className={`${fonts.prodPageHeroTitle} ${styles.listTitleSmart} `}
           >
             Smart Automations
@@ -194,13 +208,13 @@ const Services = () => {
               height={46}
               className={`mt-[4px] ${styles.arrow}`}
             />
-          </Link>
+          </div>
         </li>
         {isSubMenuAuto && (
           <ul
           className={`flex flex-col w-[screen]}`}
-            onMouseEnter={handleOnMouseEnterAutomation}
-             onMouseLeave={handleOnMouseLeaveAutomation}
+            // onMouseEnter={handleOnMouseEnterAutomation}
+            //  onMouseLeave={handleOnMouseLeaveAutomation}
           >
             <li className={` py-[12px] text-start border-b-[1px] border-[#39b54a]`}>
               <Link className={`${fonts.servicesText} ml-[45%] flex`} href="/services">Temperature Control<ArrowPoint/></Link>
