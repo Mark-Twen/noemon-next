@@ -9,8 +9,8 @@ import Link from "next/link"
 const Hero = () => (
     <div className={styles.heroContainer}>
         <Image src={hero} alt="hero" className={styles.heroImg} />
-        <h1 className={`${fonts.mainHeroTitle} ${styles.heroTitleOne}`}>THINK SMART</h1>
-        <p className={`${fonts.prodPageHeroList} ${styles.heroTitleTwo}`}>Live smart</p>
+        <h1 className={`${fonts.heroTitleMainePage} ${styles.heroTitleOne}`}>THINK SMART</h1>
+        <p className={`${fonts.heroTitleMainePage} ${styles.heroTitleTwo}`}>Live smart</p>
         <Link href="tel:18005339263" className={`${styles.callExpertBtm} ${fonts.heroBtn}`}>Call Expert</Link>
     </div>
 )

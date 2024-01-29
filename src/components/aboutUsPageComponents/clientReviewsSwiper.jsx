@@ -16,8 +16,8 @@ import "swiper/css/pagination";
 // import "./styles.css";
 
 // import required modules
-import { Pagination, Scrollbar } from "swiper/modules";
-import { Yellowtail } from "next/font/google";
+import { Pagination, Scrollbar, Autoplay } from "swiper/modules";
+
 
 export default function ReviewsSwiper() {
 
@@ -30,12 +30,15 @@ export default function ReviewsSwiper() {
      <Swiper
         slidesPerView={1}
         spaceBetween={30}
-        pagination={{
-          clickable: true,
+        autoplay={{
+          delay: 2500,          
         }}
+        // pagination={{
+        //   clickable: true,
+        // }}
         loop={true}
         scrollbar={true}
-        modules={[Scrollbar, Pagination]}
+        modules={[Scrollbar, Pagination, Autoplay]}
         className="mySwiper"
       >
         {data.map((item) => (

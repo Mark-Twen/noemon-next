@@ -316,6 +316,15 @@
   color: #39b54a;
 }
 
+.heroTitleMainePage {
+  font-family: Be Vietnam Pro;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  color: #f7f7f7;
+}
+
 .heroFontsGreen {
   font-family: Be Vietnam Pro;
   font-size: 48px;
