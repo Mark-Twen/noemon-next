@@ -11,11 +11,6 @@
   transition: transform 0.4s, scale 0.4s;
 }
 
-.cardsContainer:hover {
-  transform: translate(50px, -30px) scale(1.2);
-  z-index: 5;
-}
-
 .cardsList {
   display: flex;
   width: 556px;

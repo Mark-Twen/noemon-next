@@ -3,30 +3,47 @@ import styles from "./kitCardsModal.module.scss";
 import { PortableText } from "@portabletext/react";
 import Image from "next/image";
 import fonts from "../fonts/fonts.module.scss";
-import CallExpertBtm from "../button/callExpertBtm";
 
-import { FcApproval } from "react-icons/fc";
+import closeBtm from "../../../public/icon/closeBtm.png"
 
-const kitModal = ({ onClose, title, script, description, imageUrl }) => {
+
+
+
+const KitModal = ({ onClose, title, script, description, imageUrl }) => {
+
+
+  const handleClickOutside = (e) => {
+    if (e.target.classList.contains(styles.overlay)) {
+      onClose();
+    }
+  };
+
+
   return (
-    <div className={styles.overlay}>
+    <div className={styles.overlay} onClick={(e) => handleClickOutside(e)}>
       <div className={styles.modal}>
         <button onClick={onClose} className={styles.closeButton}>
-          <FcApproval />
+          <Image 
+          src={closeBtm}
+          alt="clothBtm"
+          />
         </button>
         <div className="flex flex-row relative">
-          <Image
+          <div className="absolute top-0 left-0 ">
+             <Image
             src={imageUrl}
             alt="Product"
-            width={200}
-            height={200}
-            className="absolute top-[36px] left-[10px]"
+            width={662}
+            height={654}
+            className="pb-[6px]"
           />
+          </div>
+         
 
-          <div className="flex flex-col w-[700px] pl-[230px] pt-[30px] ">
-            <h2 className={`mb-[40px] ${fonts.heroBtn}`}>{title}</h2>
-            {/* <p>{script}</p> */}
-            <p className={`${fonts.callExpertBtm}`}>
+          <div className="flex flex-col w-[1250px] pl-[700px] pt-[30px] ">
+            <h2 className={` ${fonts.advantagesTitle}`}>{title}</h2>
+            <p className={`${fonts.heroBtn} my-[48px]`}>{script}</p>
+            <p className={`${fonts.neomonInfo}`}>
               <PortableText value={description} />
             </p>
           </div>
@@ -35,4 +52,4 @@ const kitModal = ({ onClose, title, script, description, imageUrl }) => {
     </div>
   );
 };
-export default kitModal;
+export default KitModal;

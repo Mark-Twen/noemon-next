@@ -13,6 +13,8 @@ import React, { useState} from "react";
 import CardModal from "../modalWindow/kitCardsModal"
 
 
+
+
 const KitCardOne = ({ data }) => {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [selectedItem, setSelectedItem] = useState([]);

@@ -4,8 +4,6 @@ import { client } from "../../utils/configSanity";
 import { PortableText } from "@portabletext/react";
 import Image from "next/image";
 
-
-
 import Hero from "../../components/productPage/prodPageHero";
 
 import { urlFor } from "../../utils/configSanity";
@@ -15,7 +13,7 @@ import styles from "../../components/cards/blockCards.module.scss";
 // import { url } from "inspector";
 
 import Logon from "../../components/Logon/logon";
-import RightBtm from "../../components/button/btnLogonRight";
+
 import KitCardBlockOne from "../../components/cards/blockCardsOne";
 import BlockCardTwo from "../../components/cards/blockCardsTwo";
 import BlockCardThree from "../../components/cards/blockCardsThree";
@@ -25,6 +23,8 @@ import BlockCardSix from "../../components/cards/blockCardsSix";
 
 import RightCards from "../../components/bigGardsMaket/rightCardsMaket";
 import LeftCard from "../../components/bigGardsMaket/leftCardMaket";
+
+
 
 async function getData() {
   const query = `*[_type == 'prodKit'] {
@@ -103,6 +103,7 @@ async function getDataSix() {
   const dataSix = await client.fetch(query);
   return dataSix;
 }
+
 const ProductPage = async () => {
   const data = await getData();
   const dataTwo = await getDataTwo();
@@ -158,7 +159,7 @@ const ProductPage = async () => {
       </div>
 
       {/* First card block with products */}
-      <div id="perlisten" className="index-[1]">
+      <div id="perlisten" className="index-[1]" >
          <KitCardBlockOne data={data} />
       </div>
      
