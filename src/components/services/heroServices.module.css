@@ -1,0 +1,32 @@
+.heroContainer {
+  position: relative;
+  margin-top: 140px;
+}
+
+.heroImg {
+  width: 100vw;
+  height: 1030px;
+}
+
+.heroTitleOne {
+  position: absolute;
+  bottom: 74%;
+  left: 28%;
+}
+
+.heroTitleTwo {
+  position: absolute;
+  bottom: 66%;
+  left: 28%;
+}
+
+.callExpertBtm {
+  background-color: #F7F7F7;
+  position: absolute;
+  bottom: 36%;
+  left: 28%;
+  padding: 14px 74px;
+  border-radius: 15px;
+  opacity: 0.9;
+  box-shadow: 2px 4px 20px 0px rgba(0, 0, 0, 0.25);
+}/*# sourceMappingURL=heroServices.module.css.map */
