@@ -37,7 +37,7 @@ const SmartProducts = () => {
         ))}
 
         <button
-          className={`${fonts.smartProdBtm} px-[68px] py-[13px] ml-[36%] mt-[40px] bg-[#282828] rounded-md `}
+          className={`${fonts.smartProdBtm} px-[68px] py-[13px] ml-[5%] mt-[40px] bg-[#282828] rounded-md `}
         >
           <Link href="productPage">All Products</Link>{" "}
         </button>

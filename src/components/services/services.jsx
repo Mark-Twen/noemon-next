@@ -22,12 +22,10 @@ const Services = () => {
 
   const handleOnClickServises = () => {
     setIsSubMenuServices(!isSubMenuServices);
-    setIconRotation(iconRotationA + 180);   
+    setIconRotation(iconRotation + 180);   
   };
 
-  // const arrowStyle = {
-  //   transform: `rotate(${iconRotation}deg)`,
-  // };
+  
 
   const handleOnClickResidencial = () => {    
     setIsSubMenuResidencial(!isSubMenuResidencial);
@@ -37,38 +35,7 @@ const Services = () => {
   const handleOnClickAuto = () => {
     setIsSubMenuAuto(!isSubMenuAuto);
     setIconRotationA(iconRotationA + 180);  
-  };
-
-  // const handleOnMouseEnterServices = () => {
-  //   setIsSubMenuServices(true);
-  //   setIsSubMenuResidencial(false);
-  //   setIsSubMenuAuto(false);
-  //   clearTimeout(leaveTimeout);
-  // };
-
-  // const handleOnMouseEnterResidancial = () => {
-  //   setIsSubMenuResidencial(true);
-  //   setIsSubMenuServices(false);
-  //   setIsSubMenuAuto(false);
-  //   clearTimeout(leaveTimeout);
-  // };
-  // const handleOnMouseEnterAutomation = () => {
-  //   setIsSubMenuServices(false);
-  //   setIsSubMenuResidencial(false);
-  //   setIsSubMenuAuto(true);
-  //   clearTimeout(leaveTimeout);
-  // };
-
-  // const handleOnMouseLeaveServices = () => {
-  //   setLeaveTimeout(setTimeout(() => setIsSubMenuServices(false), 5000));
-  // };;
-  // const handleOnMouseLeaveResidancial = () => {
-  //   setLeaveTimeout(setTimeout(() => setIsSubMenuResidencial(false), 5000));
-  // };
-
-  // const handleOnMouseLeaveAutomation = () => {
-  //   setLeaveTimeout(setTimeout(() => setIsSubMenuAuto(false), 5000));
-  // };
+  }; 
 
   return (
     <>
@@ -78,9 +45,7 @@ const Services = () => {
 
       <ul className="my-[120px] layout">
         <li
-          className={`${styles.list} ${styles.navLink}`}
-          // onMouseEnter={handleOnMouseEnterServices}
-          // onMouseLeave={handleOnMouseLeaveServices}
+          className={`${styles.list} ${styles.navLink}`}         
         >
           <div
             onClick={handleOnClickServises}            
@@ -99,9 +64,7 @@ const Services = () => {
         </li>
         {isSubMenuServices && (
           <ul
-            className={`flex flex-col  w-[screen] `}
-            // onMouseEnter={handleOnMouseEnterServices}
-            // onMouseLeave={handleOnMouseLeaveServices}
+            className={`flex flex-col  w-[screen] `}          
           >
             <li className={`w-[100%] py-[12px] text-start border-b-[1px] border-[#39b54a]`}>
               <Link className={`${fonts.servicesText}  ml-[45%] flex`} href="services/lightening">Lighting<ArrowPoint/></Link>
@@ -161,18 +124,19 @@ const Services = () => {
         </li>
         {isSubMenuResidencial && (
           <ul
-          className={`flex flex-col  w-[screen]}`}
-            // onMouseEnter={handleOnMouseEnterResidancial}
-            //  onMouseLeave={handleOnMouseLeaveResidancial}
+          className={`flex flex-col  w-[screen]}`}        
           >
             <li className={` w-[100%] py-[12px] text-start border-b-[1px] border-[#39b54a]`}>
               <Link className={`${fonts.servicesText} ml-[45%] flex `} href="/services">Custom Home Automation<ArrowPoint/></Link>
             </li>
             <li className={` py-[12px] text-start border-b-[1px] border-[#39b54a]`}>
-              <Link className={`${fonts.servicesText} ml-[45%] flex `} href="/services/security">EV Security<ArrowPoint/></Link>
+              <Link className={`${fonts.servicesText} ml-[45%] flex `} href="/services/security">Security<ArrowPoint/></Link>
             </li>
             <li className={` py-[12px] text-start border-b-[1px] border-[#39b54a]`}>
-              <Link className={`${fonts.servicesText} ml-[45%] flex `} href="/services/itSolution">IT Solutions / EV Chargers<ArrowPoint/></Link>
+              <Link className={`${fonts.servicesText} ml-[45%] flex `} href="services/evCharges">EV Chargers<ArrowPoint/></Link>
+            </li>
+            <li className={` py-[12px] text-start border-b-[1px] border-[#39b54a]`}>
+              <Link className={`${fonts.servicesText} ml-[45%] flex `} href="/services/itSolution">IT Solutions / Networking / Wi-Fi<ArrowPoint/></Link>
             </li>
             <li className={` py-[12px] text-start border-b-[1px] border-[#39b54a]`}>
               <Link className={`${fonts.servicesText} ml-[45%] flex `} href="/services">Home Cinema or Home Theater<ArrowPoint/></Link>
@@ -196,9 +160,7 @@ const Services = () => {
         )}
 
         <li
-          className={`${styles.list} mt-10`}
-          // onMouseEnter={handleOnMouseEnterAutomation}
-          // onMouseLeave={handleOnMouseLeaveAutomation}
+          className={`${styles.list} mt-10`}        
         >
           <div
             onClick={handleOnClickAuto}
@@ -217,9 +179,7 @@ const Services = () => {
         </li>
         {isSubMenuAuto && (
           <ul
-          className={`flex flex-col w-[screen]}`}
-            // onMouseEnter={handleOnMouseEnterAutomation}
-            //  onMouseLeave={handleOnMouseLeaveAutomation}
+          className={`flex flex-col w-[screen]}`}           
           >
             <li className={` py-[12px] text-start border-b-[1px] border-[#39b54a]`}>
               <Link className={`${fonts.servicesText} ml-[45%] flex`} href="/services">Temperature Control<ArrowPoint/></Link>

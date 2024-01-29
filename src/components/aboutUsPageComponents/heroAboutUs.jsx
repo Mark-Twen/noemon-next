@@ -8,7 +8,7 @@ import fonts from "../fonts/fonts.module.scss"
 const Hero = () => {
 
     return(
-        <div className="relative">
+        <div className="relative mt-[140px]">
             <Image 
             src={hero}
             alt="hero"

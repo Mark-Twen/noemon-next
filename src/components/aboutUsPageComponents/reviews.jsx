@@ -41,11 +41,11 @@ const Reviews = () => {
                 </li>
                 <li className={`${styles.cardList}`}>
                     <p className={`${fonts.rewiesTitle} pt-[46px] pb-[40px] mx-auto`}>{light}k +</p>
-                    <span className={`${fonts.rewiesText} pb-[46px] mx-auto`}>Lights changed</span>
+                    <span className={`${fonts.rewiesText} pb-[46px] mx-auto`}>LIGHTS CHANGED</span>
                 </li>
                 <li className={`${styles.cardList}`}>
                     <p className={`${fonts.rewiesTitle} pt-[46px] pb-[40px]  mx-auto`}>{customers} +</p>
-                    <span className={`${fonts.rewiesText} pb-[46px] mx-auto`}>Happy customers</span>
+                    <span className={`${fonts.rewiesText} pb-[46px] mx-auto`}>HAPPY CUSTOMERS</span>
                 </li>
             </ul>
         </div>

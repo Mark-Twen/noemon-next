@@ -9,7 +9,7 @@ import Link from "next/link"
 const Hero = () => (
     <div className={`${styles.heroContainer} mt-[140px]`}>
         <Image src={hero} alt="hero" className={styles.heroImg} />
-        <h1 className={`${fonts.prodPageHeroTitle} ${styles.heroTitleOne}`}>SECURITY</h1>
+        <h1 className={`${fonts.prodPageHeroTitle} ${styles.heroTitleOne}`}>AUDIO VISUAL</h1>
         <p className={`${fonts.heroTitleMainePage} ${styles.heroTitleTwo}`}>Guardians of Smart Living: Secure, Smart, Yours.</p>
         <Link href="tel:18005339263" className={`${styles.callExpertBtm} ${fonts.heroBtn}`}>Call Expert</Link>
     </div>

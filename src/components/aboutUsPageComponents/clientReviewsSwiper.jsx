@@ -31,7 +31,7 @@ export default function ReviewsSwiper() {
         slidesPerView={1}
         spaceBetween={30}
         autoplay={{
-          delay: 2500,          
+          delay: 5500,          
         }}
         // pagination={{
         //   clickable: true,

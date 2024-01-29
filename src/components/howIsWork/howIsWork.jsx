@@ -12,7 +12,7 @@ const HowIsWork = () => {
 
   return (
     <>
-    <h1 className={`${fonts.productCardTitle} text-start mt-[120px] mb-[40px]`}>
+    <h1 className={`${fonts.productCardTitle} text-start mt-[140px] mb-[40px]`}>
       How does it work{" "}
     </h1>
     <ul className="flex flex-row justify-around items-center ">
