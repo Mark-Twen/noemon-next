@@ -11,6 +11,14 @@
   color: #39b54a;
 }
 
+.linkContacts {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: start;
+  position: relative;
+}
+
 .arrow {
   width: 14px;
   height: 16px;

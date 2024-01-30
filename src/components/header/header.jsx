@@ -135,9 +135,10 @@ const Header = () => {
         </div>
 
         {/* Contacts */}
-        <div className="flex flex-col pl-[45%] py-[36px] ">
+        <div className="flex flex-col ml-[45%] py-[36px] ">
+          
           <Link
-            className={`pb-3 ${fonts.linkcolor} ${styles.link} flex flex-row`}
+            className={`pb-3 ${fonts.linkcolor} ${styles.linkContacts} flex flex-row`}
             href="tel:18005339263"
           >
            <Image 
@@ -145,11 +146,11 @@ const Header = () => {
            alt="phoneIcon"
            width={36}
            height={36}
-           className="pr-[5px]"
+           className="pr-[10px]"
            /> 1-800-533-9263
           </Link>
           <Link
-            className={`${fonts.linkcolor} ${styles.link} flex flex-row`}
+            className={`${fonts.linkcolor} ${styles.linkContacts} flex flex-row`}
             href="mailto:info@noemon.ca"
           >
             <Image 
@@ -157,7 +158,7 @@ const Header = () => {
             alt="mailIcon"
             width={36}
             height={36}
-            className="pr-[3px]"
+            className="pr-[10px]"
             />info@noemon.ca
           </Link>
         </div>
