@@ -11,16 +11,16 @@ const HowIsWork = () => {
   const [data, setData] = useState(list);
 
   return (
-    <>
-    <h1 className={`${fonts.productCardTitle} text-start mt-[140px] mb-[40px]`}>
+    <div className="flex flex-col">
+    <h1 className={`${fonts.productCardTitle} text-start mt-[140px] ml-[80px] mb-[40px]`}>
       How does it work{" "}
     </h1>
-    <ul className="flex flex-row justify-around items-center ">
+    <ul className="flex flex-row mx-auto justify-center items-center w-[1720px]  ">
       {data.map((item, index) => (
         <React.Fragment key={item.title}>
           <li
             className={`flex flex-col px-[24px] bg-[#292D36] w-[348px] border rounded-md ${
-              index !== data.length - 1 ? 'mb-[20px]' : ''
+              index !== data.length - 1 ? 'mb-[20px] mr-[40px] ml-[40px]' : 'ml-[40px]' 
             }`}
           >
             <Image
@@ -38,14 +38,14 @@ const HowIsWork = () => {
             </p>
           </li>          
           {index !== data.length - 1 && (
-            <li className="flex items-center">
+            <li className="flex items-center justify-center">
               <Image src={doubleArrow} alt="doubleArrow" width={76} height={76} />
             </li>
           )}
         </React.Fragment>
       ))}
     </ul>
-  </>
+  </div>
   );
 };
 

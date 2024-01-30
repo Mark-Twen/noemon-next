@@ -40,7 +40,7 @@ const Services = () => {
   return (
     <>
 <div>
-  <h1 className={`${fonts.advantagesTitle} mt-[120px]`}>Our Services</h1>
+  <h1 className={`${fonts.advantagesTitle} mt-[120px] ml-[80px]`}>Our Services</h1>
 </div>
 
       <ul className="my-[120px] layout">

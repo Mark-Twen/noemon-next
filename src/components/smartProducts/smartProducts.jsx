@@ -14,7 +14,7 @@ const SmartProducts = () => {
 
   return (
     <>
-      <h1 className={`${fonts.productCardTitle} mb-[70px] text-start`}>
+      <h1 className={`${fonts.productCardTitle} mb-[70px] ml-[80px] text-start`}>
         Discover Smart Home Products:
       </h1>
       <ul className={`${styles.container} mx-auto`}>
