@@ -40,13 +40,15 @@
   justify-content: flex-start;
   color: #45372e;
   text-decoration: none;
-  transition: transform 600ms ease, height 600ms ease 0.6s;
+  transition: height 0.6s ease, opacity 0.6s ease;
+  transition-delay: 2s;
 }
 
 .subNavLink:hover {
   height: 100%;
   overflow: visible;
   transition: transform 600ms ease, height 600ms ease 0.6s;
+  transition-delay: 0s;
 }
 
 .subNavLinkItems {
@@ -55,4 +57,5 @@
 
 .subNavLinkItems:hover {
   color: #39b54a;
+  transition: height 0.6s ease, opacity 0.6s ease;
 }/*# sourceMappingURL=services.module.css.map */

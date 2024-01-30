@@ -45,7 +45,7 @@ const Services = () => {
 
       <ul className="my-[120px] layout">
         <li
-          className={`${styles.list} ${styles.navLink}`}         
+                 
         >
           <div
             onClick={handleOnClickServises}            
@@ -64,10 +64,10 @@ const Services = () => {
         </li>
         {isSubMenuServices && (
           <ul
-            className={`flex flex-col  w-[screen] `}          
-          >
+            className={`flex flex-col  w-[screen]  `}          
+        >
             <li className={`w-[100%] py-[12px] text-start border-b-[1px] border-[#39b54a]`}>
-              <Link className={`${fonts.servicesText}  ml-[45%] flex`} href="services/lightening">Lighting<ArrowPoint/></Link>
+              <Link className={`${fonts.servicesText}  ml-[45%] flex `} href="services/lightening">Lighting<ArrowPoint/></Link>
             </li>
             <li className={` py-[12px] text-start border-b-[1px] border-[#39b54a]`}>
               <Link className={`${fonts.servicesText} ml-[45%] flex `} href="services/evCharges">EV Chargers<ArrowPoint/></Link>

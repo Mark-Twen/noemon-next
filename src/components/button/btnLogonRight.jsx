@@ -6,7 +6,7 @@ const btnLogonRight = () => {
     <div>
       <button >
         <Link
-          className={`${fonts.callExpertBtm} px-[27px] py-[10px] bg-[#282828] rounded-md absolute bottom-[20%] right-[6%]`}
+          className={`${fonts.callExpertBtm} px-[27px] py-[10px] bg-[#282828] rounded-md  ml-[80px]`}
           href="tel:18005339263"
         >
           Call Expert

@@ -16,7 +16,7 @@ const heroBlock = () => {
       </p>
 
       <p
-        className={`${fonts.prodPageHeroList} absolute bottom-[23%] left-[7%]`}
+        className={`${fonts.prodPageHeroTitle} absolute bottom-[23%] left-[7%]`}
       >
         Smart Choices, Brilliant Living.
       </p>

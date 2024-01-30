@@ -14,8 +14,8 @@ const LocationMap = () => {
       <Image
         src={mapImg}
         alt="mapImg"
-        width={1280}
-        height={1280}
+        width={1165}
+        height={590}
         className="py-[80px]"
       />
         <Image
@@ -57,18 +57,18 @@ const LocationMap = () => {
         </Link>
 
         <div className="flex flex-col">
-        <p className={`${fonts.productCardTitle} pt-[100px] pb-[20px]`}>Call us:</p>
+        <p className={`${fonts.productCardTitle} pt-[54px] pb-[24px]`}>Call us:</p>
         <Link className={`${fonts.heroBtn} pb-[12px] hover:text-[#39B54A]`} href="tel:4169017513">Landline: 416-901-7513</Link>
         <Link className={`${fonts.heroBtn} hover:text-[#39B54A]`} href="tel:4162705563">Cellphone: 416-270-5563</Link>
         </div>
 
         <div className="flex flex-col">
-            <p className={`${fonts.productCardTitle} pt-[100px] pb-[20px]`}>Email us:</p>
+            <p className={`${fonts.productCardTitle} pt-[54px] pb-[20px]`}>Email us:</p>
             <Link className={`${fonts.heroBtn} hover:text-[#39B54A]`} href="mailto:info@noemon.ca">info@noemon.ca</Link>
         </div>
 
         <div>
-            <p className={`${fonts.productCardTitle} pt-[100px] pb-[20px]`}>Opening Hours:</p>
+            <p className={`${fonts.productCardTitle} pt-[54px] pb-[20px]`}>Opening Hours:</p>
             <table>
             <tr>
               <td className={`${fonts.heroBtn}`}>Mo - Th: </td>

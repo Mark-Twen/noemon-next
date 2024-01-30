@@ -1,6 +1,7 @@
 [
     {
         "name": "productLogo",
+        "title": "Welcome to the Future: Discover Our Range of Smart Home Solutions",
         "greenText": "",
         "text": "Step into a world where your home becomes an intelligent extension of your lifestyle. In this chapter dedicated to smart home products, we unveil a curated selection designed to elevate your living experience. From cutting-edge security systems that safeguard your haven to intuitive climate control solutions that adapt to your preferences, our lineup of smart home products is meticulously crafted to seamlessly integrate into your daily routine. Explore the convergence of technology and comfort as you discover a range of innovative devices that redefine modern living. Welcome to a chapter where your home transforms into a smart sanctuary, anticipating your needs and enhancing every moment.",
         "type": "productPage"
@@ -22,7 +23,7 @@
     },
     {
         "name": "evCharges",
-        "title": "",
+        "title": "Empowering Tomorrow: Noemon Canada's Innovative EV Charging Solutions ",
         "greenText": "EV chargers",
         "text": "are the silent champions of a greener tomorrow. These sleek, high-tech marvels fuel electric vehicles, blending seamlessly into our lives while revolutionizing how we power our journeys. Noemon Canada provides large-scale planning, development, management and maintenance of charging infrastructure to support electric vehicle fleets.",
         "type": "evCharges"
@@ -30,7 +31,7 @@
     ,
     {
         "name": "Security",
-        "title": "",
+        "title": "Elevate Your Space with Intelligent Illumination for Modern Living",
         "greenText": "Security systems",
         "text": " for homes and businesses are the modern guardians of peace and protection. They encompass a sophisticated network of cameras, sensors, and alarms, tirelessly watching over premises day and night. From deterring intruders to providing real-time alerts, these systems offer a sense of safety, empowering residents and business owners with proactive defense against potential threats.",
         "type": "Security"
