@@ -23,14 +23,14 @@ const LocationMap = () => {
         alt="CompanyName"
         width={83}
         height={28}
-        className="bottom-[51%] left-[42%]  absolute"
+        className="bottom-[40%] left-[42%]  absolute"
       />
        <Image
         src={placePoint}
         alt="placePoint"
         width={34}
         height={36}
-        className="bottom-[52%] left-[44%]  absolute"
+        className="bottom-[41%] left-[44%]  absolute"
       />
 
       <div className="flex flex-row w-[340px] absolute top-[100px] left-[20px]">
@@ -46,7 +46,7 @@ const LocationMap = () => {
 
       </div>
       <div className="flex-col pl-[48px] w-[571px]">
-        <p className={`${fonts.productCardTitle} pt-[80px] pb-[20px]`}>
+        <p className={`${fonts.contactsTitle} pt-[80px] pb-[20px]`}>
           Find us:
         </p>
         <Link
@@ -57,13 +57,13 @@ const LocationMap = () => {
         </Link>
 
         <div className="flex flex-col">
-        <p className={`${fonts.productCardTitle} pt-[54px] pb-[24px]`}>Call us:</p>
+        <p className={`${fonts.contactsTitle} pt-[54px] pb-[24px]`}>Call us:</p>
         <Link className={`${fonts.heroBtn} pb-[12px] hover:text-[#39B54A]`} href="tel:4169017513">Landline: 416-901-7513</Link>
         <Link className={`${fonts.heroBtn} hover:text-[#39B54A]`} href="tel:4162705563">Cellphone: 416-270-5563</Link>
         </div>
 
         <div className="flex flex-col">
-            <p className={`${fonts.productCardTitle} pt-[54px] pb-[20px]`}>Email us:</p>
+            <p className={`${fonts.contactsTitle} pt-[54px] pb-[20px]`}>Email us:</p>
             <Link className={`${fonts.heroBtn} hover:text-[#39B54A]`} href="mailto:info@noemon.ca">info@noemon.ca</Link>
         </div>
 
