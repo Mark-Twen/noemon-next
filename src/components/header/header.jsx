@@ -11,7 +11,7 @@ import styles from "./header.module.scss";
 import arrow from "../../../public/icon/arrowDawn.png";
 import { useState } from "react";
 
-// import ServiceList from "./serviceList";
+
 
 const Header = () => {
   const [isHover, setIsHover] = useState(false);
@@ -33,10 +33,7 @@ const Header = () => {
         </div>
 
         <div
-          className={`flex py-[60px] justify-between   ${fonts.linkcolor}`}
-      
-          // onFocus={() => setIsHover(true)}
-          // onBlur={() => setIsHover(false)}
+          className={`flex py-[60px] justify-between   ${fonts.linkcolor}`}     
         >
           <Link
             className={`flex flex-row pl-[60%] pr-[50%]  ${fonts.linkcolor} ${styles.link}`}
@@ -45,7 +42,7 @@ const Header = () => {
             onMouseLeave={() => setIsHover(false)}
           >
             Services
-            <Image src={arrow} alt="arrow" className={styles.arrow} />
+            <Image src={arrow} alt="arrow" className={styles.arrow} style={{hover: "color: #39b54a;"}} />
             {isHover && (
               <div
                 className={`${styles.serviceList} `}

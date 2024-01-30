@@ -2,7 +2,7 @@ import Image from "next/image";
 import Logo from "../../../public/img/logo/LOGO-4x.png";
 // import ModalWindContacts from "../modalWind/modalWindContact";
 
-import pointImg from "../../../public/icon/point.png";
+import pointImg from "../../../public/icon/placePointAround.png";
 import clockImg from "../../../public/icon/clock.png";
 import phone from "../../../public/icon/Icons SM.png";
 import mail from "../../../public/icon/Mail.png";
@@ -27,13 +27,13 @@ const Footer = () => {
           href="https://maps.app.goo.gl/ThuH5UekzaMwf9BM9"
           target="_blank"
         >
-          <span className="absolute top-[20%] left-0 border border-2 rounded-full border-green">
+          <span className="absolute top-[10%] left-0  rounded-full border-green">
             <Image
               src={pointImg}
               alt="pointImage"
-              width={15}
-              height={23}
-              className="mx-[8px] my-[4px]"
+              width={36}
+              height={36}
+              // className="mx-[8px] my-[4px]"
             />
           </span>
           <span className={` ${fonts.footerSchedule} w-[288px] ml-[50px]`}>
