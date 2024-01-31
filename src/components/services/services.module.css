@@ -6,22 +6,33 @@
   text-align: start;
   height: -moz-fit-content;
   height: fit-content;
+  transition: height 0.6s ease, opacity 0.6s ease;
+  transition-delay: 2s;
 }
 
 .listTitleServices {
   background-image: url(../../../public//img/services/commercial.png);
+  background-size: contain;
 }
 
 .listTitleResidencial {
   background-image: url(../../../public//img/services/residencial.png);
+  background-size: contain;
 }
 
 .listTitleSmart {
   background-image: url(../../../public//img/services/automations.png);
+  background-size: contain;
 }
 
 .listTitleServices:hover, .listTitleResidencial:hover, .listTitleSmart:hover {
   color: #39b54a;
+}
+
+.listTitleServices:hover .arrow {
+  color: #39b54a;
+  transform: rotate(180deg);
+  transition: transform 0.6s ease;
 }
 
 .navLink:hover .subNavLink {
@@ -40,8 +51,6 @@
   justify-content: flex-start;
   color: #45372e;
   text-decoration: none;
-  transition: height 0.6s ease, opacity 0.6s ease;
-  transition-delay: 2s;
 }
 
 .subNavLink:hover {
@@ -55,7 +64,7 @@
   color: black;
 }
 
-.subNavLinkItems:hover {
+.subNavLinkItems:hover .arrow {
   color: #39b54a;
   transition: height 0.6s ease, opacity 0.6s ease;
 }/*# sourceMappingURL=services.module.css.map */

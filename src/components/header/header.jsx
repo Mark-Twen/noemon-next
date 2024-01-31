@@ -18,7 +18,7 @@ const Header = () => {
 
   return (
     <>
-      <section className="flex w-screen bg-[#282828] fixed top-[1px] z-[1000] layout" >
+      <section className="flex w-screen bg-[#282828] fixed top-[1px] z-[1000] " >
         {/* LOGO */}
         <div className="py-8 ml-[3%] ">
           <Link href="/mainpage">

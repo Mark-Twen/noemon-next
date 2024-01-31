@@ -74,13 +74,8 @@
   line-height: normal;
 }
 
-.footerSchedule {
-  color: #f8f9fa;
-  font-family: Be Vietnam Pro;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 300;
-  line-height: normal;
+.footerSchedule :hover {
+  color: #39B54A;
 }
 
 .bigCardDescription {
@@ -94,7 +89,7 @@
 
 .linkcolor {
   font-family: Be Vietnam Pro;
-  font-size: 20px;
+  font-size: 22px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
@@ -284,6 +279,15 @@
   font-size: 32px;
   font-style: normal;
   font-weight: 500;
+  line-height: normal;
+  color: #3c4043;
+}
+
+.contactsTitle {
+  font-family: Be Vietnam Pro;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
   line-height: normal;
   color: #3c4043;
 }
