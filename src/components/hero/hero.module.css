@@ -6,24 +6,26 @@
 .heroImg {
   width: 100vw;
   height: 1030px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .heroTitleOne {
   position: absolute;
-  bottom: 60%;
+  bottom: 80%;
   left: 28%;
 }
 
 .heroTitleTwo {
   position: absolute;
-  bottom: 52%;
+  bottom: 74%;
   left: 28%;
 }
 
 .callExpertBtm {
   background-color: #F7F7F7;
   position: absolute;
-  bottom: 28%;
+  bottom: 61%;
   left: 28%;
   padding: 14px 74px;
   border-radius: 15px;

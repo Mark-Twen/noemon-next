@@ -13,7 +13,7 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <section className="flex flex-row items-end justify-around bg-[#282828] mt-[120px] layout">
+    <section className="flex flex-row w-[screen] items-end justify-around bg-[#282828] mt-[120px] ">
       <div className="flex flex-col pb-[131px]">
         <Image
           src={Logo}
