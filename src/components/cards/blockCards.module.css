@@ -14,7 +14,8 @@
 .cardsList {
   display: flex;
   width: 556px;
-  height: 227px;
+  height: 224px;
+  overflow: hidden;
 }
 
 .prodCardRight {

@@ -22,9 +22,9 @@ return (
         />
 
 <div className="flex flex-col pt-[24px]">
-<span className={`${fonts.bigCardDescription}`}>Nоеmon Canada has smart home experience that transcends borders. What sets us apart is not just our commitment to cutting-edge technology and innovative design, but our extensive international experience that has honed our expertise. With a track record of successful projects around the globe, we bring a wealth of knowledge and a diverse perspective to every smart home endeavor.</span>
+<span className={`${fonts.bigCardDescription}`}>Noemon Canada has smart home experience that transcends borders. What sets us apart is not just our commitment to cutting-edge technology and innovative design, but our extensive international experience that has honed our expertise. With a track record of successful projects around the globe, we bring a wealth of knowledge and a diverse perspective to every smart home endeavor.</span>
         <span className={`${fonts.bigCardDescription} py-[60px]`}>Our team&apos;s international exposure ensures that we stay at the forefront of industry trends, offering you solutions that seamlessly integrate global best practices with personalized, locally relevant experiences. Elevate your living spaces with a touch of international excellence, where every smart home solution is a testament to our commitment to unparalleled quality and innovation.</span>
-        <span className={`${fonts.bigCardDescription}`}>Neomon Canada is the best choice for those looking for a smart home system installation.</span>
+        <span className={`${fonts.bigCardDescription}`}>Noemon Canada is the best choice for those looking for a smart home system installation.</span>
 
 </div>
         

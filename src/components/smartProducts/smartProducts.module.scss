@@ -12,12 +12,15 @@
     display: flex;
     flex-direction: column;  
     align-items: center;
+    justify-content: center;
     width: 411px;
     height: fit-content;
     border-radius: 30px;
     background: #F8F9FA;
     box-shadow: 2px 4px 20px 0px rgba(0, 0, 0, 0.25);   
     transition: transform 0.4s linear;
+    width: 410px;
+    height: 410px;
 }
 .list:not(:nth-child(3n)) {
     margin-right: 40px;
@@ -27,9 +30,11 @@
  transform: scale(1.2);
 }
 
-.listImg {   
+.listImg {  
+    display: flex; 
     width: 370px;
-    height: 246px;
+    height: 246px;   
+    margin-left: auto;
+    margin-right: auto;    
     border-radius: 10px;
-    padding: 24px 0;
 }

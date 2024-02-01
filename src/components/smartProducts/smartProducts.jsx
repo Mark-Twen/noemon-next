@@ -18,20 +18,20 @@ const SmartProducts = () => {
         Discover Smart Home Products:
       </h1>
       <ul className={`${styles.container} mx-auto`}>
-        {data.map((item) => (
-          <li key={item.name} className={`${styles.list}  my-[40px]`}>
+        {data.map((item, index) => (
+          <li key={item.name} className={`${styles.list}   my-[40px]`}>
             <a href={item.link}>
             <Image
               src={item.img}
               alt="image"
               width={370}
-              height={246}
-              objectFit="cover"
-              className={styles.listImg}
+              height={246}  
+              objectFit="cover"            
+              className={`${styles.listImg} ${index !== data.length - 1 ? 'mb-[24px]' : 'mb-[20px] mt-[28px]'}  `}              
             />
-            <p className={`${fonts.productCardTitle} pb-[24px]`}>
+            <p className={`${fonts.productCardTitle} text-center`}>
               {item.title}
-            </p>
+            </p>           
             </a>
           </li>
         ))}

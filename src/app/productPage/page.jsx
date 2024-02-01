@@ -167,7 +167,7 @@ const ProductPage = async () => {
       {/*  productCard Two Perlisten */}
 
       <div 
-        className={`w-[1770px] mt-[116px] bg-[#FFF] mx-auto ${styles.prodCard}`}
+        className={`w-[1800px] mt-[116px] bg-[#FFF] mx-auto ${styles.prodCard}`}
       >
         {perlisten.map((item) => (
           <div key={item?._id} className={`flex flex-row `}>
@@ -178,7 +178,7 @@ const ProductPage = async () => {
               height={622}
               className={`${styles.prodCardLeftImg}`}
             />
-            <div className="flex flex-col w-[720px] pl-[48px] justify-start item-start">
+            <div className="flex flex-col w-[760px] pl-[48px] justify-start item-start">
               <span
                 className={`${fonts.productCardTitle} pt-[81px] pb-[24px] `}
               >
