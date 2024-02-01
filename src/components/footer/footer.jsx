@@ -4,7 +4,7 @@ import Logo from "../../../public/img/logo/LOGO-4x.png";
 
 import pointImg from "../../../public/icon/placePointAround.png";
 import clockImg from "../../../public/icon/clock.png";
-import phone from "../../../public/icon/Icons SM.png";
+import phone from "../../../public/icon/phone.png";
 import mail from "../../../public/icon/Mail.png";
 
 import styles from "./footer.module.scss";

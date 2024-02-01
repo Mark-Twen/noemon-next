@@ -19,13 +19,14 @@ const RightCard = ({ type }) => {
     <div className={`flex flex-row w-[1680px] justify-around mx-auto ${styles.prodCardRight}`}>        
      
       <div className="flex flex-col w-[670px] pl-[24px] ">
-        <span className={`${fonts.productCardTitle} pt-[81px] pb-[24px]`}>{filteredItem.title}</span>
+        <span className={`${fonts.productCardTitle} aline-center justify-center py-[24px]`}>{filteredItem.title}</span>
         <span
           className={fonts.bigCardDescription}
           style={{ textAlign: "justify" }}
         >
           {filteredItem.text}
-        </span>
+        </span>  
+        <div className="my-4"></div>      
       </div>
       <Image
         src={filteredItem.image}

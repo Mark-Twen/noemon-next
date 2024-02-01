@@ -1,41 +1,39 @@
-"use client";
+"use client"
 import Image from "next/image";
 import React, { useState } from "react";
-import bigCard from "../../../public/json/servicesCards.json";
 
-import fonts from "../fonts/fonts.module.scss";
-import styles from "../cards/blockCards.module.scss";
+import Cards from "../../../public/json/servicesCards.json"
 
-const LeftCard = ({ type }) => {
-  const [data, setData] = useState(bigCard);
+import fonts from "../fonts/fonts.module.scss"
 
-  const filter = data.filter((item) => item.type === type);
+const LeftCards = ({type}) => {
+    const [data, setData] = useState(Cards);
 
-  if (filter.length === 0) {  
-    return null;
-  }
-  const filteredItem = filter[0];
+    const filter = data.filter((item) => item.type === type);
+  
+    if (filter.length === 0) {  
+      return null;
+    }
+    const filteredItem = filter[0];
 
-  return (
-    <div className={`flex flex-row w-[1770px]  justify-around mt-[120px] mx-auto pb-[89px] ${styles.prodCard}`}>
-      <Image
-        src={filteredItem.image}
-        alt={filteredItem.name}
-        width={filteredItem.width}
-        height={filteredItem.height}
-        className={`${styles.prodCardLeftImg} pt-[80px]`}
-      />
-      <div className="flex flex-col w-[670px] pl-[24px] ">
-        <span className={`${fonts.productCardTitle} pt-[81px] pb-[24px]`}>{filteredItem.title}</span>
-        <span
-          className={fonts.bigCardDescription}
-          style={{ textAlign: "justify" }}
-        >
-          {filteredItem.text}
-        </span>
-      </div>
-    </div>
-  );
-};
+    return (
+        <div className="flex flex-row bg-[#F8F9FA]">
+            <Image             
+            src={filteredItem.image}
+            alt={filteredItem.name}
+            width={1000}
+            height={620}
+            className="py-[80px]"
+            />
 
-export default LeftCard;
+        <div className="flex flex-col w-[671px] pl-[78px] aline-center justify-center   ">
+            <p className={`${fonts.productCardTitle} pb-[24px]`}>{filteredItem.title}</p>
+            <p className={fonts.neomonInfo} style={{ textAlign: "justify" }}>{filteredItem.text}</p>
+        </div>
+
+        </div>
+    )
+
+}
+
+export default LeftCards
