@@ -1,5 +1,5 @@
 import Image from "next/image"
-import cardImg from "../../../public/img/about us/weAreNeoman.png"
+import cardImg from "../../../public/img/aboutUS/weAreNeoman.png"
 
 import fonts from "../fonts/fonts.module.scss"
 

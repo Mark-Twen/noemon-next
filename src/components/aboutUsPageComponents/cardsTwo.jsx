@@ -1,5 +1,5 @@
 import Image from "next/image";
-import cardImg from "../../../public/img/about us/teamProject.png";
+import cardImg from "../../../public/img/aboutUS/teamProject.png";
 
 import fonts from "../fonts/fonts.module.scss";
 

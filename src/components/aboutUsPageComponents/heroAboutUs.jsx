@@ -1,6 +1,6 @@
 
 import Image from "next/image"
-import hero from "../../../public/img/about us/hero.png"
+import hero from "../../../public/img/aboutUS/hero.png"
 
 import fonts from "../fonts/fonts.module.scss"
 
