@@ -35,7 +35,7 @@ const KitCardOne = ({ data }) => {
   return (
     <>
       <h1 className={`${fonts.productCardTitle} text-center pb-[60px]`}>Elevate your home entertainment experience to new heights with our range of smart speakers, soundbars, and audio solutions</h1>
-      <div className="grid grid-cols-3 gap-4 grid-rows-4 mx-[80px]">
+      <div className="grid grid-cols-3 gap-4 grid-rows-4 mx-[40px]">
         {Array.isArray(data) && data.length > 0 ? (
           data.map((item) => (
             <ul key={item?._id} className={styles.cardsContainer} onClick={() => openModal(item)}>
@@ -45,14 +45,14 @@ const KitCardOne = ({ data }) => {
                   alt="product image card 1"
                   width={186}
                   height={186}
-                  className="absolute top-[16px] left-[16px]"
+                  className="absolute top-[22px] left-[16px]"
                 />
-                <div className="flex flex-col pl-[230px] pt-4  w-[486px]">
+                <div className={`${styles.blockCardsText}`}>
                   <span className={fonts.portfolioCardsSign}>{item.title}</span>
-                  <span className={`${fonts.cardsScript} py-4 `}>{item.script}</span>
-                  <span className={`${fonts.cardDescroption} `} style={{ textAlign: 'justify' }}>
+                  <span className={`${fonts.cardsScript} py-2 `}>{item.script}</span>
+                  <span className={`${fonts.cardDescroption} overflow-hidden text-overflow-ellipsis`} style={{ textAlign: 'justify' }}>
                     <PortableText value={item?.description} />
-                  </span>
+                  </span>               
                 </div>
               </li>
             </ul>

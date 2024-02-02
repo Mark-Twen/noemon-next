@@ -11,16 +11,10 @@
     transition: transform 0.4s, scale 0.4s;
 }
 
-// .cardsContainer:hover {
-//     transform: translate(50px, -30px) scale(1.2);
-//     z-index: 5;
-// }
-
-
 .cardsList {
     display: flex;
     width: 556px;
-    height: 224px;
+    height: 230px;
     overflow: hidden;
 }
 
@@ -48,9 +42,18 @@
 }
 
 .prodCardLeftImg {
-    border-radius: 40px 0px 0px 40px;
+    border-radius: 40px 0px 0px 40p
 }
 
 .prodCardRightImg {
     border-radius: 0px 40px 40px 0px;
+}
+.blockCardsText {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 210px;
+    padding-left: 230px;
+    padding-top: 20px;
+    overflow: hidden;
 }
