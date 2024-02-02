@@ -16,9 +16,9 @@ const RightCard = ({ type }) => {
   const filteredItem = filter[0];
 
   return (
-    <div className={`flex flex-row w-[1770px] justify-between mx-auto ${styles.prodCardRight}`}>        
+    <div className={`flex flex-row w-[1660px]  mx-auto ${styles.prodCardRight}`}>        
      
-      <div className="flex flex-col w-[670px] px-[24px] ">
+      <div className="flex flex-col w-[670px] justify-center aline-center px-[24px]">
         <span className={`${fonts.productCardTitle} pt-[81px] pb-[24px]`}>{filteredItem.title}</span>
         <span
           className={fonts.bigCardDescription}
@@ -26,6 +26,7 @@ const RightCard = ({ type }) => {
         >
           {filteredItem.text}
         </span>
+        <div className="my-4"></div>
       </div>
       <Image
         src={filteredItem.image}

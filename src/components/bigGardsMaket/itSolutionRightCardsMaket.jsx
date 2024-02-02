@@ -26,6 +26,7 @@ const RightCard = ({ type }) => {
         >
           {filteredItem.text}
         </span>
+        <div className="my-4"></div>
       </div>
       <Image
         src={filteredItem.image}

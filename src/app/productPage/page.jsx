@@ -178,9 +178,9 @@ const ProductPage = async () => {
               height={622}
               className={`${styles.prodCardLeftImg}`}
             />
-            <div className="flex flex-col w-[760px] pl-[48px] justify-start item-start">
+            <div className="flex flex-col w-[760px] pl-[48px] justify-center aline-center">
               <span
-                className={`${fonts.productCardTitle} pt-[81px] pb-[24px] `}
+                className={`${fonts.productCardTitle}  pb-[24px] `}
               >
                 {item.title}
               </span>

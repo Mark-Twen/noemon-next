@@ -17,7 +17,7 @@ const LeftCard = ({ type }) => {
   const filteredItem = filter[0];
 
   return (
-    <div className={`flex flex-row w-[1770px]  justify-between mt-[120px] mx-auto ${styles.prodCard}`}>
+    <div className={`flex flex-row w-[1770px]   mt-[120px] mx-auto ${styles.prodCard}`}>
       <Image
         src={filteredItem.image}
         alt={filteredItem.name}
@@ -25,8 +25,8 @@ const LeftCard = ({ type }) => {
         height={filteredItem.height}
         className={`${styles.prodCardLeftImg}`}
       />
-      <div className="flex flex-col w-[670px] px-[24px] ">
-        <span className={`${fonts.productCardTitle} pt-[81px] pb-[24px]`}>{filteredItem.title}</span>
+      <div className="flex flex-col justify-center aline-center w-[670px] px-[24px] ">
+        <span className={`${fonts.productCardTitle}  pb-[24px]`}>{filteredItem.title}</span>
         <span
           className={fonts.bigCardDescription}
           style={{ textAlign: "justify" }}

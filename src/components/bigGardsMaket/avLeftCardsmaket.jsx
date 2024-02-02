@@ -29,6 +29,7 @@ const LeftCards = ({type}) => {
         <div className="flex flex-col w-[671px] pl-[78px] pt-[104px]   ">
             <p className={`${fonts.productCardTitle} pb-[24px]`}>{filteredItem.title}</p>
             <p className={fonts.neomonInfo} style={{ textAlign: "justify" }}>{filteredItem.text}</p>
+            <div className="my-4"></div>
         </div>
 
         </div>

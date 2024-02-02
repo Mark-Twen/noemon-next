@@ -29,7 +29,7 @@
 .prodCardRightImg {
     border-right: #FFFFFF;
     border-radius: 0px 40px 40px 0px;
-    padding-left: 48px;
+    padding-left: 24px;
     text-align: end;
 }
 
@@ -48,6 +48,8 @@
 .prodCardRightImg {
     border-radius: 0px 40px 40px 0px;
 }
+
+// for kitCards
 .blockCardsText {
     display: flex;
     flex-direction: column;
@@ -57,3 +59,4 @@
     padding-top: 20px;
     overflow: hidden;
 }
+
