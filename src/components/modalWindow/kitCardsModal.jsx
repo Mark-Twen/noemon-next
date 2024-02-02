@@ -5,8 +5,17 @@ import Image from "next/image";
 import fonts from "../fonts/fonts.module.scss";
 
 import closeBtm from "../../../public/icon/closeBtm.png";
+import { useState } from "react";
 
-const KitModal = ({ onClose, title, script, description, imageUrl }) => {
+const KitModal = ({onClose, title, script, description, imageUrl }) => {
+
+  const [close, setClose] = useState(false)
+
+  const handleClose = () => {
+    setClose(true);
+    onClose();
+  };
+
   const handleClickOutside = (e) => {
     if (e.target.classList.contains(styles.overlay)) {
       onClose();
@@ -16,11 +25,11 @@ const KitModal = ({ onClose, title, script, description, imageUrl }) => {
   return (
     <div className={styles.overlay} onClick={(e) => handleClickOutside(e)}>
       <div className={styles.modal}>
-        <button onClick={onClose} className={styles.closeButton}>
-          <Image src={closeBtm} alt="clothBtm" />
-        </button>
+        {/* <button onClick={onClose} className={styles.closeButton}>
+        <Image src={closeBtm} alt="clothBtm" onClick={(e) => handleClose(e)} />
+        </button> */}
         <div className="flex flex-row relative">
-          <div className="absolute top-0 left-0 ">
+          <div className="absolute top-[20px] left-[20px] ">
             <Image
               src={imageUrl}
               alt="Product"
@@ -30,7 +39,7 @@ const KitModal = ({ onClose, title, script, description, imageUrl }) => {
             />
           </div>
 
-          <div className="flex flex-col w-[1250px] pl-[700px] pt-[30px]  ">
+          <div className="flex flex-col w-[1250px] pl-[710px] pt-[30px]  ">
             <h2 className={` ${fonts.advantagesTitle}`}>{title}</h2>
             <p className={`${fonts.heroBtn} my-[48px]`}>{script}</p>
             <p className={`${fonts.neomonInfo} pb-[400px]`}>
