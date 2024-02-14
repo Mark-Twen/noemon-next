@@ -13,7 +13,7 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <section className="flex flex-row w-[screen] items-end justify-around bg-[#282828] mt-[120px] ">
+    <section className="flex flex-row w-[screen] items-end justify-around bg-[#282828] mt-[120px] relative ">
       <div className="flex flex-col pb-[131px]">
         <Image
           src={Logo}
@@ -69,6 +69,11 @@ const Footer = () => {
                 9.00 AM - 5.00 PM
               </td>
             </tr>
+            {/* <tr className="w-[293px]">
+              <td className={`${fonts.footerRacoon}`} >2023</td>
+              <td>&copy;</td>
+              <td className={`${fonts.footerRacoon}`}>Noemon Canada. All rights reserved</td>
+            </tr> */}
           </table>
         </div>
       </div>
@@ -100,7 +105,7 @@ const Footer = () => {
               <td className={`${fonts.footerSchedule}`}>Landline:</td>
               <td>
                 <Link
-                  className={`${fonts.footerSchedule}`}
+                  className={`${fonts.footerSchedule} hover:text-[#39B54A]`}
                   href="tel:14169017513"
                 >
                   1-416-901-7513
@@ -111,15 +116,24 @@ const Footer = () => {
               <td className={`${fonts.footerSchedule}`}>Cellphone:</td>
               <td>
                 <Link
-                  className={`${fonts.footerSchedule}`}
+                  className={`${fonts.footerSchedule} hover:text-[#39B54A]`}
                   href="tel:4162705563"
                 >
                   416-270-5563
                 </Link>
               </td>
             </tr>
+          
           </table>
         </div>
+      </div>
+
+      <div className={`w-[293px] absolute bottom-[54px] left-[46%] ${styles.brandLink}`}>
+        <p className={`${fonts.footerRacoon}`}>2023<span className="px-[15px]">&copy;</span>Noemon Canada. All rights reserved</p>
+        
+      </div>
+      <div className={`w-[293px] absolute bottom-[24px] left-[46%] ${styles.brandLink}`}>
+      <Link href="https://raccooneyes.ca/" target="_blank" className={`${fonts.footerRacoon} ml-[25px] hover:text-[#39B54A] `}>Design and Developed by Raccooneyes</Link>
       </div>
     </section>
   );
